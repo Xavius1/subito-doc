@@ -1,0 +1,40 @@
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Update doc
+
+on:
+  push:
+    branches: [ sync ]
+  pull_request:
+    branches: [ sync ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build doc
+      uses: actions/setup-node@v2
+      with:
+        node-version: 16.13.0
+        cache: 'npm'
+    - run: npm install -g @microsoft/api-documenter
+    - run: api-documenter markdown -i src -o doc
+    - name: setup git config
+      run: |
+        # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
+        git config user.name "GitHub Actions Bot"
+        git config user.email "<>"
+    - name: merge to master
+      run: |
+        # Stage the file, commit and push
+        git checkout master
+        git merge sync
+    - name: build markdown
+      run: |
+        api-documenter markdown -i src -o doc
+    - name: commit
+      run: | 
+        git add ./doc/
+        git commit -m 'Update doc'
+        git push origin master
