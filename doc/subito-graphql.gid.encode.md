@@ -18,7 +18,7 @@ static encode(type: string, id: string | number, data?: Object): string;
 |  --- | --- | --- |
 |  type | string | Name of the entity |
 |  id | string \| number | ID from the local source (table, collection, ...) |
-|  data | Object | Object containing specific data to identify the doc source (like an array index) |
+|  data | Object | <i>(Optional)</i> Object containing specific data to identify the doc source (like an array index) |
 
 <b>Returns:</b>
 

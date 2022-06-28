@@ -15,7 +15,7 @@ execute(query: string, args?: null): Promise<any>;
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  query | string |  |
-|  args | null |  |
+|  args | null | <i>(Optional)</i> |
 
 <b>Returns:</b>
 

@@ -16,5 +16,5 @@ constructor(toThrow?: boolean);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  toThrow | boolean |  |
+|  toThrow | boolean | <i>(Optional)</i> |
 

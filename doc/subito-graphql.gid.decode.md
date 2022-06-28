@@ -22,7 +22,7 @@ static decode(gid: string, options?: DecodeOptions): string | number | {
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  gid | string | GID to decode |
-|  options | DecodeOptions | Options to use, use forceInt = true if your local id must be an int |
+|  options | DecodeOptions | <i>(Optional)</i> Options to use, use forceInt = true if your local id must be an int |
 
 <b>Returns:</b>
 

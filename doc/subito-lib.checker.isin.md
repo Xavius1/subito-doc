@@ -16,7 +16,7 @@ isIn(arr: Array<any>, value: any, name?: string): boolean;
 |  --- | --- | --- |
 |  arr | Array&lt;any&gt; |  |
 |  value | any |  |
-|  name | string |  |
+|  name | string | <i>(Optional)</i> |
 
 <b>Returns:</b>
 

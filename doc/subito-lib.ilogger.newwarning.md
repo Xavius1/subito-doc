@@ -16,8 +16,8 @@ newWarning(code: LoggerCode, message: string, input?: any, context?: any): any;
 |  --- | --- | --- |
 |  code | LoggerCode |  |
 |  message | string |  |
-|  input | any |  |
-|  context | any |  |
+|  input | any | <i>(Optional)</i> |
+|  context | any | <i>(Optional)</i> |
 
 <b>Returns:</b>
 

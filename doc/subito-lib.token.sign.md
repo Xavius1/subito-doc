@@ -17,7 +17,7 @@ static sign(data: Data, subject: string, expiresIn: number, key?: string): strin
 |  data | Data |  |
 |  subject | string |  |
 |  expiresIn | number |  |
-|  key | string |  |
+|  key | string | <i>(Optional)</i> |
 
 <b>Returns:</b>
 

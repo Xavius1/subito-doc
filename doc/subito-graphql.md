@@ -10,3 +10,9 @@
 |  --- | --- |
 |  [GID](./subito-graphql.gid.md) | Class use to transform local ID to base 64 globally unique ID Specs by relayjs |
 
+## Variables
+
+|  Variable | Description |
+|  --- | --- |
+|  [failPayload](./subito-graphql.failpayload.md) |  |
+

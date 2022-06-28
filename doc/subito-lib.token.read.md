@@ -15,7 +15,7 @@ static read(token: string, key?: string): string | jwt.JwtPayload | null;
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  token | string |  |
-|  key | string |  |
+|  key | string | <i>(Optional)</i> |
 
 <b>Returns:</b>
 

@@ -11,7 +11,7 @@ export declare type EnvConfig = {
     allow?: any[];
     type?: ParseType;
     defaultValue: any;
-    scope?: 'all' | string[];
+    fallback?: string;
 };
 ```
 <b>References:</b> [ParseType](./subito-lib.parsetype.md)

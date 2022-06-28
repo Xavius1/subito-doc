@@ -22,7 +22,7 @@ static batchDecode(ids: Array<string>, options?: DecodeOptions): (string | numbe
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  ids | Array&lt;string&gt; |  |
-|  options | DecodeOptions | Same as [GID.decode()](./subito-graphql.gid.decode.md) |
+|  options | DecodeOptions | <i>(Optional)</i> Same as [GID.decode()](./subito-graphql.gid.decode.md) |
 
 <b>Returns:</b>
 

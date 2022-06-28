@@ -15,7 +15,7 @@ isExists(obj: any, name?: string): boolean;
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  obj | any |  |
-|  name | string |  |
+|  name | string | <i>(Optional)</i> |
 
 <b>Returns:</b>
 

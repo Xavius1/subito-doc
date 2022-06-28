@@ -17,7 +17,7 @@ static round(value: number, decimals?: number): number;
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  value | number | Base value to round |
-|  decimals | number | Number of decimals (2 is applied by default) |
+|  decimals | number | <i>(Optional)</i> Number of decimals (2 is applied by default) |
 
 <b>Returns:</b>
 

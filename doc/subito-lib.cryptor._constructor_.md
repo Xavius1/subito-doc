@@ -17,5 +17,5 @@ constructor(key: string, version?: string);
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  key | string |  |
-|  version | string |  |
+|  version | string | <i>(Optional)</i> |
 
