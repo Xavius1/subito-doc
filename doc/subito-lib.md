@@ -4,6 +4,8 @@
 
 ## subito-lib package
 
+Library for subito micro services
+
 ## Classes
 
 |  Class | Description |
