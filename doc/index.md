@@ -8,6 +8,6 @@
 
 |  Package | Description |
 |  --- | --- |
-|  [subito-graphql](./subito-graphql.md) |  |
+|  [subito-graphql](./subito-graphql.md) | Library for subito micro services using GraphQL interface |
 |  [subito-lib](./subito-lib.md) |  |
 

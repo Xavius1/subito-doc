@@ -4,6 +4,8 @@
 
 ## subito-graphql package
 
+Library for subito micro services using GraphQL interface
+
 ## Classes
 
 |  Class | Description |
