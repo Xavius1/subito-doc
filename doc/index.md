@@ -8,7 +8,7 @@
 
 |  Package | Description |
 |  --- | --- |
-|  [subito-connector-mongodb](./subito-connector-mongodb.md) |  |
+|  [subito-connector-mongodb](./subito-connector-mongodb.md) | Handle MongoDB connections into Subito micro services |
 |  [subito-graphql](./subito-graphql.md) | Library for subito micro services using GraphQL interface |
 |  [subito-lib](./subito-lib.md) | Library for subito micro services |
 

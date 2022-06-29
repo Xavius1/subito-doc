@@ -4,6 +4,8 @@
 
 ## subito-connector-mongodb package
 
+Handle MongoDB connections into Subito micro services
+
 ## Classes
 
 |  Class | Description |
