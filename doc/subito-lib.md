@@ -10,12 +10,13 @@ Library for subito micro services
 
 |  Class | Description |
 |  --- | --- |
-|  [Calculator](./subito-lib.calculator.md) | Class use to make some usual math stuff Like round a number or apply/remove a rate to a price |
+|  [Calculator](./subito-lib.calculator.md) | Class used to make some usual math stuff Like round a number or apply/remove a rate to a price |
 |  [Checker](./subito-lib.checker.md) |  |
 |  [Cryptor](./subito-lib.cryptor.md) |  |
 |  [Data](./subito-lib.data.md) |  |
 |  [Env](./subito-lib.env.md) |  |
 |  [Gateway](./subito-lib.gateway.md) |  |
+|  [OpenTelemetry](./subito-lib.opentelemetry.md) | Class used to send trace &amp; metrics to an open telemetry backend (only Jaeger for now) Need to be instanciate before anything else |
 |  [Thrower](./subito-lib.thrower.md) |  |
 |  [Token](./subito-lib.token.md) |  |
 |  [Toolbox](./subito-lib.toolbox.md) |  |
