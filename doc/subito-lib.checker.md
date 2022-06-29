@@ -21,9 +21,9 @@ declare class Checker
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [isArray(arr)](./subito-lib.checker.isarray.md) |  |  |
-|  [isEmpty(arr)](./subito-lib.checker.isempty.md) |  |  |
 |  [isEquals(obj, value)](./subito-lib.checker.isequals.md) |  |  |
 |  [isExists(obj, name)](./subito-lib.checker.isexists.md) |  |  |
 |  [isIn(arr, value, name)](./subito-lib.checker.isin.md) |  |  |
 |  [isInstanceOf(obj, instance)](./subito-lib.checker.isinstanceof.md) |  |  |
+|  [isNotEmpty(arr)](./subito-lib.checker.isnotempty.md) |  |  |
 

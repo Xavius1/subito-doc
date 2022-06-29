@@ -7,14 +7,14 @@
 <b>Signature:</b>
 
 ```typescript
-isIn(arr: Array<any>, value: any, name?: string): boolean;
+isIn(arr: any[], value: any, name?: string): boolean;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  arr | Array&lt;any&gt; |  |
+|  arr | any\[\] |  |
 |  value | any |  |
 |  name | string | <i>(Optional)</i> |
 
