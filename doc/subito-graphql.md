@@ -16,5 +16,18 @@ Library for subito micro services using GraphQL interface
 
 |  Variable | Description |
 |  --- | --- |
+|  [DefaultCursorResolver](./subito-graphql.defaultcursorresolver.md) |  |
+|  [DefaultEntityResolver](./subito-graphql.defaultentityresolver.md) |  |
+|  [DefaultMutationResolver](./subito-graphql.defaultmutationresolver.md) |  |
+|  [DefaultPageInfoResolver](./subito-graphql.defaultpageinforesolver.md) |  |
+|  [DefaultQueryResolver](./subito-graphql.defaultqueryresolver.md) |  |
 |  [failPayload](./subito-graphql.failpayload.md) |  |
+|  [mutationPayload](./subito-graphql.mutationpayload.md) |  |
+|  [successPayload](./subito-graphql.successpayload.md) |  |
+
+## Type Aliases
+
+|  Type Alias | Description |
+|  --- | --- |
+|  [AnyObject](./subito-graphql.anyobject.md) |  |
 

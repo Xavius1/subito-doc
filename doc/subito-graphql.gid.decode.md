@@ -9,11 +9,11 @@ Decode a global ID
 <b>Signature:</b>
 
 ```typescript
-static decode(gid: string, options?: DecodeOptions): string | number | {
-        parsedId: string | number;
+static decode(gid: string, raw?: Boolean): string | number | {
+        id: string | number;
+        version: number;
+        data: {};
         type: string;
-        parsedVersion: number;
-        parsedData: {};
     };
 ```
 
@@ -22,11 +22,11 @@ static decode(gid: string, options?: DecodeOptions): string | number | {
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  gid | string | GID to decode |
-|  options | DecodeOptions | <i>(Optional)</i> Options to use, use forceInt = true if your local id must be an int |
+|  raw | Boolean | <i>(Optional)</i> |
 
 <b>Returns:</b>
 
-string \| number \| { parsedId: string \| number; type: string; parsedVersion: number; parsedData: {}; }
+string \| number \| { id: string \| number; version: number; data: {}; type: string; }
 
 
 ## Example

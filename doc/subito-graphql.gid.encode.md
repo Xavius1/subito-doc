@@ -4,26 +4,27 @@
 
 ## GID.encode() method
 
-Encode an id
+Generate a globally unique id
 
 <b>Signature:</b>
 
 ```typescript
-static encode(type: string, id: string | number, data?: Object): string;
+static encode(type: string, id: string | number, data?: Object | string | number): string;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  type | string | Name of the entity |
+|  type | string | Type of the entity (User, Article, ...) |
 |  id | string \| number | ID from the local source (table, collection, ...) |
-|  data | Object | <i>(Optional)</i> Object containing specific data to identify the doc source (like an array index) |
+|  data | Object \| string \| number | <i>(Optional)</i> Any specific data to identify the doc source (like an array index) |
 
 <b>Returns:</b>
 
 string
 
+A globally unique id
 
 ## Example
 

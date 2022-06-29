@@ -9,11 +9,11 @@ Decode an array of global ID's
 <b>Signature:</b>
 
 ```typescript
-static batchDecode(ids: Array<string>, options?: DecodeOptions): (string | number | {
-        parsedId: string | number;
+static batchDecode(ids: string[], raw?: Boolean): (string | number | {
+        id: string | number;
+        version: number;
+        data: {};
         type: string;
-        parsedVersion: number;
-        parsedData: {};
     })[];
 ```
 
@@ -21,11 +21,11 @@ static batchDecode(ids: Array<string>, options?: DecodeOptions): (string | numbe
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  ids | Array&lt;string&gt; |  |
-|  options | DecodeOptions | <i>(Optional)</i> Same as [GID.decode()](./subito-graphql.gid.decode.md) |
+|  ids | string\[\] |  |
+|  raw | Boolean | <i>(Optional)</i> |
 
 <b>Returns:</b>
 
-(string \| number \| { parsedId: string \| number; type: string; parsedVersion: number; parsedData: {}; })\[\]
+(string \| number \| { id: string \| number; version: number; data: {}; type: string; })\[\]
 
 

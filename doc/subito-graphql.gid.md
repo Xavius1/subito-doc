@@ -16,7 +16,7 @@ declare class GID
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [batchDecode(ids, options)](./subito-graphql.gid.batchdecode.md) | <code>static</code> | Decode an array of global ID's |
-|  [decode(gid, options)](./subito-graphql.gid.decode.md) | <code>static</code> | Decode a global ID |
-|  [encode(type, id, data)](./subito-graphql.gid.encode.md) | <code>static</code> | Encode an id |
+|  [batchDecode(ids, raw)](./subito-graphql.gid.batchdecode.md) | <code>static</code> | Decode an array of global ID's |
+|  [decode(gid, raw)](./subito-graphql.gid.decode.md) | <code>static</code> | Decode a global ID |
+|  [encode(type, id, data)](./subito-graphql.gid.encode.md) | <code>static</code> | Generate a globally unique id |
 
