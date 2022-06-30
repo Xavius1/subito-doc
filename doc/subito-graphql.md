@@ -10,6 +10,7 @@ Library for subito micro services using GraphQL interface
 
 |  Class | Description |
 |  --- | --- |
+|  [Abac](./subito-graphql.abac.md) | Abstract class to implements Abac control Initialize as data sources to have context |
 |  [GID](./subito-graphql.gid.md) | Class use to transform local ID to base 64 globally unique ID Specs by relayjs |
 
 ## Variables
