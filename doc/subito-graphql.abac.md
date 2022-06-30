@@ -42,7 +42,7 @@ Abac.EntityPolicy.update(input);
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [context](./subito-graphql.abac.context.md) | <code>protected</code> | null |  |
-|  [policies](./subito-graphql.abac.policies.md) | <code>protected</code> | never\[\] |  |
+|  [policies](./subito-graphql.abac.policies.md) | <code>protected</code> | {} |  |
 
 ## Methods
 

@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-protected policies: never[];
+protected policies: {};
 ```
