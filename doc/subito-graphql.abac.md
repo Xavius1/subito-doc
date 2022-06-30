@@ -17,7 +17,7 @@ declare abstract class Abac
 
 ```
 class MyAbac extends Abac {
-  public Entity: EntityAbac
+  protected policies = [ EntityPolicy ];
 }
 ```
 Then into index.ts
@@ -27,12 +27,22 @@ dataSources: () => ({
   abac: new MyAbac()
 })
 ```
+To use it:
+
+```
+const { dataSources: { Abac } } = context;
+Abac.EntityPolicy.create(input);
+Abac.EntityPolicy.delete(input);
+Abac.EntityPolicy.read(doc);
+Abac.EntityPolicy.update(input);
+```
 
 ## Properties
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [context](./subito-graphql.abac.context.md) | <code>protected</code> | null |  |
+|  [policies](./subito-graphql.abac.policies.md) | <code>protected</code> | never\[\] |  |
 
 ## Methods
 
