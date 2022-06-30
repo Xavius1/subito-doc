@@ -20,7 +20,7 @@ declare class Repository extends MongoDataSource<string>
 |  [findByFields](./subito-connector-mongodb.mongodbrepository.findbyfields.md) |  | any |  |
 |  [findManyById](./subito-connector-mongodb.mongodbrepository.findmanybyid.md) |  | any |  |
 |  [findOneById](./subito-connector-mongodb.mongodbrepository.findonebyid.md) |  | any |  |
-|  [Mapper](./subito-connector-mongodb.mongodbrepository.mapper.md) |  | any |  |
+|  [Mapper](./subito-connector-mongodb.mongodbrepository.mapper.md) | <code>protected</code> | any |  |
 
 ## Methods
 

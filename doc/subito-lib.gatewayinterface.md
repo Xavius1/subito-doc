@@ -12,10 +12,10 @@ export interface GatewayInterface
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [args](./subito-lib.gatewayinterface.args.md) | [AuthArgs](./subito-lib.authargs.md) |  |
-|  [auth](./subito-lib.gatewayinterface.auth.md) | Function |  |
-|  [execute](./subito-lib.gatewayinterface.execute.md) | Function |  |
-|  [setHeaders](./subito-lib.gatewayinterface.setheaders.md) | Function |  |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [args](./subito-lib.gatewayinterface.args.md) |  | [AuthArgs](./subito-lib.authargs.md) |  |
+|  [auth](./subito-lib.gatewayinterface.auth.md) |  | Function |  |
+|  [execute](./subito-lib.gatewayinterface.execute.md) |  | Function |  |
+|  [setHeaders](./subito-lib.gatewayinterface.setheaders.md) |  | Function |  |
 

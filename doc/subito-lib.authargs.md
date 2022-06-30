@@ -12,8 +12,8 @@ export interface AuthArgs
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [secret](./subito-lib.authargs.secret.md) | string |  |
-|  [service](./subito-lib.authargs.service.md) | string |  |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [secret](./subito-lib.authargs.secret.md) |  | string |  |
+|  [service](./subito-lib.authargs.service.md) |  | string |  |
 
