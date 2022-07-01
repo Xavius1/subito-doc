@@ -11,6 +11,7 @@ Library for subito micro services using GraphQL interface
 |  Class | Description |
 |  --- | --- |
 |  [Abac](./subito-graphql.abac.md) | Abstract class to implements Abac control Initialize as data sources to have context |
+|  [Entity](./subito-graphql.entity.md) | <p>Class to generate a entity before returning data</p><p>You can re-map some fields, like \_id to id And keep the only fields authorized by the ABAC policy</p> |
 |  [GID](./subito-graphql.gid.md) | Class use to transform local ID to base 64 globally unique ID Specs by relayjs |
 |  [Policy](./subito-graphql.policy.md) | Abstract class to implements Abac policy control |
 
@@ -22,7 +23,7 @@ Library for subito micro services using GraphQL interface
 |  [DefaultEntityResolver](./subito-graphql.defaultentityresolver.md) |  |
 |  [DefaultMutationResolver](./subito-graphql.defaultmutationresolver.md) |  |
 |  [DefaultPageInfoResolver](./subito-graphql.defaultpageinforesolver.md) |  |
-|  [DefaultQueryResolver](./subito-graphql.defaultqueryresolver.md) |  |
+|  [DefaultQueryResolver](./subito-graphql.defaultqueryresolver.md) | <p>Define default query resolvers</p><p>Can be use as is or extended in a custom resolver</p> |
 |  [failPayload](./subito-graphql.failpayload.md) |  |
 |  [mutationPayload](./subito-graphql.mutationpayload.md) |  |
 |  [successPayload](./subito-graphql.successpayload.md) |  |

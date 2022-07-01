@@ -9,7 +9,7 @@
 ```typescript
 DefaultMutationResolver: (source: string) => {
     create({ input }: CreateProps, context: AnyObject): Promise<import("../payloads/mutationPayload").TPayload>;
-    update({ input: { id, values } }: UpdateProps, context: AnyObject): Promise<import("../payloads/mutationPayload").TPayload>;
-    delete({ input: { id } }: DeleteProps, context: AnyObject): Promise<import("../payloads/mutationPayload").TPayload>;
+    update({ input }: UpdateProps, context: AnyObject): Promise<import("../payloads/mutationPayload").TPayload>;
+    delete({ input }: DeleteProps, context: AnyObject): Promise<import("../payloads/mutationPayload").TPayload>;
 }
 ```

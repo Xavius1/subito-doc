@@ -4,6 +4,10 @@
 
 ## DefaultQueryResolver variable
 
+Define default query resolvers
+
+Can be use as is or extended in a custom resolver
+
 <b>Signature:</b>
 
 ```typescript

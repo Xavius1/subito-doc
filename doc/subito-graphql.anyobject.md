@@ -9,6 +9,5 @@
 ```typescript
 export declare type AnyObject = {
     [key: string]: any;
-    __proto__: never;
 };
 ```
