@@ -4,6 +4,8 @@
 
 ## Env.newSecret() method
 
+Get the config of a new secret env
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,9 +16,10 @@ static newSecret(name: string): EnvVar;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  name | string |  |
+|  name | string | The name of the new secret env |
 
 <b>Returns:</b>
 
 [EnvVar](./subito-lib.envvar.md)
+
 

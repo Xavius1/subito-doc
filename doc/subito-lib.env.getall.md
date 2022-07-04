@@ -4,6 +4,8 @@
 
 ## Env.getAll() method
 
+Get a list of env vars
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,9 +16,10 @@ static getAll(list: EnvList): any;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  list | [EnvList](./subito-lib.envlist.md) |  |
+|  list | [EnvList](./subito-lib.envlist.md) | An array of env configs |
 
 <b>Returns:</b>
 
 any
+
 

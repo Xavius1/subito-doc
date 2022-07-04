@@ -14,6 +14,7 @@ Library for subito micro services
 |  [Checker](./subito-lib.checker.md) |  |
 |  [Cryptor](./subito-lib.cryptor.md) |  |
 |  [Data](./subito-lib.data.md) |  |
+|  [Datte](./subito-lib.datte.md) | Class to normalize date usage (WIP) |
 |  [Env](./subito-lib.env.md) |  |
 |  [Gateway](./subito-lib.gateway.md) |  |
 |  [OpenTelemetry](./subito-lib.opentelemetry.md) | Class used to send trace &amp; metrics to an open telemetry backend (only Jaeger for now) Need to be instanciate before anything else |

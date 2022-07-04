@@ -9,7 +9,8 @@
 ```typescript
 export declare type EnvConfig = {
     allow?: any[];
-    type?: ParseType;
+    type: EnvType;
+    parseType?: ParseType;
     defaultValue: any;
     fallback?: string;
 };
