@@ -10,8 +10,8 @@ Handle MongoDB connections into Subito micro services
 
 |  Class | Description |
 |  --- | --- |
-|  [MongoDBConnector](./subito-connector-mongodb.mongodbconnector.md) | Create a new MongoDB connection |
-|  [MongoDBHelper](./subito-connector-mongodb.mongodbhelper.md) | MongoDB helper that can be usefull for some stuff. |
-|  [MongoDBPaginator](./subito-connector-mongodb.mongodbpaginator.md) | Class to implements the cursor paginator pattern |
-|  [MongoDBRepository](./subito-connector-mongodb.mongodbrepository.md) |  |
+|  [Connector](./subito-connector-mongodb.connector.md) | Create a new MongoDB connection |
+|  [Helper](./subito-connector-mongodb.helper.md) | MongoDB helper that can be usefull for some stuff. |
+|  [Paginator](./subito-connector-mongodb.paginator.md) | Class to implements the cursor paginator pattern |
+|  [Repository](./subito-connector-mongodb.repository.md) | Abstract class to implement mongodb repository |
 
