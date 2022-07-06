@@ -9,7 +9,7 @@ Update a doc with its id
 <b>Signature:</b>
 
 ```typescript
-updateDoc(input: IDocUpdateInput): Promise<IDocumentResult>;
+updateDoc(input: IDocUpdateInput): Promise<DocumentResult>;
 ```
 
 ## Parameters
@@ -20,6 +20,6 @@ updateDoc(input: IDocUpdateInput): Promise<IDocumentResult>;
 
 <b>Returns:</b>
 
-Promise&lt;[IDocumentResult](./subito-connector-mongodb.idocumentresult.md)<!-- -->&gt;
+Promise&lt;[DocumentResult](./subito-connector-mongodb.documentresult.md)<!-- -->&gt;
 
 

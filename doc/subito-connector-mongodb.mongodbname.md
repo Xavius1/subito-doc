@@ -4,6 +4,7 @@
 
 ## MongoDBName type
 
+Name of the database
 
 <b>Signature:</b>
 

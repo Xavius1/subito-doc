@@ -9,7 +9,7 @@ Create a list of documents
 <b>Signature:</b>
 
 ```typescript
-createManyDocs(arr: IDocInput[]): Promise<IDocumentResult[]>;
+createManyDocs(arr: IDocInput[]): Promise<DocumentResult[]>;
 ```
 
 ## Parameters
@@ -20,6 +20,6 @@ createManyDocs(arr: IDocInput[]): Promise<IDocumentResult[]>;
 
 <b>Returns:</b>
 
-Promise&lt;[IDocumentResult](./subito-connector-mongodb.idocumentresult.md)<!-- -->\[\]&gt;
+Promise&lt;[DocumentResult](./subito-connector-mongodb.documentresult.md)<!-- -->\[\]&gt;
 
 

@@ -9,7 +9,7 @@ Insert a new doc
 <b>Signature:</b>
 
 ```typescript
-createDoc(input: IDocInput): Promise<IDocumentResult>;
+createDoc(input: IDocInput): Promise<DocumentResult>;
 ```
 
 ## Parameters
@@ -20,6 +20,6 @@ createDoc(input: IDocInput): Promise<IDocumentResult>;
 
 <b>Returns:</b>
 
-Promise&lt;[IDocumentResult](./subito-connector-mongodb.idocumentresult.md)<!-- -->&gt;
+Promise&lt;[DocumentResult](./subito-connector-mongodb.documentresult.md)<!-- -->&gt;
 
 

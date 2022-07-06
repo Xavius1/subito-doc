@@ -4,6 +4,7 @@
 
 ## MongoDBOptions type
 
+Connection options [https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connection-options/](https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connection-options/)
 
 <b>Signature:</b>
 
@@ -12,3 +13,15 @@ export declare type MongoDBOptions = {
     [key: string]: (string | number | boolean);
 };
 ```
+
+## Example
+
+
+```
+{
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  keepAlive: true,
+}
+```
+

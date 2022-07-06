@@ -33,12 +33,12 @@ Handle MongoDB connections into Subito micro services
 |  Type Alias | Description |
 |  --- | --- |
 |  [CursorEdge](./subito-connector-mongodb.cursoredge.md) |  |
-|  [IDocumentResult](./subito-connector-mongodb.idocumentresult.md) |  |
+|  [DocumentResult](./subito-connector-mongodb.documentresult.md) |  |
 |  [MatchFilter](./subito-connector-mongodb.matchfilter.md) |  |
-|  [MongoDBLink](./subito-connector-mongodb.mongodblink.md) |  |
-|  [MongoDBName](./subito-connector-mongodb.mongodbname.md) |  |
-|  [MongoDBOptions](./subito-connector-mongodb.mongodboptions.md) |  |
-|  [MongoDBParams](./subito-connector-mongodb.mongodbparams.md) |  |
+|  [MongoDBLink](./subito-connector-mongodb.mongodblink.md) | MongoDB connection URI without name &amp; params |
+|  [MongoDBName](./subito-connector-mongodb.mongodbname.md) | Name of the database |
+|  [MongoDBOptions](./subito-connector-mongodb.mongodboptions.md) | Connection options [https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connection-options/](https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connection-options/) |
+|  [MongoDBParams](./subito-connector-mongodb.mongodbparams.md) | Connection params [https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connect/\#std-label-node-connect-to-mongodb](https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connect/#std-label-node-connect-to-mongodb) |
 |  [MongoId](./subito-connector-mongodb.mongoid.md) | Classic MongoDB ID |
 |  [MongoIdExt](./subito-connector-mongodb.mongoidext.md) | MongoDB can be an ObjectID or a string |
 |  [MongoIdStr](./subito-connector-mongodb.mongoidstr.md) | MongoDB only string ID |

@@ -4,6 +4,7 @@
 
 ## MongoDBParams type
 
+Connection params [https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connect/\#std-label-node-connect-to-mongodb](https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connect/#std-label-node-connect-to-mongodb)
 
 <b>Signature:</b>
 
@@ -12,3 +13,14 @@ export declare type MongoDBParams = {
     [key: string]: (string | number | boolean);
 };
 ```
+
+## Example
+
+
+```
+{
+  authSource: 'admin',
+  replicaSet: 'rs0',
+}
+```
+

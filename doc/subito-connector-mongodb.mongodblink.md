@@ -4,9 +4,18 @@
 
 ## MongoDBLink type
 
+MongoDB connection URI without name &amp; params
 
 <b>Signature:</b>
 
 ```typescript
 export declare type MongoDBLink = string;
 ```
+
+## Example
+
+
+```
+mongodb://user:pass&@mongodb-eu-fr-west:27017,mongodb-eu-fr-est:27017,mongodb-eu-be:2017/
+```
+
