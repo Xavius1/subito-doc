@@ -4,6 +4,8 @@
 
 ## MongoDBRepository.getDate() method
 
+Get the current date using Datte class from subito-lib
+
 <b>Signature:</b>
 
 ```typescript
@@ -12,4 +14,5 @@ getDate(): Date;
 <b>Returns:</b>
 
 Date
+
 

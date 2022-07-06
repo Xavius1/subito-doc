@@ -4,6 +4,8 @@
 
 ## MongoDBRepository.deleteById() method
 
+Delete a document by its ID (soft)
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,9 +16,14 @@ deleteById(id: MongoIdExt): Promise<any>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  id | [MongoIdExt](./subito-connector-mongodb.mongoidext.md) |  |
+|  id | MongoIdExt | ID of the document to delete |
 
 <b>Returns:</b>
 
 Promise&lt;any&gt;
+
+
+## Remarks
+
+It makes a soft deletion, the doc still exists into the db with a field "deleteAt"
 

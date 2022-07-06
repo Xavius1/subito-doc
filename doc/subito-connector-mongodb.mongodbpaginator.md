@@ -4,7 +4,7 @@
 
 ## MongoDBPaginator class
 
-Class to implements the cursor paginator pattern Specs by relayjs
+Class to implements the cursor paginator pattern
 
 <b>Signature:</b>
 
@@ -13,20 +13,39 @@ declare class Paginator implements IPaginator
 ```
 <b>Implements:</b> IPaginator
 
+## Remarks
+
+Specs by relayjs [https://relay.dev/graphql/connections.htm](https://relay.dev/graphql/connections.htm) Default cusor is based on the "createdAt" field, you can anything that sortable &amp; unique as "slug"
+
 ## Constructors
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)({ first, last, before, after, })](./subito-connector-mongodb.mongodbpaginator._constructor_.md) |  | Constructs a new instance of the <code>Paginator</code> class |
+|  [(constructor)({ first, last, before, after, filters, })](./subito-connector-mongodb.mongodbpaginator._constructor_.md) |  | Constructs a new instance of the <code>Paginator</code> class |
+
+## Properties
+
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [currentPage](./subito-connector-mongodb.mongodbpaginator.currentpage.md) | <code>protected</code> | number |  |
+|  [field](./subito-connector-mongodb.mongodbpaginator.field.md) | <code>protected</code> | string |  |
+|  [filters](./subito-connector-mongodb.mongodbpaginator.filters.md) | <code>protected</code> | IFilterPipelineInput |  |
+|  [hasNextPage](./subito-connector-mongodb.mongodbpaginator.hasnextpage.md) | <code>protected</code> | boolean |  |
+|  [hasPreviousPage](./subito-connector-mongodb.mongodbpaginator.haspreviouspage.md) | <code>protected</code> | boolean |  |
+|  [limit](./subito-connector-mongodb.mongodbpaginator.limit.md) | <code>protected</code> | number |  |
+|  [order](./subito-connector-mongodb.mongodbpaginator.order.md) | <code>protected</code> | PaginatorOrder |  |
+|  [totalPage](./subito-connector-mongodb.mongodbpaginator.totalpage.md) | <code>protected</code> | number |  |
+|  [totalResults](./subito-connector-mongodb.mongodbpaginator.totalresults.md) | <code>protected</code> | number |  |
+|  [type](./subito-connector-mongodb.mongodbpaginator.type.md) | <code>protected</code> | [ParseType](./subito-lib.parsetype.md) |  |
+|  [value](./subito-connector-mongodb.mongodbpaginator.value.md) | <code>protected</code> | string \| null |  |
 
 ## Methods
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [config()](./subito-connector-mongodb.mongodbpaginator.config.md) |  |  |
-|  [getDocCursor(doc)](./subito-connector-mongodb.mongodbpaginator.getdoccursor.md) |  |  |
-|  [map(docs)](./subito-connector-mongodb.mongodbpaginator.map.md) |  |  |
-|  [setCursor({ field, type })](./subito-connector-mongodb.mongodbpaginator.setcursor.md) |  |  |
-|  [setPageInfo({ total, cursored })](./subito-connector-mongodb.mongodbpaginator.setpageinfo.md) |  |  |
-|  [toPipeline(pipeline, reverse)](./subito-connector-mongodb.mongodbpaginator.topipeline.md) |  |  |
+|  [get(docs)](./subito-connector-mongodb.mongodbpaginator.get.md) |  | Get the paginator result |
+|  [getDocCursor(doc)](./subito-connector-mongodb.mongodbpaginator.getdoccursor.md) |  | Get the cursor value from a doc |
+|  [getPipeline(customPipeline, reverse)](./subito-connector-mongodb.mongodbpaginator.getpipeline.md) |  | Get the pipeline to use for the aggregation |
+|  [setCursor({ field, type })](./subito-connector-mongodb.mongodbpaginator.setcursor.md) |  | Set a custom cursor |
+|  [setPageInfo({ total, cursored })](./subito-connector-mongodb.mongodbpaginator.setpageinfo.md) |  | Define page info from results |
 

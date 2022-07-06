@@ -9,12 +9,12 @@ Constructs a new instance of the `Paginator` class
 <b>Signature:</b>
 
 ```typescript
-constructor({ first, last, before, after, }: PaginatorArgs);
+constructor({ first, last, before, after, filters, }: IPaginatorInput);
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  { first, last, before, after, } | PaginatorArgs |  |
+|  { first, last, before, after, filters, } | IPaginatorInput |  |
 

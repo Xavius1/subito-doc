@@ -4,6 +4,8 @@
 
 ## MongoDBRepository.hardDeleteManyById() method
 
+Delete a document by its ID (hard)
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,9 +16,14 @@ hardDeleteManyById(ids: MongoIdExt[]): Promise<any>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  ids | [MongoIdExt](./subito-connector-mongodb.mongoidext.md)<!-- -->\[\] |  |
+|  ids | MongoIdExt\[\] | An array of doc id |
 
 <b>Returns:</b>
 
 Promise&lt;any&gt;
+
+
+## Remarks
+
+It removes docs from the DB, still prefer a soft deletion 
 

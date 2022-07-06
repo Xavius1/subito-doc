@@ -4,6 +4,8 @@
 
 ## MongoDBPaginator.getDocCursor() method
 
+Get the cursor value from a doc
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,9 +16,10 @@ getDocCursor(doc: Document): any;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  doc | Document |  |
+|  doc | Document | The doc used to create the cursor |
 
 <b>Returns:</b>
 
 any
+
 

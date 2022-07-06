@@ -7,42 +7,32 @@
 <b>Signature:</b>
 
 ```typescript
-declare class Repository extends MongoDataSource<string> 
+declare class Repository extends MongoDataSource<Document> 
 ```
-<b>Extends:</b> MongoDataSource
+<b>Extends:</b> MongoDataSource&lt;Document
 
 ## Properties
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [collection](./subito-connector-mongodb.mongodbrepository.collection.md) |  | any |  |
-|  [deleteFromCacheById](./subito-connector-mongodb.mongodbrepository.deletefromcachebyid.md) |  | any |  |
-|  [findByFields](./subito-connector-mongodb.mongodbrepository.findbyfields.md) |  | any |  |
-|  [findManyById](./subito-connector-mongodb.mongodbrepository.findmanybyid.md) |  | any |  |
-|  [findOneById](./subito-connector-mongodb.mongodbrepository.findonebyid.md) |  | any |  |
-|  [Mapper](./subito-connector-mongodb.mongodbrepository.mapper.md) | <code>protected</code> | any |  |
+|  [cursor](./subito-connector-mongodb.mongodbrepository.cursor.md) | <code>protected</code> | ICursor | The cusor definition used by the Paginator |
 
 ## Methods
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [bulkWrite(queries)](./subito-connector-mongodb.mongodbrepository.bulkwrite.md) |  |  |
-|  [deleteById(id)](./subito-connector-mongodb.mongodbrepository.deletebyid.md) |  |  |
-|  [deleteManyById(ids)](./subito-connector-mongodb.mongodbrepository.deletemanybyid.md) |  |  |
-|  [entity(doc)](./subito-connector-mongodb.mongodbrepository.entity.md) |  |  |
-|  [getAll(options)](./subito-connector-mongodb.mongodbrepository.getall.md) |  |  |
-|  [getDate()](./subito-connector-mongodb.mongodbrepository.getdate.md) |  |  |
-|  [getManyBy(fields)](./subito-connector-mongodb.mongodbrepository.getmanyby.md) |  |  |
-|  [getManyByFields(fields, options)](./subito-connector-mongodb.mongodbrepository.getmanybyfields.md) |  |  |
-|  [getManyById(ids)](./subito-connector-mongodb.mongodbrepository.getmanybyid.md) |  |  |
-|  [getOneBy(fields)](./subito-connector-mongodb.mongodbrepository.getoneby.md) |  |  |
-|  [getOneByFields(fields, options)](./subito-connector-mongodb.mongodbrepository.getonebyfields.md) |  |  |
-|  [getOneById(id)](./subito-connector-mongodb.mongodbrepository.getonebyid.md) |  |  |
-|  [getType()](./subito-connector-mongodb.mongodbrepository.gettype.md) |  |  |
-|  [hardDeleteById(id)](./subito-connector-mongodb.mongodbrepository.harddeletebyid.md) |  |  |
-|  [hardDeleteManyById(ids)](./subito-connector-mongodb.mongodbrepository.harddeletemanybyid.md) |  |  |
-|  [insertMany(docs)](./subito-connector-mongodb.mongodbrepository.insertmany.md) |  |  |
-|  [insertOne(doc)](./subito-connector-mongodb.mongodbrepository.insertone.md) |  |  |
-|  [paginate(paginator, pipeline)](./subito-connector-mongodb.mongodbrepository.paginate.md) |  |  |
-|  [updateOneById(id, update)](./subito-connector-mongodb.mongodbrepository.updateonebyid.md) |  |  |
+|  [canBeInserted(input)](./subito-connector-mongodb.mongodbrepository.canbeinserted.md) |  | Check if the doc can be inserted into the DB |
+|  [canBeUpdated({ id, query })](./subito-connector-mongodb.mongodbrepository.canbeupdated.md) |  | Check if the doc can be updated |
+|  [createDoc(input)](./subito-connector-mongodb.mongodbrepository.createdoc.md) |  | Insert a new doc |
+|  [createManyDocs(arr)](./subito-connector-mongodb.mongodbrepository.createmanydocs.md) |  | Create a list of documents |
+|  [deleteById(id)](./subito-connector-mongodb.mongodbrepository.deletebyid.md) |  | Delete a document by its ID (soft) |
+|  [deleteManyById(ids)](./subito-connector-mongodb.mongodbrepository.deletemanybyid.md) |  | Delete a list of document by their IDs (soft) |
+|  [findByCursor(input, pipeline)](./subito-connector-mongodb.mongodbrepository.findbycursor.md) |  | Get a list of paginated documents |
+|  [findOneByFields(fields, options)](./subito-connector-mongodb.mongodbrepository.findonebyfields.md) |  | Find one doc by specifics fields |
+|  [findOneBySlug(slug, options)](./subito-connector-mongodb.mongodbrepository.findonebyslug.md) |  | Find a doc by its slug |
+|  [getDate()](./subito-connector-mongodb.mongodbrepository.getdate.md) |  | Get the current date using Datte class from subito-lib |
+|  [hardDeleteById(id)](./subito-connector-mongodb.mongodbrepository.harddeletebyid.md) |  | Delete a document by its ID (hard) |
+|  [hardDeleteManyById(ids)](./subito-connector-mongodb.mongodbrepository.harddeletemanybyid.md) |  | Delete a document by its ID (hard) |
+|  [prepareNewDoc(doc)](./subito-connector-mongodb.mongodbrepository.preparenewdoc.md) |  | Add needed data to the doc before insertion |
+|  [updateDoc(input)](./subito-connector-mongodb.mongodbrepository.updatedoc.md) |  | Update a doc with its id |
 

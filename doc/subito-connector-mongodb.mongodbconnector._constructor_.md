@@ -4,7 +4,7 @@
 
 ## MongoDBConnector.(constructor)
 
-Constructs a new instance of the `MongoDBConnector` class
+Constructs a new instance of the `Connector` class
 
 <b>Signature:</b>
 
@@ -16,8 +16,8 @@ constructor(link: MongoDBLink, dbName: MongoDBName, params?: MongoDBParams, opti
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  link | [MongoDBLink](./subito-connector-mongodb.mongodblink.md) |  |
-|  dbName | [MongoDBName](./subito-connector-mongodb.mongodbname.md) |  |
-|  params | [MongoDBParams](./subito-connector-mongodb.mongodbparams.md) | <i>(Optional)</i> |
-|  options | [MongoDBOptions](./subito-connector-mongodb.mongodboptions.md) | <i>(Optional)</i> |
+|  link | MongoDBLink |  |
+|  dbName | MongoDBName |  |
+|  params | MongoDBParams | <i>(Optional)</i> |
+|  options | MongoDBOptions | <i>(Optional)</i> |
 

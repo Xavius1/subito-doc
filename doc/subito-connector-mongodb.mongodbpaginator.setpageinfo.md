@@ -4,22 +4,22 @@
 
 ## MongoDBPaginator.setPageInfo() method
 
+Define page info from results
+
 <b>Signature:</b>
 
 ```typescript
-setPageInfo({ total, cursored }: {
-        total?: number | undefined;
-        cursored?: number | undefined;
-    }): void;
+setPageInfo({ total, cursored }: IPageInfoInput): this;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  { total, cursored } | { total?: number \| undefined; cursored?: number \| undefined; } |  |
+|  { total, cursored } | IPageInfoInput |  |
 
 <b>Returns:</b>
 
-void
+this
+
 

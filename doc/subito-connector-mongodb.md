@@ -10,28 +10,8 @@ Handle MongoDB connections into Subito micro services
 
 |  Class | Description |
 |  --- | --- |
-|  [MongoDBConnector](./subito-connector-mongodb.mongodbconnector.md) | MongoDB connector. Create a new MongoDB connection |
+|  [MongoDBConnector](./subito-connector-mongodb.mongodbconnector.md) | Create a new MongoDB connection |
 |  [MongoDBHelper](./subito-connector-mongodb.mongodbhelper.md) | MongoDB helper that can be usefull for some stuff. |
-|  [MongoDBPaginator](./subito-connector-mongodb.mongodbpaginator.md) | Class to implements the cursor paginator pattern Specs by relayjs |
+|  [MongoDBPaginator](./subito-connector-mongodb.mongodbpaginator.md) | Class to implements the cursor paginator pattern |
 |  [MongoDBRepository](./subito-connector-mongodb.mongodbrepository.md) |  |
-
-## Interfaces
-
-|  Interface | Description |
-|  --- | --- |
-|  [Selector](./subito-connector-mongodb.selector.md) | MongoDB selector |
-|  [Update](./subito-connector-mongodb.update.md) | MongoDB update |
-
-## Type Aliases
-
-|  Type Alias | Description |
-|  --- | --- |
-|  [MongoDBLink](./subito-connector-mongodb.mongodblink.md) |  |
-|  [MongoDBName](./subito-connector-mongodb.mongodbname.md) |  |
-|  [MongoDBOptions](./subito-connector-mongodb.mongodboptions.md) |  |
-|  [MongoDBParams](./subito-connector-mongodb.mongodbparams.md) |  |
-|  [MongoId](./subito-connector-mongodb.mongoid.md) | Classic MongoDB ID |
-|  [MongoIdExt](./subito-connector-mongodb.mongoidext.md) | MongoDB can be an ObjectID or a string |
-|  [MongoIdStr](./subito-connector-mongodb.mongoidstr.md) | MongoDB only string ID |
-|  [Pipeline](./subito-connector-mongodb.pipeline.md) | MongoDB pipeline |
 

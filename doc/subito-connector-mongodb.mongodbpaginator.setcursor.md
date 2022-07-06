@@ -4,22 +4,30 @@
 
 ## MongoDBPaginator.setCursor() method
 
+Set a custom cursor
+
 <b>Signature:</b>
 
 ```typescript
-setCursor({ field, type }: {
-        field: string;
-        type: ParseType;
-    }): this;
+setCursor({ field, type }: ICursor): this;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  { field, type } | { field: string; type: [ParseType](./subito-lib.parsetype.md)<!-- -->; } |  |
+|  { field, type } | ICursor |  |
 
 <b>Returns:</b>
 
 this
+
+
+## Example
+
+
+```
+// Use the "slug" field as cursor
+paginator.setCursor({ field: 'slug', type: 'string' });
+```
 

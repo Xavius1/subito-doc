@@ -16,5 +16,6 @@ declare class Helper
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
+|  [getFilterPipeline(filters)](./subito-connector-mongodb.mongodbhelper.getfilterpipeline.md) | <code>static</code> | Get a pipeline matching your filters |
 |  [newMongoId(toString)](./subito-connector-mongodb.mongodbhelper.newmongoid.md) | <code>static</code> | Create a new mongo ID |
 

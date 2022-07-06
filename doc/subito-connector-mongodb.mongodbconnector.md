@@ -4,12 +4,12 @@
 
 ## MongoDBConnector class
 
-MongoDB connector. Create a new MongoDB connection
+Create a new MongoDB connection
 
 <b>Signature:</b>
 
 ```typescript
-declare class MongoDBConnector 
+declare class Connector 
 ```
 
 ## Example
@@ -30,7 +30,17 @@ new MongoDBConnector(
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(link, dbName, params, options)](./subito-connector-mongodb.mongodbconnector._constructor_.md) |  | Constructs a new instance of the <code>MongoDBConnector</code> class |
+|  [(constructor)(link, dbName, params, options)](./subito-connector-mongodb.mongodbconnector._constructor_.md) |  | Constructs a new instance of the <code>Connector</code> class |
+
+## Properties
+
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [db](./subito-connector-mongodb.mongodbconnector.db.md) | <code>protected</code> | any |  |
+|  [dbName](./subito-connector-mongodb.mongodbconnector.dbname.md) | <code>protected</code> | MongoDBName |  |
+|  [link](./subito-connector-mongodb.mongodbconnector.link.md) | <code>protected</code> | MongoDBLink |  |
+|  [options](./subito-connector-mongodb.mongodbconnector.options.md) | <code>protected</code> | MongoDBOptions |  |
+|  [params](./subito-connector-mongodb.mongodbconnector.params.md) | <code>protected</code> | string |  |
 
 ## Methods
 
