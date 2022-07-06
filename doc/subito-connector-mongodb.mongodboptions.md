@@ -4,7 +4,7 @@
 
 ## MongoDBOptions type
 
-Connection options [https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connection-options/](https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connection-options/)
+Connection options
 
 <b>Signature:</b>
 
@@ -13,6 +13,10 @@ export declare type MongoDBOptions = {
     [key: string]: (string | number | boolean);
 };
 ```
+
+## Remarks
+
+[https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connection-options/](https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connection-options/)
 
 ## Example
 

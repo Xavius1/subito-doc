@@ -4,7 +4,7 @@
 
 ## MongoDBParams type
 
-Connection params [https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connect/\#std-label-node-connect-to-mongodb](https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connect/#std-label-node-connect-to-mongodb)
+Connection params
 
 <b>Signature:</b>
 
@@ -13,6 +13,10 @@ export declare type MongoDBParams = {
     [key: string]: (string | number | boolean);
 };
 ```
+
+## Remarks
+
+[https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connect/\#std-label-node-connect-to-mongodb](https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connect/#std-label-node-connect-to-mongodb)
 
 ## Example
 
