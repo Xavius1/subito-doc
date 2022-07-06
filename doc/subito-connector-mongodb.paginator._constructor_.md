@@ -16,5 +16,5 @@ constructor({ first, last, before, after, filters, }: IPaginatorInput);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  { first, last, before, after, filters, } | IPaginatorInput |  |
+|  { first, last, before, after, filters, } | [IPaginatorInput](./subito-connector-mongodb.ipaginatorinput.md) |  |
 

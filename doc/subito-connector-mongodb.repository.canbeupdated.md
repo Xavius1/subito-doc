@@ -16,7 +16,7 @@ canBeUpdated({ id, query }: IDocUpdateInput): Promise<boolean>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  { id, query } | IDocUpdateInput |  |
+|  { id, query } | [IDocUpdateInput](./subito-connector-mongodb.idocupdateinput.md) |  |
 
 <b>Returns:</b>
 

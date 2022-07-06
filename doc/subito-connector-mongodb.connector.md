@@ -37,9 +37,9 @@ new MongoDBConnector(
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [db](./subito-connector-mongodb.connector.db.md) | <code>protected</code> | any |  |
-|  [dbName](./subito-connector-mongodb.connector.dbname.md) | <code>protected</code> | MongoDBName |  |
-|  [link](./subito-connector-mongodb.connector.link.md) | <code>protected</code> | MongoDBLink |  |
-|  [options](./subito-connector-mongodb.connector.options.md) | <code>protected</code> | MongoDBOptions |  |
+|  [dbName](./subito-connector-mongodb.connector.dbname.md) | <code>protected</code> | [MongoDBName](./subito-connector-mongodb.mongodbname.md) |  |
+|  [link](./subito-connector-mongodb.connector.link.md) | <code>protected</code> | [MongoDBLink](./subito-connector-mongodb.mongodblink.md) |  |
+|  [options](./subito-connector-mongodb.connector.options.md) | <code>protected</code> | [MongoDBOptions](./subito-connector-mongodb.mongodboptions.md) |  |
 |  [params](./subito-connector-mongodb.connector.params.md) | <code>protected</code> | string |  |
 
 ## Methods

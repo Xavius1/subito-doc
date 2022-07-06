@@ -16,7 +16,7 @@ deleteById(id: MongoIdExt): Promise<any>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  id | MongoIdExt | ID of the document to delete |
+|  id | [MongoIdExt](./subito-connector-mongodb.mongoidext.md) | ID of the document to delete |
 
 <b>Returns:</b>
 

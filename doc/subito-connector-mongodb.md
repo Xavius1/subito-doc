@@ -15,3 +15,33 @@ Handle MongoDB connections into Subito micro services
 |  [Paginator](./subito-connector-mongodb.paginator.md) | Class to implements the cursor paginator pattern |
 |  [Repository](./subito-connector-mongodb.repository.md) | Abstract class to implement mongodb repository |
 
+## Interfaces
+
+|  Interface | Description |
+|  --- | --- |
+|  [ICursor](./subito-connector-mongodb.icursor.md) |  |
+|  [IDocInput](./subito-connector-mongodb.idocinput.md) |  |
+|  [IDocUpdateInput](./subito-connector-mongodb.idocupdateinput.md) |  |
+|  [IFilterPipelineInput](./subito-connector-mongodb.ifilterpipelineinput.md) |  |
+|  [IFiltersPipeline](./subito-connector-mongodb.ifilterspipeline.md) |  |
+|  [IPageInfoInput](./subito-connector-mongodb.ipageinfoinput.md) |  |
+|  [IPaginator](./subito-connector-mongodb.ipaginator.md) |  |
+|  [IPaginatorInput](./subito-connector-mongodb.ipaginatorinput.md) |  |
+
+## Type Aliases
+
+|  Type Alias | Description |
+|  --- | --- |
+|  [CursorEdge](./subito-connector-mongodb.cursoredge.md) |  |
+|  [IDocumentResult](./subito-connector-mongodb.idocumentresult.md) |  |
+|  [MatchFilter](./subito-connector-mongodb.matchfilter.md) |  |
+|  [MongoDBLink](./subito-connector-mongodb.mongodblink.md) |  |
+|  [MongoDBName](./subito-connector-mongodb.mongodbname.md) |  |
+|  [MongoDBOptions](./subito-connector-mongodb.mongodboptions.md) |  |
+|  [MongoDBParams](./subito-connector-mongodb.mongodbparams.md) |  |
+|  [MongoId](./subito-connector-mongodb.mongoid.md) | Classic MongoDB ID |
+|  [MongoIdExt](./subito-connector-mongodb.mongoidext.md) | MongoDB can be an ObjectID or a string |
+|  [MongoIdStr](./subito-connector-mongodb.mongoidstr.md) | MongoDB only string ID |
+|  [PaginatorOrder](./subito-connector-mongodb.paginatororder.md) |  |
+|  [Pipeline](./subito-connector-mongodb.pipeline.md) |  |
+

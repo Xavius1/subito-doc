@@ -16,7 +16,7 @@ deleteManyById(ids: MongoIdExt[]): Promise<any>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  ids | MongoIdExt\[\] | An array of doc id |
+|  ids | [MongoIdExt](./subito-connector-mongodb.mongoidext.md)<!-- -->\[\] | An array of doc id |
 
 <b>Returns:</b>
 

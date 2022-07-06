@@ -17,7 +17,7 @@ declare abstract class Repository extends MongoDataSource<Document>
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [cursor](./subito-connector-mongodb.repository.cursor.md) | <code>protected</code> | ICursor | The cusor definition used by the Paginator |
+|  [cursor](./subito-connector-mongodb.repository.cursor.md) | <code>protected</code> | [ICursor](./subito-connector-mongodb.icursor.md) | The cusor definition used by the Paginator |
 
 ## Methods
 

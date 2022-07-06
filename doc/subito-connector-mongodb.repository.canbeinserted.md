@@ -16,7 +16,7 @@ canBeInserted(input: IDocInput): Promise<boolean>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  input | IDocInput | The new doc to checked |
+|  input | [IDocInput](./subito-connector-mongodb.idocinput.md) | The new doc to checked |
 
 <b>Returns:</b>
 

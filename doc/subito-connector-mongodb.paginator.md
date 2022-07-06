@@ -11,7 +11,7 @@ Class to implements the cursor paginator pattern
 ```typescript
 declare class Paginator implements IPaginator 
 ```
-<b>Implements:</b> IPaginator
+<b>Implements:</b> [IPaginator](./subito-connector-mongodb.ipaginator.md)
 
 ## Remarks
 
@@ -29,11 +29,11 @@ Specs by relayjs [https://relay.dev/graphql/connections.htm](https://relay.dev/g
 |  --- | --- | --- | --- |
 |  [currentPage](./subito-connector-mongodb.paginator.currentpage.md) | <code>protected</code> | number |  |
 |  [field](./subito-connector-mongodb.paginator.field.md) | <code>protected</code> | string |  |
-|  [filters](./subito-connector-mongodb.paginator.filters.md) | <code>protected</code> | IFilterPipelineInput |  |
+|  [filters](./subito-connector-mongodb.paginator.filters.md) | <code>protected</code> | [IFilterPipelineInput](./subito-connector-mongodb.ifilterpipelineinput.md) |  |
 |  [hasNextPage](./subito-connector-mongodb.paginator.hasnextpage.md) | <code>protected</code> | boolean |  |
 |  [hasPreviousPage](./subito-connector-mongodb.paginator.haspreviouspage.md) | <code>protected</code> | boolean |  |
 |  [limit](./subito-connector-mongodb.paginator.limit.md) | <code>protected</code> | number |  |
-|  [order](./subito-connector-mongodb.paginator.order.md) | <code>protected</code> | PaginatorOrder |  |
+|  [order](./subito-connector-mongodb.paginator.order.md) | <code>protected</code> | [PaginatorOrder](./subito-connector-mongodb.paginatororder.md) |  |
 |  [totalPage](./subito-connector-mongodb.paginator.totalpage.md) | <code>protected</code> | number |  |
 |  [totalResults](./subito-connector-mongodb.paginator.totalresults.md) | <code>protected</code> | number |  |
 |  [type](./subito-connector-mongodb.paginator.type.md) | <code>protected</code> | [ParseType](./subito-lib.parsetype.md) |  |

@@ -16,7 +16,7 @@ hardDeleteById(id: MongoIdExt): Promise<any>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  id | MongoIdExt | ID of the document to HARD delete |
+|  id | [MongoIdExt](./subito-connector-mongodb.mongoidext.md) | ID of the document to HARD delete |
 
 <b>Returns:</b>
 

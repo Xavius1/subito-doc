@@ -18,7 +18,7 @@ getPipeline(customPipeline: Pipeline, reverse?: boolean): {
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  customPipeline | Pipeline |  |
+|  customPipeline | [Pipeline](./subito-connector-mongodb.pipeline.md) |  |
 |  reverse | boolean | <i>(Optional)</i> Set to true if you want to sort by desc |
 
 <b>Returns:</b>

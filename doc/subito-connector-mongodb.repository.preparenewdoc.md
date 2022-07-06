@@ -16,7 +16,7 @@ prepareNewDoc(doc: IDocInput): Document;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  doc | IDocInput | The doc to insert |
+|  doc | [IDocInput](./subito-connector-mongodb.idocinput.md) | The doc to insert |
 
 <b>Returns:</b>
 

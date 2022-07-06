@@ -16,10 +16,10 @@ static getFilterPipeline(filters: IFilterPipelineInput): IFiltersPipeline | null
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  filters | IFilterPipelineInput | Filters you want apply into the pipeline |
+|  filters | [IFilterPipelineInput](./subito-connector-mongodb.ifilterpipelineinput.md) | Filters you want apply into the pipeline |
 
 <b>Returns:</b>
 
-IFiltersPipeline \| null
+[IFiltersPipeline](./subito-connector-mongodb.ifilterspipeline.md) \| null
 
 

@@ -16,10 +16,10 @@ createDoc(input: IDocInput): Promise<IDocumentResult>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  input | IDocInput | The new doc to insert |
+|  input | [IDocInput](./subito-connector-mongodb.idocinput.md) | The new doc to insert |
 
 <b>Returns:</b>
 
-Promise&lt;IDocumentResult&gt;
+Promise&lt;[IDocumentResult](./subito-connector-mongodb.idocumentresult.md)<!-- -->&gt;
 
 

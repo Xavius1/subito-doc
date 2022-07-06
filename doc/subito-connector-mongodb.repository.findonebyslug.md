@@ -21,6 +21,6 @@ findOneBySlug(slug: string, options?: Options): Promise<IDocumentResult>;
 
 <b>Returns:</b>
 
-Promise&lt;IDocumentResult&gt;
+Promise&lt;[IDocumentResult](./subito-connector-mongodb.idocumentresult.md)<!-- -->&gt;
 
 

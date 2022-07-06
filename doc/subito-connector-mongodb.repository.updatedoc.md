@@ -16,10 +16,10 @@ updateDoc(input: IDocUpdateInput): Promise<IDocumentResult>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  input | IDocUpdateInput | Input values |
+|  input | [IDocUpdateInput](./subito-connector-mongodb.idocupdateinput.md) | Input values |
 
 <b>Returns:</b>
 
-Promise&lt;IDocumentResult&gt;
+Promise&lt;[IDocumentResult](./subito-connector-mongodb.idocumentresult.md)<!-- -->&gt;
 
 

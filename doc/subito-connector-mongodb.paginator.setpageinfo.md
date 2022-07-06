@@ -16,7 +16,7 @@ setPageInfo({ total, cursored }: IPageInfoInput): this;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  { total, cursored } | IPageInfoInput |  |
+|  { total, cursored } | [IPageInfoInput](./subito-connector-mongodb.ipageinfoinput.md) |  |
 
 <b>Returns:</b>
 

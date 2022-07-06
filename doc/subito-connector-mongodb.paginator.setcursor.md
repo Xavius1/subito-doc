@@ -16,7 +16,7 @@ setCursor({ field, type }: ICursor): this;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  { field, type } | ICursor |  |
+|  { field, type } | [ICursor](./subito-connector-mongodb.icursor.md) |  |
 
 <b>Returns:</b>
 

@@ -16,10 +16,10 @@ createManyDocs(arr: IDocInput[]): Promise<IDocumentResult[]>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  arr | IDocInput\[\] | List of the docs to insert |
+|  arr | [IDocInput](./subito-connector-mongodb.idocinput.md)<!-- -->\[\] | List of the docs to insert |
 
 <b>Returns:</b>
 
-Promise&lt;IDocumentResult\[\]&gt;
+Promise&lt;[IDocumentResult](./subito-connector-mongodb.idocumentresult.md)<!-- -->\[\]&gt;
 
 

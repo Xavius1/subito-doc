@@ -27,11 +27,11 @@ findByCursor(input: IPaginatorInput, pipeline: Pipeline): Promise<{
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  input | IPaginatorInput | Define how you want to paginate |
-|  pipeline | Pipeline | Custom pipeline to get a subset of docs |
+|  input | [IPaginatorInput](./subito-connector-mongodb.ipaginatorinput.md) | Define how you want to paginate |
+|  pipeline | [Pipeline](./subito-connector-mongodb.pipeline.md) | Custom pipeline to get a subset of docs |
 
 <b>Returns:</b>
 
-Promise&lt;{ edges: import("./Paginator").CursorEdge\[\]; pageInfo: { hasNextPage: boolean; hasPreviousPage: boolean; totalPage: number; totalResults: number; currentPage: number; startCursor: any; endCursor: any; }; }&gt;
+Promise&lt;{ edges: import("./Paginator").[CursorEdge](./subito-connector-mongodb.cursoredge.md)<!-- -->\[\]; pageInfo: { hasNextPage: boolean; hasPreviousPage: boolean; totalPage: number; totalResults: number; currentPage: number; startCursor: any; endCursor: any; }; }&gt;
 
 

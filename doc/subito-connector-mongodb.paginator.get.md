@@ -31,6 +31,6 @@ get(docs: Document[]): {
 
 <b>Returns:</b>
 
-{ edges: CursorEdge\[\]; pageInfo: { hasNextPage: boolean; hasPreviousPage: boolean; totalPage: number; totalResults: number; currentPage: number; startCursor: any; endCursor: any; }; }
+{ edges: [CursorEdge](./subito-connector-mongodb.cursoredge.md)<!-- -->\[\]; pageInfo: { hasNextPage: boolean; hasPreviousPage: boolean; totalPage: number; totalResults: number; currentPage: number; startCursor: any; endCursor: any; }; }
 
 
