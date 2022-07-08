@@ -4,20 +4,23 @@
 
 ## GraphqlClient.execute() method
 
+Execute a query through the graphql endpoint
+
 <b>Signature:</b>
 
 ```typescript
-execute(query: string, args?: null): Promise<any>;
+execute(query: string, input?: null): Promise<any>;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  query | string |  |
-|  args | null | <i>(Optional)</i> |
+|  query | string | Your query |
+|  input | null | <i>(Optional)</i> Input needed by your query |
 
 <b>Returns:</b>
 
 Promise&lt;any&gt;
+
 

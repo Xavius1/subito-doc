@@ -4,12 +4,15 @@
 
 ## GraphqlClient.setAuthHeaders() method
 
+Set auth headers
+
 <b>Signature:</b>
 
 ```typescript
-protected setAuthHeaders(): void;
+protected setAuthHeaders(): GraphqlClient;
 ```
 <b>Returns:</b>
 
-void
+GraphqlClient
+
 

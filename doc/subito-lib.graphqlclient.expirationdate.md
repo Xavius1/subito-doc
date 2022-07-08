@@ -4,6 +4,8 @@
 
 ## GraphqlClient.expirationDate property
 
+The token expiration date
+
 <b>Signature:</b>
 
 ```typescript

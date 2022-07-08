@@ -4,6 +4,8 @@
 
 ## GraphqlClient.token property
 
+The auth token
+
 <b>Signature:</b>
 
 ```typescript

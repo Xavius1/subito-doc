@@ -4,37 +4,40 @@
 
 ## GraphqlClient class
 
+Connect to a GraphQL endpoint
+
 <b>Signature:</b>
 
 ```typescript
-declare class Graphql implements GraphqlInterface 
+declare class GraphqlClient implements IGraphqlClient 
 ```
-<b>Implements:</b> [GraphqlInterface](./subito-lib.graphqlinterface.md)
+<b>Implements:</b> [IGraphqlClient](./subito-lib.igraphqlclient.md)
 
 ## Constructors
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)({ endpoint, headers, })](./subito-lib.graphqlclient._constructor_.md) |  | Constructs a new instance of the <code>Graphql</code> class |
+|  [(constructor)({ endpoint, headers, })](./subito-lib.graphqlclient._constructor_.md) |  | Constructs a new instance of the <code>GraphqlClient</code> class |
 
 ## Properties
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [args](./subito-lib.graphqlclient.args.md) |  | [AuthArgs](./subito-lib.authargs.md) |  |
-|  [client](./subito-lib.graphqlclient.client.md) | <code>protected</code> | GraphQLClient |  |
-|  [expirationDate](./subito-lib.graphqlclient.expirationdate.md) | <code>protected</code> | number |  |
-|  [token?](./subito-lib.graphqlclient.token.md) | <code>protected</code> | string \| null | <i>(Optional)</i> |
+|  [client](./subito-lib.graphqlclient.client.md) | <code>protected</code> | GraphQLClient | The graphql client |
+|  [expirationDate](./subito-lib.graphqlclient.expirationdate.md) | <code>protected</code> | number | The token expiration date |
+|  [input](./subito-lib.graphqlclient.input.md) | <code>protected</code> | [AuthInput](./subito-lib.authinput.md) | The credentials to auth the client |
+|  [token?](./subito-lib.graphqlclient.token.md) | <code>protected</code> | string \| null | <i>(Optional)</i> The auth token |
 
 ## Methods
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [auth(args)](./subito-lib.graphqlclient.auth.md) |  |  |
-|  [execute(query, args)](./subito-lib.graphqlclient.execute.md) |  |  |
-|  [isTokenExpired()](./subito-lib.graphqlclient.istokenexpired.md) | <code>protected</code> |  |
-|  [refreshAuth()](./subito-lib.graphqlclient.refreshauth.md) | <code>protected</code> |  |
-|  [setAuthHeaders()](./subito-lib.graphqlclient.setauthheaders.md) | <code>protected</code> |  |
-|  [setExpirationDate(date)](./subito-lib.graphqlclient.setexpirationdate.md) | <code>protected</code> |  |
-|  [setHeaders(headers)](./subito-lib.graphqlclient.setheaders.md) |  |  |
+|  [auth(input)](./subito-lib.graphqlclient.auth.md) |  | Get an auth token |
+|  [execute(query, input)](./subito-lib.graphqlclient.execute.md) |  | Execute a query through the graphql endpoint |
+|  [getClientName()](./subito-lib.graphqlclient.getclientname.md) |  | Get the client name |
+|  [isTokenExpired()](./subito-lib.graphqlclient.istokenexpired.md) | <code>protected</code> | Check if the token has expired |
+|  [refreshAuth()](./subito-lib.graphqlclient.refreshauth.md) | <code>protected</code> | Get a new auth token |
+|  [setAuthHeaders()](./subito-lib.graphqlclient.setauthheaders.md) | <code>protected</code> | Set auth headers |
+|  [setCustomHeaders(headers)](./subito-lib.graphqlclient.setcustomheaders.md) |  | Set custom headers |
+|  [setExpirationDate(date)](./subito-lib.graphqlclient.setexpirationdate.md) | <code>protected</code> | Set expiration date |
 

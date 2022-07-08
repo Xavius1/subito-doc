@@ -4,19 +4,22 @@
 
 ## GraphqlClient.setExpirationDate() method
 
+Set expiration date
+
 <b>Signature:</b>
 
 ```typescript
-protected setExpirationDate(date: Date): this;
+protected setExpirationDate(date: Date): GraphqlClient;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  date | Date |  |
+|  date | Date | Expiration date |
 
 <b>Returns:</b>
 
-this
+GraphqlClient
+
 

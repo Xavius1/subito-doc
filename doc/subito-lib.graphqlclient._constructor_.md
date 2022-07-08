@@ -4,7 +4,7 @@
 
 ## GraphqlClient.(constructor)
 
-Constructs a new instance of the `Graphql` class
+Constructs a new instance of the `GraphqlClient` class
 
 <b>Signature:</b>
 

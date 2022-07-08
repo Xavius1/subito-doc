@@ -15,7 +15,7 @@ Library for subito micro services
 |  [Cryptor](./subito-lib.cryptor.md) |  |
 |  [Data](./subito-lib.data.md) |  |
 |  [Datte](./subito-lib.datte.md) | Class to normalize date usage (WIP) |
-|  [GraphqlClient](./subito-lib.graphqlclient.md) |  |
+|  [GraphqlClient](./subito-lib.graphqlclient.md) | Connect to a GraphQL endpoint |
 |  [OpenTelemetry](./subito-lib.opentelemetry.md) | Class used to send trace &amp; metrics to an open telemetry backend (only Jaeger for now) Need to be instanciate before anything else |
 |  [Thrower](./subito-lib.thrower.md) |  |
 |  [Token](./subito-lib.token.md) | Handle tokens auth |
@@ -25,8 +25,8 @@ Library for subito micro services
 
 |  Interface | Description |
 |  --- | --- |
-|  [AuthArgs](./subito-lib.authargs.md) |  |
-|  [GraphqlInterface](./subito-lib.graphqlinterface.md) |  |
+|  [AuthInput](./subito-lib.authinput.md) |  |
+|  [IGraphqlClient](./subito-lib.igraphqlclient.md) |  |
 |  [ILogger](./subito-lib.ilogger.md) |  |
 
 ## Variables

@@ -4,12 +4,15 @@
 
 ## GraphqlClient.refreshAuth() method
 
+Get a new auth token
+
 <b>Signature:</b>
 
 ```typescript
-protected refreshAuth(): Promise<boolean>;
+protected refreshAuth(): Promise<true>;
 ```
 <b>Returns:</b>
 
-Promise&lt;boolean&gt;
+Promise&lt;true&gt;
+
 

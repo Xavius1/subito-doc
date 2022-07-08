@@ -4,6 +4,8 @@
 
 ## GraphqlClient.client property
 
+The graphql client
+
 <b>Signature:</b>
 
 ```typescript

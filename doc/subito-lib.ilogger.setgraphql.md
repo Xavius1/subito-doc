@@ -7,14 +7,14 @@
 <b>Signature:</b>
 
 ```typescript
-setGraphql(gateway: GraphqlInterface): ILogger;
+setGraphql(gateway: IGraphqlClient): ILogger;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  gateway | [GraphqlInterface](./subito-lib.graphqlinterface.md) |  |
+|  gateway | [IGraphqlClient](./subito-lib.igraphqlclient.md) |  |
 
 <b>Returns:</b>
 

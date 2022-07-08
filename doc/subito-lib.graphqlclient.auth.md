@@ -4,10 +4,12 @@
 
 ## GraphqlClient.auth() method
 
+Get an auth token
+
 <b>Signature:</b>
 
 ```typescript
-auth(args: AuthArgs): Promise<{
+auth(input: AuthInput): Promise<{
         success: any;
         auth: any;
     }>;
@@ -17,9 +19,10 @@ auth(args: AuthArgs): Promise<{
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  args | [AuthArgs](./subito-lib.authargs.md) |  |
+|  input | [AuthInput](./subito-lib.authinput.md) | Your credentials |
 
 <b>Returns:</b>
 
 Promise&lt;{ success: any; auth: any; }&gt;
+
 
