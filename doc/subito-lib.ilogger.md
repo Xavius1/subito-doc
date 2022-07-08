@@ -19,5 +19,5 @@ export interface ILogger
 |  [newInfo(message, context)](./subito-lib.ilogger.newinfo.md) |  |
 |  [newWarning(code, message, input, context)](./subito-lib.ilogger.newwarning.md) |  |
 |  [setContext(context)](./subito-lib.ilogger.setcontext.md) |  |
-|  [setGateway(gateway)](./subito-lib.ilogger.setgateway.md) |  |
+|  [setGraphql(gateway)](./subito-lib.ilogger.setgraphql.md) |  |
 

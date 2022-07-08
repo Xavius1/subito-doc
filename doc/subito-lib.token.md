@@ -4,6 +4,8 @@
 
 ## Token class
 
+Handle tokens auth
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,6 +16,6 @@ declare class Token
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [read(token, key)](./subito-lib.token.read.md) | <code>static</code> |  |
-|  [sign(data, subject, expiresIn, key)](./subito-lib.token.sign.md) | <code>static</code> |  |
+|  [read(token, { key, endpoint })](./subito-lib.token.read.md) | <code>static</code> | Decode a token |
+|  [sign(data, subject, expiresIn, key)](./subito-lib.token.sign.md) | <code>static</code> | Sign a new token |
 

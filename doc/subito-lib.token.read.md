@@ -4,20 +4,23 @@
 
 ## Token.read() method
 
+Decode a token
+
 <b>Signature:</b>
 
 ```typescript
-static read(token: string, key?: string): string | jwt.JwtPayload | null;
+static read(token: string, { key, endpoint }?: ReadOptions): jwt.JwtPayload | null;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  token | string |  |
-|  key | string | <i>(Optional)</i> |
+|  token | string | The token to decode |
+|  { key, endpoint } | ReadOptions | <i>(Optional)</i> |
 
 <b>Returns:</b>
 
-string \| jwt.JwtPayload \| null
+jwt.JwtPayload \| null
+
 

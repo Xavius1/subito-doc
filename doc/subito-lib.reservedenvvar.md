@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-export declare type ReservedEnvVar = [('APP_ENV' | 'NODE_ENV' | 'PWD')];
+export declare type ReservedEnvVar = [('APP_ENV' | 'NODE_ENV' | 'FORCE_DEBUG' | 'PWD')];
 ```

@@ -4,6 +4,8 @@
 
 ## Token.sign() method
 
+Sign a new token
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,12 +16,17 @@ static sign(data: Data, subject: string, expiresIn: number, key?: string): strin
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  data | Data |  |
-|  subject | string |  |
-|  expiresIn | number |  |
-|  key | string | <i>(Optional)</i> |
+|  data | Data | Content of your token |
+|  subject | string | Subject |
+|  expiresIn | number | Expressed in seconds or a string describing a time span zeit/ms. [https://github.com/vercel/ms](https://github.com/vercel/ms) |
+|  key | string | <i>(Optional)</i> Secret use to encoded the token |
 
 <b>Returns:</b>
 
 string
+
+
+## Remarks
+
+Security best practice: Create a token that contains the name of the endpoint use to generate it. This way, when you read it, you can verify the endpoint use to execute requests match the one use to created the token. For example, a token created through the internal endpoint should not be used through the client endpoint and vice versa.
 

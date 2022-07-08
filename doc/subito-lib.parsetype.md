@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-export declare type ParseType = 'Array' | 'Bool' | 'Date' | 'Float' | 'Int' | 'secret' | undefined;
+export declare type ParseType = 'Array' | 'Bool' | 'Float' | 'Int' | 'secret' | undefined;
 ```

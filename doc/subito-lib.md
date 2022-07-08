@@ -15,11 +15,10 @@ Library for subito micro services
 |  [Cryptor](./subito-lib.cryptor.md) |  |
 |  [Data](./subito-lib.data.md) |  |
 |  [Datte](./subito-lib.datte.md) | Class to normalize date usage (WIP) |
-|  [Env](./subito-lib.env.md) |  |
-|  [Gateway](./subito-lib.gateway.md) |  |
+|  [GraphqlClient](./subito-lib.graphqlclient.md) |  |
 |  [OpenTelemetry](./subito-lib.opentelemetry.md) | Class used to send trace &amp; metrics to an open telemetry backend (only Jaeger for now) Need to be instanciate before anything else |
 |  [Thrower](./subito-lib.thrower.md) |  |
-|  [Token](./subito-lib.token.md) |  |
+|  [Token](./subito-lib.token.md) | Handle tokens auth |
 |  [Toolbox](./subito-lib.toolbox.md) |  |
 
 ## Interfaces
@@ -27,25 +26,30 @@ Library for subito micro services
 |  Interface | Description |
 |  --- | --- |
 |  [AuthArgs](./subito-lib.authargs.md) |  |
-|  [GatewayInterface](./subito-lib.gatewayinterface.md) |  |
+|  [GraphqlInterface](./subito-lib.graphqlinterface.md) |  |
 |  [ILogger](./subito-lib.ilogger.md) |  |
 
 ## Variables
 
 |  Variable | Description |
 |  --- | --- |
+|  [debugMode](./subito-lib.debugmode.md) |  |
 |  [depreciate](./subito-lib.depreciate.md) |  |
 |  [env](./subito-lib.env.md) |  |
+|  [Env](./subito-lib.env.md) |  |
 |  [Logger](./subito-lib.logger.md) |  |
 
 ## Type Aliases
 
 |  Type Alias | Description |
 |  --- | --- |
+|  [AliasCustomConfig](./subito-lib.aliascustomconfig.md) |  |
 |  [EncryptData](./subito-lib.encryptdata.md) |  |
 |  [EnvConfig](./subito-lib.envconfig.md) |  |
-|  [EnvList](./subito-lib.envlist.md) |  |
-|  [EnvVar](./subito-lib.envvar.md) |  |
+|  [EnvCustomConfig](./subito-lib.envcustomconfig.md) |  |
+|  [EnvRecipe](./subito-lib.envrecipe.md) |  |
+|  [EnvRecipes](./subito-lib.envrecipes.md) |  |
+|  [EnvVars](./subito-lib.envvars.md) |  |
 |  [ParseType](./subito-lib.parsetype.md) |  |
 |  [ReservedEnvVar](./subito-lib.reservedenvvar.md) |  |
 
