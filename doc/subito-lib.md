@@ -56,6 +56,7 @@ Library for subito micro services
 |  [EnvRecipe](./subito-lib.envrecipe.md) |  |
 |  [EnvRecipes](./subito-lib.envrecipes.md) |  |
 |  [EnvVars](./subito-lib.envvars.md) |  |
+|  [GraphqlClientProps](./subito-lib.graphqlclientprops.md) |  |
 |  [ParseType](./subito-lib.parsetype.md) |  |
 |  [ReservedEnvVar](./subito-lib.reservedenvvar.md) |  |
 

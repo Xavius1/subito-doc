@@ -9,18 +9,12 @@ Constructs a new instance of the `GraphqlClient` class
 <b>Signature:</b>
 
 ```typescript
-constructor({ endpoint, headers, }: {
-        endpoint?: any;
-        headers?: {
-            'x-client-name': string;
-            'x-client-version': string;
-        } | undefined;
-    });
+constructor({ endpoint, headers, }: GraphqlClientProps);
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  { endpoint, headers, } | { endpoint?: any; headers?: { 'x-client-name': string; 'x-client-version': string; } \| undefined; } |  |
+|  { endpoint, headers, } | [GraphqlClientProps](./subito-lib.graphqlclientprops.md) |  |
 
