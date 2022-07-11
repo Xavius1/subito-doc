@@ -15,5 +15,5 @@ export declare type EnvConfig = {
     fallback?: string;
 };
 ```
-<b>References:</b> [ParseType](./subito-lib.parsetype.md)
+<b>References:</b> [EnvType](./subito-lib.envtype.md)<!-- -->, [ParseType](./subito-lib.parsetype.md)
 

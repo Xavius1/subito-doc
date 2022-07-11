@@ -21,6 +21,12 @@ Library for subito micro services
 |  [Token](./subito-lib.token.md) | Handle tokens auth |
 |  [Toolbox](./subito-lib.toolbox.md) |  |
 
+## Enumerations
+
+|  Enumeration | Description |
+|  --- | --- |
+|  [EnvType](./subito-lib.envtype.md) |  |
+
 ## Interfaces
 
 |  Interface | Description |

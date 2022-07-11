@@ -27,5 +27,5 @@ export declare type EnvVars = {
     [key: string]: any;
 };
 ```
-<b>References:</b> [EnvRecipes](./subito-lib.envrecipes.md)<!-- -->, [ParseType](./subito-lib.parsetype.md)
+<b>References:</b> [EnvRecipes](./subito-lib.envrecipes.md)<!-- -->, [EnvType](./subito-lib.envtype.md)<!-- -->, [ParseType](./subito-lib.parsetype.md)
 
