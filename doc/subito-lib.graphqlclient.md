@@ -17,13 +17,12 @@ declare class GraphqlClient implements IGraphqlClient
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)({ endpoint, headers, authQuery, })](./subito-lib.graphqlclient._constructor_.md) |  | Constructs a new instance of the <code>GraphqlClient</code> class |
+|  [(constructor)({ endpoint, headers, })](./subito-lib.graphqlclient._constructor_.md) |  | Constructs a new instance of the <code>GraphqlClient</code> class |
 
 ## Properties
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [authQuery](./subito-lib.graphqlclient.authquery.md) | <code>protected</code> | string | Auth query |
 |  [client](./subito-lib.graphqlclient.client.md) | <code>protected</code> | GraphQLClient | The graphql client |
 |  [expirationDate](./subito-lib.graphqlclient.expirationdate.md) | <code>protected</code> | number | The token expiration date |
 |  [input](./subito-lib.graphqlclient.input.md) | <code>protected</code> | [AuthInput](./subito-lib.authinput.md) | The credentials to auth the client |

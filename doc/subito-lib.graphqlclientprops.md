@@ -13,6 +13,5 @@ export declare type GraphqlClientProps = {
         'x-client-name': string;
         'x-client-version': string;
     };
-    authQuery?: string;
 };
 ```
