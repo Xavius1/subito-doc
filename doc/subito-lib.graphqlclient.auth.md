@@ -9,10 +9,7 @@ Get an auth token
 <b>Signature:</b>
 
 ```typescript
-auth(input: AuthInput): Promise<{
-        success: any;
-        auth: any;
-    }>;
+auth(input: AuthInput): Promise<any>;
 ```
 
 ## Parameters
@@ -23,6 +20,6 @@ auth(input: AuthInput): Promise<{
 
 <b>Returns:</b>
 
-Promise&lt;{ success: any; auth: any; }&gt;
+Promise&lt;any&gt;
 
 
