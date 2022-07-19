@@ -8,8 +8,8 @@
 
 ```typescript
 DefaultMutationResolver: (source: string) => {
-    create({ input }: CreateProps, context: AnyObject): Promise<import("../payloads/mutationPayload").TPayload>;
-    update({ input }: UpdateProps, context: AnyObject): Promise<import("../payloads/mutationPayload").TPayload>;
-    delete({ input }: DeleteProps, context: AnyObject): Promise<import("../payloads/mutationPayload").TPayload>;
+    create({ input }: CreateProps, context: AnyObject): Promise<import("../payloads/mutationPayload.js").TPayload>;
+    update({ input }: UpdateProps, context: AnyObject): Promise<import("../payloads/mutationPayload.js").TPayload>;
+    delete({ input }: DeleteProps, context: AnyObject): Promise<import("../payloads/mutationPayload.js").TPayload>;
 }
 ```
