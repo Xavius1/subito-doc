@@ -2031,7 +2031,7 @@
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "constructor({ endpoint, headers, authQuery, }: "
+                  "text": "constructor({ endpoint, headers, }: "
                 },
                 {
                   "kind": "Reference",
@@ -2048,7 +2048,7 @@
               "overloadIndex": 1,
               "parameters": [
                 {
-                  "parameterName": "{ endpoint, headers, authQuery, }",
+                  "parameterName": "{ endpoint, headers, }",
                   "parameterTypeTokenRange": {
                     "startIndex": 1,
                     "endIndex": 2
@@ -2109,35 +2109,6 @@
               ],
               "isOptional": false,
               "name": "auth"
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "subito-lib!GraphqlClient#authQuery:member",
-              "docComment": "/**\n * Auth query\n *\n * @public\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "protected authQuery: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": false,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "authQuery",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": true
             },
             {
               "kind": "Property",
@@ -2568,7 +2539,7 @@
             },
             {
               "kind": "Content",
-              "text": "{\n    endpoint?: string;\n    headers?: {\n        'x-client-name': string;\n        'x-client-version': string;\n    };\n    authQuery?: string;\n}"
+              "text": "{\n    endpoint?: string;\n    headers?: {\n        'x-client-name': string;\n        'x-client-version': string;\n    };\n}"
             },
             {
               "kind": "Content",
