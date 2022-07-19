@@ -16,5 +16,5 @@ export interface ICursor
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [field](./subito-connector-mongodb.icursor.field.md) |  | string |  |
-|  [type](./subito-connector-mongodb.icursor.type.md) |  | [ParseType](./subito-lib.parsetype.md) |  |
+|  [type](./subito-connector-mongodb.icursor.type.md) |  | [ParseType](./subito-lib.parsetype.md) \| 'Date' |  |
 

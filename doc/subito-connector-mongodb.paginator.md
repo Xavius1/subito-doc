@@ -36,7 +36,7 @@ Specs by relayjs [https://relay.dev/graphql/connections.htm](https://relay.dev/g
 |  [order](./subito-connector-mongodb.paginator.order.md) | <code>protected</code> | [PaginatorOrder](./subito-connector-mongodb.paginatororder.md) |  |
 |  [totalPage](./subito-connector-mongodb.paginator.totalpage.md) | <code>protected</code> | number |  |
 |  [totalResults](./subito-connector-mongodb.paginator.totalresults.md) | <code>protected</code> | number |  |
-|  [type](./subito-connector-mongodb.paginator.type.md) | <code>protected</code> | [ParseType](./subito-lib.parsetype.md) |  |
+|  [type](./subito-connector-mongodb.paginator.type.md) | <code>protected</code> | [ParseType](./subito-lib.parsetype.md) \| 'Date' |  |
 |  [value](./subito-connector-mongodb.paginator.value.md) | <code>protected</code> | string \| null |  |
 
 ## Methods

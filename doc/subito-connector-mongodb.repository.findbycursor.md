@@ -10,7 +10,7 @@ Get a list of paginated documents
 
 ```typescript
 findByCursor(input: IPaginatorInput, pipeline: Pipeline): Promise<{
-        edges: import("./Paginator").CursorEdge[];
+        edges: import("./Paginator.js").CursorEdge[];
         pageInfo: {
             hasNextPage: boolean;
             hasPreviousPage: boolean;
@@ -32,6 +32,6 @@ findByCursor(input: IPaginatorInput, pipeline: Pipeline): Promise<{
 
 <b>Returns:</b>
 
-Promise&lt;{ edges: import("./Paginator").[CursorEdge](./subito-connector-mongodb.cursoredge.md)<!-- -->\[\]; pageInfo: { hasNextPage: boolean; hasPreviousPage: boolean; totalPage: number; totalResults: number; currentPage: number; startCursor: any; endCursor: any; }; }&gt;
+Promise&lt;{ edges: import("./Paginator.js").[CursorEdge](./subito-connector-mongodb.cursoredge.md)<!-- -->\[\]; pageInfo: { hasNextPage: boolean; hasPreviousPage: boolean; totalPage: number; totalResults: number; currentPage: number; startCursor: any; endCursor: any; }; }&gt;
 
 

@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-protected type: ParseType;
+protected type: ParseType | 'Date';
 ```
