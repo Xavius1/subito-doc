@@ -9,12 +9,12 @@ Constructs a new instance of the `GraphqlClient` class
 <b>Signature:</b>
 
 ```typescript
-constructor({ endpoint, headers, }: GraphqlClientProps);
+constructor({ endpoint, headers, authQuery, }: GraphqlClientProps);
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  { endpoint, headers, } | [GraphqlClientProps](./subito-lib.graphqlclientprops.md) |  |
+|  { endpoint, headers, authQuery, } | [GraphqlClientProps](./subito-lib.graphqlclientprops.md) |  |
 
