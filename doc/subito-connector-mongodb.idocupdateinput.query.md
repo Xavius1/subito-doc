@@ -33,7 +33,6 @@ query: {
             [key: string]: any;
         };
         $unset?: {
-            _id: never;
             [key: string]: '';
         };
     };

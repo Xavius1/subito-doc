@@ -15,7 +15,7 @@ export interface IDocInput
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [\_id](./subito-connector-mongodb.idocinput._id.md) |  | never |  |
-|  [id](./subito-connector-mongodb.idocinput.id.md) |  | never |  |
+|  [\_id?](./subito-connector-mongodb.idocinput._id.md) |  | never | <i>(Optional)</i> |
+|  [id?](./subito-connector-mongodb.idocinput.id.md) |  | never | <i>(Optional)</i> |
 |  [slug?](./subito-connector-mongodb.idocinput.slug.md) |  | string | <i>(Optional)</i> |
 

@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-_id: never;
+_id?: never;
 ```

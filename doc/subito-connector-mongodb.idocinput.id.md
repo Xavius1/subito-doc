@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-id: never;
+id?: never;
 ```

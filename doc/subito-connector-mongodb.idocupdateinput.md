@@ -16,5 +16,5 @@ export interface IDocUpdateInput
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [id](./subito-connector-mongodb.idocupdateinput.id.md) |  | [MongoIdExt](./subito-connector-mongodb.mongoidext.md) |  |
-|  [query](./subito-connector-mongodb.idocupdateinput.query.md) |  | { $currentDate?: { \[key: string\]: boolean \| { $type: 'timestamp' \| 'date'; }; }; $inc?: { \[key: string\]: number; }; $min?: { \[key: string\]: any; }; $max?: { \[key: string\]: any; }; $mul?: { \[key: string\]: number; }; $rename?: { \[key: string\]: string; }; $set?: [IDocInput](./subito-connector-mongodb.idocinput.md)<!-- -->; $setOnInsert?: { \[key: string\]: any; }; $unset?: { \_id: never; \[key: string\]: ''; }; } |  |
+|  [query](./subito-connector-mongodb.idocupdateinput.query.md) |  | { $currentDate?: { \[key: string\]: boolean \| { $type: 'timestamp' \| 'date'; }; }; $inc?: { \[key: string\]: number; }; $min?: { \[key: string\]: any; }; $max?: { \[key: string\]: any; }; $mul?: { \[key: string\]: number; }; $rename?: { \[key: string\]: string; }; $set?: [IDocInput](./subito-connector-mongodb.idocinput.md)<!-- -->; $setOnInsert?: { \[key: string\]: any; }; $unset?: { \[key: string\]: ''; }; } |  |
 
