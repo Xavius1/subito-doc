@@ -29,6 +29,7 @@ declare abstract class Repository extends MongoDataSource<Document>
 |  [createManyDocs(arr)](./subito-connector-mongodb.repository.createmanydocs.md) |  | Create a list of documents |
 |  [deleteById(id)](./subito-connector-mongodb.repository.deletebyid.md) |  | Delete a document by its ID (soft) |
 |  [deleteManyById(ids)](./subito-connector-mongodb.repository.deletemanybyid.md) |  | Delete a list of document by their IDs (soft) |
+|  [findAll({ sort, order })](./subito-connector-mongodb.repository.findall.md) |  | Get all documents without pagination |
 |  [findByCursor(input, pipeline)](./subito-connector-mongodb.repository.findbycursor.md) |  | Get a list of paginated documents |
 |  [findOneByFields(fields, options)](./subito-connector-mongodb.repository.findonebyfields.md) |  | Find one doc by specifics fields |
 |  [findOneBySlug(slug, options)](./subito-connector-mongodb.repository.findonebyslug.md) |  | Find a doc by its slug |
