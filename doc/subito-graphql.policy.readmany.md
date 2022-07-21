@@ -7,7 +7,7 @@
 <b>Signature:</b>
 
 ```typescript
-readMany(docs: AnyObject[]): (AnyObject | null)[];
+readMany(docs: AnyObject[], keepNull?: true): (AnyObject | null)[];
 ```
 
 ## Parameters
@@ -15,6 +15,7 @@ readMany(docs: AnyObject[]): (AnyObject | null)[];
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  docs | [AnyObject](./subito-graphql.anyobject.md)<!-- -->\[\] |  |
+|  keepNull | true | <i>(Optional)</i> |
 
 <b>Returns:</b>
 
