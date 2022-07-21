@@ -34,6 +34,7 @@ Handle MongoDB connections into Subito micro services
 |  --- | --- |
 |  [CursorEdge](./subito-connector-mongodb.cursoredge.md) |  |
 |  [DocumentResult](./subito-connector-mongodb.documentresult.md) |  |
+|  [GenericCursors](./subito-connector-mongodb.genericcursors.md) |  |
 |  [MatchFilter](./subito-connector-mongodb.matchfilter.md) |  |
 |  [MongoDBLink](./subito-connector-mongodb.mongodblink.md) | MongoDB connection URI without name &amp; params |
 |  [MongoDBName](./subito-connector-mongodb.mongodbname.md) | Name of the database |

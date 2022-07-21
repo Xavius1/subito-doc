@@ -9,14 +9,14 @@ Set a generic cursor
 <b>Signature:</b>
 
 ```typescript
-setGenericCursor(name: GenericCursorEnum): this;
+setGenericCursor(name: GenericCursors): this;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  name | GenericCursorEnum | the name of the cursor |
+|  name | [GenericCursors](./subito-connector-mongodb.genericcursors.md) | the name of the cursor |
 
 <b>Returns:</b>
 
