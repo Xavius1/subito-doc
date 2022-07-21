@@ -37,5 +37,6 @@ declare abstract class Repository extends MongoDataSource<Document>
 |  [hardDeleteById(id)](./subito-connector-mongodb.repository.harddeletebyid.md) |  | Delete a document by its ID (hard) |
 |  [hardDeleteManyById(ids)](./subito-connector-mongodb.repository.harddeletemanybyid.md) |  | Delete a document by its ID (hard) |
 |  [prepareNewDoc(doc)](./subito-connector-mongodb.repository.preparenewdoc.md) |  | Add needed data to the doc before insertion |
+|  [setGenericCursor(name)](./subito-connector-mongodb.repository.setgenericcursor.md) |  | Set a generic cursor |
 |  [updateDoc(input)](./subito-connector-mongodb.repository.updatedoc.md) |  | Update a doc with its id |
 
