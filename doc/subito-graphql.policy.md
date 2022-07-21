@@ -53,7 +53,7 @@ Abac.EntityPolicy.read({ doc });
 |  [delete()](./subito-graphql.policy.delete.md) |  |  |
 |  [hasRole(role)](./subito-graphql.policy.hasrole.md) | <code>protected</code> |  |
 |  [isAdmin()](./subito-graphql.policy.isadmin.md) | <code>protected</code> |  |
-|  [read({ doc })](./subito-graphql.policy.read.md) |  |  |
-|  [readMany({ docs })](./subito-graphql.policy.readmany.md) |  |  |
+|  [read(doc)](./subito-graphql.policy.read.md) |  |  |
+|  [readMany(docs)](./subito-graphql.policy.readmany.md) |  |  |
 |  [update()](./subito-graphql.policy.update.md) |  |  |
 

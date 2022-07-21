@@ -7,16 +7,16 @@
 <b>Signature:</b>
 
 ```typescript
-read({ doc }: AnyObject): any;
+read(doc: AnyObject): AnyObject | null;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  { doc } | [AnyObject](./subito-graphql.anyobject.md) |  |
+|  doc | [AnyObject](./subito-graphql.anyobject.md) |  |
 
 <b>Returns:</b>
 
-any
+[AnyObject](./subito-graphql.anyobject.md) \| null
 
