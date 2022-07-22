@@ -4,6 +4,8 @@
 
 ## Policy.create() method
 
+Check if a doc can be create, then throw if not
+
 <b>Signature:</b>
 
 ```typescript
@@ -12,4 +14,5 @@ create(): boolean;
 <b>Returns:</b>
 
 boolean
+
 

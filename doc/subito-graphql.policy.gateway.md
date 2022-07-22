@@ -4,6 +4,8 @@
 
 ## Policy.gateway property
 
+The current gateway
+
 <b>Signature:</b>
 
 ```typescript

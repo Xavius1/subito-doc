@@ -4,12 +4,19 @@
 
 ## Policy.isAdmin() method
 
+Check if the user is an admin
+
 <b>Signature:</b>
 
 ```typescript
-protected isAdmin(): any;
+protected isAdmin(): boolean;
 ```
 <b>Returns:</b>
 
-any
+boolean
+
+
+## Remarks
+
+Shotcut to hasRole() method
 

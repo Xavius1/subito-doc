@@ -4,6 +4,8 @@
 
 ## Policy.delete() method
 
+Check if a doc can be deleted, then throw if not
+
 <b>Signature:</b>
 
 ```typescript
@@ -12,4 +14,5 @@ delete(): boolean;
 <b>Returns:</b>
 
 boolean
+
 

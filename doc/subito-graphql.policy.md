@@ -42,18 +42,19 @@ Abac.EntityPolicy.read({ doc });
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [gateway](./subito-graphql.policy.gateway.md) | <code>protected</code> | null |  |
-|  [viewer](./subito-graphql.policy.viewer.md) | <code>protected</code> | [AnyObject](./subito-graphql.anyobject.md) \| null |  |
+|  [gateway](./subito-graphql.policy.gateway.md) | <code>protected</code> | null | The current gateway |
+|  [viewer](./subito-graphql.policy.viewer.md) | <code>protected</code> | [AnyObject](./subito-graphql.anyobject.md) \| null | The current viewer |
 
 ## Methods
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [create()](./subito-graphql.policy.create.md) |  |  |
-|  [delete()](./subito-graphql.policy.delete.md) |  |  |
-|  [hasRole(role)](./subito-graphql.policy.hasrole.md) | <code>protected</code> |  |
-|  [isAdmin()](./subito-graphql.policy.isadmin.md) | <code>protected</code> |  |
-|  [read(doc)](./subito-graphql.policy.read.md) |  |  |
-|  [readMany(docs, keepNull)](./subito-graphql.policy.readmany.md) |  |  |
-|  [update()](./subito-graphql.policy.update.md) |  |  |
+|  [create()](./subito-graphql.policy.create.md) |  | Check if a doc can be create, then throw if not |
+|  [delete()](./subito-graphql.policy.delete.md) |  | Check if a doc can be deleted, then throw if not |
+|  [hasRole(role)](./subito-graphql.policy.hasrole.md) | <code>protected</code> | Check if the current user has a role |
+|  [isAdmin()](./subito-graphql.policy.isadmin.md) | <code>protected</code> | Check if the user is an admin |
+|  [read(doc)](./subito-graphql.policy.read.md) |  | Read a doc |
+|  [readMany(docs, keepNull)](./subito-graphql.policy.readmany.md) |  | Read an array of docs |
+|  [readManyByCursor(docs)](./subito-graphql.policy.readmanybycursor.md) |  | Read a list of doc listed by cursor |
+|  [update()](./subito-graphql.policy.update.md) |  | Check if a doc can be updated, then throw if not |
 

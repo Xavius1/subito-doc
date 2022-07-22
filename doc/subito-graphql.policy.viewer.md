@@ -4,6 +4,8 @@
 
 ## Policy.viewer property
 
+The current viewer
+
 <b>Signature:</b>
 
 ```typescript

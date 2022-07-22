@@ -4,6 +4,8 @@
 
 ## Policy.read() method
 
+Read a doc
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,9 +16,10 @@ read(doc: AnyObject): AnyObject | null;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  doc | [AnyObject](./subito-graphql.anyobject.md) |  |
+|  doc | [AnyObject](./subito-graphql.anyobject.md) | the doc to read |
 
 <b>Returns:</b>
 
 [AnyObject](./subito-graphql.anyobject.md) \| null
+
 

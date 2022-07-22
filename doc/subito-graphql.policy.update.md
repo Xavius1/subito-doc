@@ -4,6 +4,8 @@
 
 ## Policy.update() method
 
+Check if a doc can be updated, then throw if not
+
 <b>Signature:</b>
 
 ```typescript
@@ -12,4 +14,5 @@ update(): boolean;
 <b>Returns:</b>
 
 boolean
+
 

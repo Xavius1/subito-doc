@@ -4,19 +4,22 @@
 
 ## Policy.hasRole() method
 
+Check if the current user has a role
+
 <b>Signature:</b>
 
 ```typescript
-protected hasRole(role: string): any;
+protected hasRole(role: string): boolean;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  role | string |  |
+|  role | string | The role to check |
 
 <b>Returns:</b>
 
-any
+boolean
+
 

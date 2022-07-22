@@ -4,6 +4,8 @@
 
 ## Policy.readMany() method
 
+Read an array of docs
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,10 +16,11 @@ readMany(docs: AnyObject[], keepNull?: true): (AnyObject | null)[];
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  docs | [AnyObject](./subito-graphql.anyobject.md)<!-- -->\[\] |  |
-|  keepNull | true | <i>(Optional)</i> |
+|  docs | [AnyObject](./subito-graphql.anyobject.md)<!-- -->\[\] | The docs to read |
+|  keepNull | true | <i>(Optional)</i> If you want to keep a null entry if the doc is not allowed |
 
 <b>Returns:</b>
 
 ([AnyObject](./subito-graphql.anyobject.md) \| null)\[\]
+
 
