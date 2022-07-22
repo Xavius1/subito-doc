@@ -47,5 +47,5 @@ Specs by relayjs [https://relay.dev/graphql/connections.htm](https://relay.dev/g
 |  [getDocCursor(doc)](./subito-connector-mongodb.paginator.getdoccursor.md) |  | Get the cursor value from a doc |
 |  [getPipeline(customPipeline, reverse)](./subito-connector-mongodb.paginator.getpipeline.md) |  | Get the pipeline to use for the aggregation |
 |  [setCursor({ field, type })](./subito-connector-mongodb.paginator.setcursor.md) |  | Set a custom cursor |
-|  [setPageInfo({ total, cursored })](./subito-connector-mongodb.paginator.setpageinfo.md) |  | Define page info from results |
+|  [setPageInfo({ total, cursored, current })](./subito-connector-mongodb.paginator.setpageinfo.md) |  | Define page info from results |
 

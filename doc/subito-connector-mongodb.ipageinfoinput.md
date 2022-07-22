@@ -15,6 +15,7 @@ export interface IPageInfoInput
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
+|  [current](./subito-connector-mongodb.ipageinfoinput.current.md) |  | number |  |
 |  [cursored](./subito-connector-mongodb.ipageinfoinput.cursored.md) |  | number |  |
 |  [total](./subito-connector-mongodb.ipageinfoinput.total.md) |  | number |  |
 

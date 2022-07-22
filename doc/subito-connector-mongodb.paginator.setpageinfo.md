@@ -9,14 +9,14 @@ Define page info from results
 <b>Signature:</b>
 
 ```typescript
-setPageInfo({ total, cursored }: IPageInfoInput): this;
+setPageInfo({ total, cursored, current }: IPageInfoInput): this;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  { total, cursored } | [IPageInfoInput](./subito-connector-mongodb.ipageinfoinput.md) |  |
+|  { total, cursored, current } | [IPageInfoInput](./subito-connector-mongodb.ipageinfoinput.md) |  |
 
 <b>Returns:</b>
 
