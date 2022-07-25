@@ -4,6 +4,8 @@
 
 ## Cryptor class
 
+Handles data encryption into your app
+
 <b>Signature:</b>
 
 ```typescript
@@ -20,6 +22,6 @@ declare class Cryptor
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [decrypt(data)](./subito-lib.cryptor.decrypt.md) |  |  |
-|  [encrypt(data)](./subito-lib.cryptor.encrypt.md) |  |  |
+|  [decrypt(data)](./subito-lib.cryptor.decrypt.md) |  | Decrypt an encrypted data |
+|  [encrypt(data)](./subito-lib.cryptor.encrypt.md) |  | Encrypt a data |
 

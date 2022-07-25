@@ -4,6 +4,7 @@
 
 ## EnvType enum
 
+
 <b>Signature:</b>
 
 ```typescript

@@ -4,6 +4,7 @@
 
 ## EnvRecipes type
 
+
 <b>Signature:</b>
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## Thrower.forbidden() method
 
+Throw a forbidden error
+
 <b>Signature:</b>
 
 ```typescript

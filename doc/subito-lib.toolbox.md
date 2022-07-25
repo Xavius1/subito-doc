@@ -4,6 +4,8 @@
 
 ## Toolbox class
 
+Some usefull tools
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,7 +16,7 @@ declare class Toolbox
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [asyncForEach(array, callback)](./subito-lib.toolbox.asyncforeach.md) | <code>static</code> |  |
-|  [intersection(arr1, arr2)](./subito-lib.toolbox.intersection.md) | <code>static</code> |  |
-|  [replaceJsonKeyPart(obj, target, replacement)](./subito-lib.toolbox.replacejsonkeypart.md) | <code>static</code> |  |
+|  [asyncForEach(array, callback)](./subito-lib.toolbox.asyncforeach.md) | <code>static</code> | Loop an array of async function |
+|  [intersection(arr1, arr2)](./subito-lib.toolbox.intersection.md) | <code>static</code> | Return an intersection of 2 arrays |
+|  [replaceJsonKeyPart(obj, target, replacement)](./subito-lib.toolbox.replacejsonkeypart.md) | <code>static</code> | Replace the key of an object to another one |
 

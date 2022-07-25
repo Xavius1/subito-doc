@@ -4,6 +4,8 @@
 
 ## Checker.isInstanceOf() method
 
+Verify if an object is an instance of a specific type, then throw if not
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,10 +16,11 @@ isInstanceOf(obj: any, instance: any): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  obj | any |  |
-|  instance | any |  |
+|  obj | any | The object to verify |
+|  instance | any | The instance needed |
 
 <b>Returns:</b>
 
 boolean
+
 

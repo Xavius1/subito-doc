@@ -4,6 +4,8 @@
 
 ## Thrower class
 
+Aliases to throw some specifics errors
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,7 +16,7 @@ declare class Thrower
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [forbidden()](./subito-lib.thrower.forbidden.md) | <code>static</code> |  |
-|  [generic(message)](./subito-lib.thrower.generic.md) | <code>static</code> |  |
-|  [unauthorized()](./subito-lib.thrower.unauthorized.md) | <code>static</code> |  |
+|  [forbidden()](./subito-lib.thrower.forbidden.md) | <code>static</code> | Throw a forbidden error |
+|  [generic(message)](./subito-lib.thrower.generic.md) | <code>static</code> | Throw a generic error |
+|  [unauthorized()](./subito-lib.thrower.unauthorized.md) | <code>static</code> | Throw an unauthorized error |
 

@@ -4,6 +4,7 @@
 
 ## EnvConfig type
 
+
 <b>Signature:</b>
 
 ```typescript

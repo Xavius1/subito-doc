@@ -11,16 +11,18 @@ Library for subito micro services
 |  Class | Description |
 |  --- | --- |
 |  [Calculator](./subito-lib.calculator.md) | Class used to make some usual math stuff Like round a number or apply/remove a rate to a price |
-|  [Checker](./subito-lib.checker.md) |  |
-|  [Cryptor](./subito-lib.cryptor.md) |  |
-|  [Data](./subito-lib.data.md) |  |
+|  [Checker](./subito-lib.checker.md) | Some helpers to check your data |
+|  [Cryptor](./subito-lib.cryptor.md) | Handles data encryption into your app |
+|  [Data](./subito-lib.data.md) | Handles some data stuff |
 |  [Datte](./subito-lib.datte.md) | Class to normalize date usage (WIP) |
 |  [GraphqlClient](./subito-lib.graphqlclient.md) | Connect to a GraphQL endpoint |
 |  [OpenTelemetry](./subito-lib.opentelemetry.md) | Class used to send trace &amp; metrics to an open telemetry backend (only Jaeger for now) Need to be instanciate before anything else |
+|  [Repository](./subito-lib.repository.md) | Abstract class repository |
+|  [Service](./subito-lib.service.md) | Abstract class service |
 |  [Subito](./subito-lib.subito.md) | Create a new Subito app |
-|  [Thrower](./subito-lib.thrower.md) |  |
+|  [Thrower](./subito-lib.thrower.md) | Aliases to throw some specifics errors |
 |  [Token](./subito-lib.token.md) | Handle tokens auth |
-|  [Toolbox](./subito-lib.toolbox.md) |  |
+|  [Toolbox](./subito-lib.toolbox.md) | Some usefull tools |
 
 ## Enumerations
 
@@ -34,14 +36,13 @@ Library for subito micro services
 |  --- | --- |
 |  [AuthInput](./subito-lib.authinput.md) |  |
 |  [IGraphqlClient](./subito-lib.igraphqlclient.md) |  |
-|  [ILogger](./subito-lib.ilogger.md) |  |
 
 ## Variables
 
 |  Variable | Description |
 |  --- | --- |
-|  [debugMode](./subito-lib.debugmode.md) |  |
-|  [depreciate](./subito-lib.depreciate.md) |  |
+|  [debugMode](./subito-lib.debugmode.md) | Define the debug mode based on APP\_VALUE &amp; FORCE\_DEBUG values |
+|  [depreciate](./subito-lib.depreciate.md) | Print a depreciated warning to the console |
 |  [env](./subito-lib.env.md) |  |
 |  [Env](./subito-lib.env.md) |  |
 |  [Logger](./subito-lib.logger.md) |  |
@@ -53,14 +54,14 @@ Library for subito micro services
 |  [AliasCustomConfig](./subito-lib.aliascustomconfig.md) |  |
 |  [CommandOption](./subito-lib.commandoption.md) |  |
 |  [Context](./subito-lib.context.md) |  |
-|  [EncryptData](./subito-lib.encryptdata.md) |  |
+|  [EncryptData](./subito-lib.encryptdata.md) | The data object to encrypt |
 |  [EnvConfig](./subito-lib.envconfig.md) |  |
 |  [EnvCustomConfig](./subito-lib.envcustomconfig.md) |  |
 |  [EnvRecipe](./subito-lib.envrecipe.md) |  |
 |  [EnvRecipes](./subito-lib.envrecipes.md) |  |
 |  [EnvVars](./subito-lib.envvars.md) |  |
 |  [GraphqlClientProps](./subito-lib.graphqlclientprops.md) |  |
-|  [ParseType](./subito-lib.parsetype.md) |  |
+|  [ParseType](./subito-lib.parsetype.md) | The parse types |
 |  [ReservedEnvVar](./subito-lib.reservedenvvar.md) |  |
 |  [SubitoInput](./subito-lib.subitoinput.md) |  |
 

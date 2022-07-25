@@ -4,6 +4,8 @@
 
 ## depreciate variable
 
+Print a depreciated warning to the console
+
 <b>Signature:</b>
 
 ```typescript

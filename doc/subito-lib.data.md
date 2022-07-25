@@ -4,6 +4,8 @@
 
 ## Data class
 
+Handles some data stuff
+
 <b>Signature:</b>
 
 ```typescript
@@ -20,7 +22,7 @@ declare class Data
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [NaNtoNull()](./subito-lib.data.nantonull.md) |  |  |
-|  [parseType(type)](./subito-lib.data.parsetype.md) |  |  |
-|  [ucfirst()](./subito-lib.data.ucfirst.md) |  |  |
+|  [NaNtoNull()](./subito-lib.data.nantonull.md) |  | Transform a NaN value to null |
+|  [parseType(type)](./subito-lib.data.parsetype.md) |  | Parse data |
+|  [ucfirst()](./subito-lib.data.ucfirst.md) |  | Uppercase the first character of a string then lowercase the rest of it |
 

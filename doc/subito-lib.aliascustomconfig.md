@@ -4,6 +4,7 @@
 
 ## AliasCustomConfig type
 
+
 <b>Signature:</b>
 
 ```typescript

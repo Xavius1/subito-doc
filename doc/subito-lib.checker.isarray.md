@@ -4,6 +4,8 @@
 
 ## Checker.isArray() method
 
+Verify if the data is an array, then throw if not
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,9 +16,10 @@ isArray(arr: Array<any>): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  arr | Array&lt;any&gt; |  |
+|  arr | Array&lt;any&gt; | The array to verify |
 
 <b>Returns:</b>
 
 boolean
+
 

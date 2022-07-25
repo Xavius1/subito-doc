@@ -4,6 +4,8 @@
 
 ## EncryptData type
 
+The data object to encrypt
+
 <b>Signature:</b>
 
 ```typescript

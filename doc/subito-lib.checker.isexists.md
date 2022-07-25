@@ -4,6 +4,8 @@
 
 ## Checker.isExists() method
 
+Verify if an object is defined, then throw if not
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,10 +16,11 @@ isExists(obj: any, name?: string): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  obj | any |  |
-|  name | string | <i>(Optional)</i> |
+|  obj | any | The object to verify |
+|  name | string | <i>(Optional)</i> Use to trace the name of the object in the error |
 
 <b>Returns:</b>
 
 boolean
+
 

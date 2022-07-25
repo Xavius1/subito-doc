@@ -4,6 +4,8 @@
 
 ## Checker class
 
+Some helpers to check your data
+
 <b>Signature:</b>
 
 ```typescript
@@ -16,14 +18,21 @@ declare class Checker
 |  --- | --- | --- |
 |  [(constructor)(toThrow)](./subito-lib.checker._constructor_.md) |  | Constructs a new instance of the <code>Checker</code> class |
 
+## Properties
+
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [toThrow](./subito-lib.checker.tothrow.md) | <code>protected</code> | boolean |  |
+
 ## Methods
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [isArray(arr)](./subito-lib.checker.isarray.md) |  |  |
-|  [isEquals(obj, value)](./subito-lib.checker.isequals.md) |  |  |
-|  [isExists(obj, name)](./subito-lib.checker.isexists.md) |  |  |
-|  [isIn(arr, value, name)](./subito-lib.checker.isin.md) |  |  |
-|  [isInstanceOf(obj, instance)](./subito-lib.checker.isinstanceof.md) |  |  |
-|  [isNotEmpty(arr)](./subito-lib.checker.isnotempty.md) |  |  |
+|  [isArray(arr)](./subito-lib.checker.isarray.md) |  | Verify if the data is an array, then throw if not |
+|  [isEquals(obj, value)](./subito-lib.checker.isequals.md) |  | Verify if 2 objects are equals, then throw if not |
+|  [isExists(obj, name)](./subito-lib.checker.isexists.md) |  | Verify if an object is defined, then throw if not |
+|  [isIn(arr, value, name)](./subito-lib.checker.isin.md) |  | Verify if a value is in an array, then throw if not |
+|  [isInstanceOf(obj, instance)](./subito-lib.checker.isinstanceof.md) |  | Verify if an object is an instance of a specific type, then throw if not |
+|  [isNotEmpty(arr)](./subito-lib.checker.isnotempty.md) |  | Verify if an array is not empty, then throw if it is |
+|  [send(message)](./subito-lib.checker.send.md) | <code>protected</code> | Throw an error or return false the checker is not instanciated with toThrow option |
 

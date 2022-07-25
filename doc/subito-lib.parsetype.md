@@ -4,6 +4,8 @@
 
 ## ParseType type
 
+The parse types
+
 <b>Signature:</b>
 
 ```typescript

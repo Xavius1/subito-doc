@@ -4,6 +4,8 @@
 
 ## Thrower.unauthorized() method
 
+Throw an unauthorized error
+
 <b>Signature:</b>
 
 ```typescript

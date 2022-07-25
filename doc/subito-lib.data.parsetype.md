@@ -4,6 +4,8 @@
 
 ## Data.parseType() method
 
+Parse data
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,9 +16,10 @@ parseType(type: ParseType): any;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  type | [ParseType](./subito-lib.parsetype.md) |  |
+|  type | [ParseType](./subito-lib.parsetype.md) | The format to parse |
 
 <b>Returns:</b>
 
 any
+
 

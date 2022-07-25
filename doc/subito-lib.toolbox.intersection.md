@@ -4,6 +4,8 @@
 
 ## Toolbox.intersection() method
 
+Return an intersection of 2 arrays
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,10 +16,11 @@ static intersection<T1 = any, T2 = any>(arr1: T1[], arr2: T2[]): any[];
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  arr1 | T1\[\] |  |
-|  arr2 | T2\[\] |  |
+|  arr1 | T1\[\] | The first array |
+|  arr2 | T2\[\] | The second one |
 
 <b>Returns:</b>
 
 any\[\]
+
 

@@ -4,6 +4,8 @@
 
 ## Toolbox.replaceJsonKeyPart() method
 
+Replace the key of an object to another one
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,11 +16,12 @@ static replaceJsonKeyPart(obj: any, target: string, replacement: string): any;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  obj | any |  |
-|  target | string |  |
-|  replacement | string |  |
+|  obj | any | The original object |
+|  target | string | The key to replace |
+|  replacement | string | The new key |
 
 <b>Returns:</b>
 
 any
+
 

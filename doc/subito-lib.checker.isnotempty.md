@@ -4,6 +4,8 @@
 
 ## Checker.isNotEmpty() method
 
+Verify if an array is not empty, then throw if it is
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,9 +16,10 @@ isNotEmpty(arr: any[]): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  arr | any\[\] |  |
+|  arr | any\[\] | The array to verify |
 
 <b>Returns:</b>
 
 boolean
+
 

@@ -4,6 +4,8 @@
 
 ## Checker.isIn() method
 
+Verify if a value is in an array, then throw if not
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,11 +16,12 @@ isIn(arr: any[], value: any, name?: string): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  arr | any\[\] |  |
-|  value | any |  |
-|  name | string | <i>(Optional)</i> |
+|  arr | any\[\] | The array |
+|  value | any | The value needed |
+|  name | string | <i>(Optional)</i> Use to trace in the error |
 
 <b>Returns:</b>
 
 boolean
+
 

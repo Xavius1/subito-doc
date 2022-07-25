@@ -4,6 +4,8 @@
 
 ## Cryptor.encrypt() method
 
+Encrypt a data
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,9 +16,10 @@ encrypt(data: any): EncryptData;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  data | any |  |
+|  data | any | The data to encrypt |
 
 <b>Returns:</b>
 
 [EncryptData](./subito-lib.encryptdata.md)
+
 

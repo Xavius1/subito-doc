@@ -4,6 +4,8 @@
 
 ## Cryptor.decrypt() method
 
+Decrypt an encrypted data
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,9 +16,10 @@ decrypt(data: string): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  data | string |  |
+|  data | string | The encrypted data |
 
 <b>Returns:</b>
 
 string
+
 

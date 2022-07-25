@@ -4,6 +4,8 @@
 
 ## Thrower.generic() method
 
+Throw a generic error
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,7 +16,7 @@ static generic(message: string): never;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  message | string |  |
+|  message | string | The message to print |
 
 <b>Returns:</b>
 

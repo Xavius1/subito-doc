@@ -4,6 +4,8 @@
 
 ## Data.NaNtoNull() method
 
+Transform a NaN value to null
+
 <b>Signature:</b>
 
 ```typescript
@@ -12,4 +14,5 @@ NaNtoNull(): any;
 <b>Returns:</b>
 
 any
+
 

@@ -4,6 +4,8 @@
 
 ## Checker.isEquals() method
 
+Verify if 2 objects are equals, then throw if not
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,10 +16,11 @@ isEquals(obj: any, value: any): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  obj | any |  |
-|  value | any |  |
+|  obj | any | The first object to compare |
+|  value | any | The second one |
 
 <b>Returns:</b>
 
 boolean
+
 

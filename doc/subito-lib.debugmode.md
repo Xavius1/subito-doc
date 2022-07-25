@@ -4,6 +4,8 @@
 
 ## debugMode variable
 
+Define the debug mode based on APP\_VALUE &amp; FORCE\_DEBUG values
+
 <b>Signature:</b>
 
 ```typescript

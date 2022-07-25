@@ -4,6 +4,8 @@
 
 ## Toolbox.asyncForEach() method
 
+Loop an array of async function
+
 <b>Signature:</b>
 
 ```typescript
@@ -14,8 +16,8 @@ static asyncForEach<T = any>(array: T[], callback: Function): Promise<void>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  array | T\[\] |  |
-|  callback | Function |  |
+|  array | T\[\] | The array of async functions |
+|  callback | Function | The callback |
 
 <b>Returns:</b>
 

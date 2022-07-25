@@ -4,6 +4,7 @@
 
 ## IGraphqlClient interface
 
+
 <b>Signature:</b>
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## Data.ucfirst() method
 
+Uppercase the first character of a string then lowercase the rest of it
+
 <b>Signature:</b>
 
 ```typescript
@@ -12,4 +14,5 @@ ucfirst(): any;
 <b>Returns:</b>
 
 any
+
 

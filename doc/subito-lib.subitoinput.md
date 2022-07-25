@@ -4,6 +4,7 @@
 
 ## SubitoInput type
 
+
 <b>Signature:</b>
 
 ```typescript

@@ -4,6 +4,7 @@
 
 ## GraphqlClientProps type
 
+
 <b>Signature:</b>
 
 ```typescript
