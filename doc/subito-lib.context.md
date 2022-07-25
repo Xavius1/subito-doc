@@ -16,5 +16,8 @@ export declare type Context = {
         [key: string]: any;
     };
     debug: boolean;
+    options?: {
+        [key: string]: any;
+    };
 };
 ```

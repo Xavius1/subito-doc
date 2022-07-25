@@ -22,6 +22,5 @@ declare class Subito
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [commandOptions](./subito-lib.subito.commandoptions.md) |  | { \[key: string\]: any; } |  |
 |  [context](./subito-lib.subito.context.md) |  | [Context](./subito-lib.context.md) |  |
 

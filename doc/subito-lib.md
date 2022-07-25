@@ -43,7 +43,6 @@ Library for subito micro services
 |  --- | --- |
 |  [debugMode](./subito-lib.debugmode.md) | Define the debug mode based on APP\_VALUE &amp; FORCE\_DEBUG values |
 |  [depreciate](./subito-lib.depreciate.md) | Print a depreciated warning to the console |
-|  [env](./subito-lib.env.md) |  |
 |  [Env](./subito-lib.env.md) |  |
 |  [Logger](./subito-lib.logger.md) |  |
 
