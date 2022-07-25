@@ -9,8 +9,9 @@ Create a new RabbitMQ repository
 <b>Signature:</b>
 
 ```typescript
-declare class Repository 
+declare class Repository extends Base 
 ```
+<b>Extends:</b> [Base](./subito-lib.repository.md)
 
 ## Constructors
 

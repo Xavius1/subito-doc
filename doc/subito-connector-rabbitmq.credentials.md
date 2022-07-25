@@ -10,7 +10,7 @@ RabbitMQ credentials
 
 ```typescript
 export declare type Credentials = {
-    hosname: string;
+    hostname: string;
     username: string;
     password: string;
 };
