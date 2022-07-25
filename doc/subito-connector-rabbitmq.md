@@ -10,6 +10,7 @@ Handle RabbitMQ connections into Subito micro services
 
 |  Class | Description |
 |  --- | --- |
+|  [ApolloRepository](./subito-connector-rabbitmq.apollorepository.md) | Create a new RabbitMQ repository compitable Apollo data source |
 |  [Channel](./subito-connector-rabbitmq.channel.md) | Create a new RabbitMQ channel |
 |  [Connector](./subito-connector-rabbitmq.connector.md) | Create a new RabbitMQ connection |
 |  [Repository](./subito-connector-rabbitmq.repository.md) | Create a new RabbitMQ repository |
