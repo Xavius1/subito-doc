@@ -4,6 +4,8 @@
 
 ## DefaultPageInfoResolver variable
 
+Create a generic page info resolver
+
 <b>Signature:</b>
 
 ```typescript

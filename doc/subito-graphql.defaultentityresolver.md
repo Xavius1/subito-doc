@@ -4,6 +4,8 @@
 
 ## DefaultEntityResolver variable
 
+Create a generic entity resolver
+
 <b>Signature:</b>
 
 ```typescript

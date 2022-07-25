@@ -4,6 +4,7 @@
 
 ## failPayload variable
 
+Send a failed payload
 
 <b>Signature:</b>
 

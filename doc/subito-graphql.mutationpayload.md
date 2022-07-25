@@ -4,6 +4,8 @@
 
 ## mutationPayload variable
 
+Send a mutation payload
+
 <b>Signature:</b>
 
 ```typescript

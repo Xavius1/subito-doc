@@ -4,6 +4,8 @@
 
 ## successPayload variable
 
+Send a success payload
+
 <b>Signature:</b>
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## DefaultMutationResolver variable
 
+Create a generic mutation resolver
+
 <b>Signature:</b>
 
 ```typescript

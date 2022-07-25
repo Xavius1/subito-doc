@@ -4,6 +4,8 @@
 
 ## DefaultCursorResolver variable
 
+Create a generic cursor resolver
+
 <b>Signature:</b>
 
 ```typescript
