@@ -9,14 +9,16 @@ Publish a new message
 <b>Signature:</b>
 
 ```typescript
-publish(msg: unknown): Promise<boolean | undefined>;
+publish(msg: {
+        [key: string]: any;
+    }): Promise<boolean | undefined>;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  msg | unknown | Message to publish |
+|  msg | { \[key: string\]: any; } | Message to publish |
 
 <b>Returns:</b>
 
