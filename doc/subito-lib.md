@@ -17,6 +17,7 @@ Library for subito micro services
 |  [Datte](./subito-lib.datte.md) | Class to normalize date usage (WIP) |
 |  [GraphqlClient](./subito-lib.graphqlclient.md) | Connect to a GraphQL endpoint |
 |  [OpenTelemetry](./subito-lib.opentelemetry.md) | Class used to send trace &amp; metrics to an open telemetry backend (only Jaeger for now) Need to be instanciate before anything else |
+|  [Subito](./subito-lib.subito.md) | Create a new Subito app |
 |  [Thrower](./subito-lib.thrower.md) |  |
 |  [Token](./subito-lib.token.md) | Handle tokens auth |
 |  [Toolbox](./subito-lib.toolbox.md) |  |
@@ -50,6 +51,8 @@ Library for subito micro services
 |  Type Alias | Description |
 |  --- | --- |
 |  [AliasCustomConfig](./subito-lib.aliascustomconfig.md) |  |
+|  [CommandOption](./subito-lib.commandoption.md) |  |
+|  [Context](./subito-lib.context.md) |  |
 |  [EncryptData](./subito-lib.encryptdata.md) |  |
 |  [EnvConfig](./subito-lib.envconfig.md) |  |
 |  [EnvCustomConfig](./subito-lib.envcustomconfig.md) |  |
@@ -59,4 +62,5 @@ Library for subito micro services
 |  [GraphqlClientProps](./subito-lib.graphqlclientprops.md) |  |
 |  [ParseType](./subito-lib.parsetype.md) |  |
 |  [ReservedEnvVar](./subito-lib.reservedenvvar.md) |  |
+|  [SubitoInput](./subito-lib.subitoinput.md) |  |
 
