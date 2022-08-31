@@ -22,7 +22,7 @@ readManyByCursor(docs: ReadManyByCursorInput): {
             currentPage: number;
             startCursor: string;
             endCursor: string;
-        };
+        } | null;
     };
 ```
 
@@ -34,6 +34,6 @@ readManyByCursor(docs: ReadManyByCursorInput): {
 
 <b>Returns:</b>
 
-{ edges: { cursor: string; node: [AnyObject](./subito-graphql.anyobject.md) \| null; }\[\]; pageInfo: { hasNextPage: boolean; hasPreviousPage: boolean; totalPage: number; totalResults: number; currentPage: number; startCursor: string; endCursor: string; }; }
+{ edges: { cursor: string; node: [AnyObject](./subito-graphql.anyobject.md) \| null; }\[\]; pageInfo: { hasNextPage: boolean; hasPreviousPage: boolean; totalPage: number; totalResults: number; currentPage: number; startCursor: string; endCursor: string; } \| null; }
 
 

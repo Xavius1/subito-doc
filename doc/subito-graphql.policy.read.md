@@ -9,14 +9,14 @@ Read a doc
 <b>Signature:</b>
 
 ```typescript
-read(doc: AnyObject): AnyObject | null;
+read(doc: AnyObject | null): AnyObject | null;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  doc | [AnyObject](./subito-graphql.anyobject.md) | the doc to read |
+|  doc | [AnyObject](./subito-graphql.anyobject.md) \| null | the doc to read |
 
 <b>Returns:</b>
 
