@@ -9,6 +9,7 @@
 |  Package | Description |
 |  --- | --- |
 |  [subito-connector-mongodb](./subito-connector-mongodb.md) | Handle MongoDB connections into Subito micro services |
+|  [subito-connector-mysql](./subito-connector-mysql.md) | Handle MySQL connections into Subito micro services |
 |  [subito-connector-rabbitmq](./subito-connector-rabbitmq.md) | Handle RabbitMQ connections into Subito micro services |
 |  [subito-graphql](./subito-graphql.md) | Library for subito micro services using GraphQL interface |
 |  [subito-lib](./subito-lib.md) | Library for subito micro services |
