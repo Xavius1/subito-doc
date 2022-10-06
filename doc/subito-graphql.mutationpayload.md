@@ -4,6 +4,11 @@
 
 ## mutationPayload variable
 
+> Warning: This API is now obsolete.
+> 
+> Use the new [payload](./subito-graphql.payload.md) instead
+> 
+
 Send a mutation payload
 
 <b>Signature:</b>

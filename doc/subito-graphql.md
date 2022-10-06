@@ -26,7 +26,9 @@ Library for subito micro services using GraphQL interface
 |  [DefaultPageInfoResolver](./subito-graphql.defaultpageinforesolver.md) | Create a generic page info resolver |
 |  [DefaultQueryResolver](./subito-graphql.defaultqueryresolver.md) | <p>Define default query resolvers</p><p>Can be use as is or extended in a custom resolver</p> |
 |  [failPayload](./subito-graphql.failpayload.md) | Send a failed payload |
+|  [message](./subito-graphql.message.md) | List of http message |
 |  [mutationPayload](./subito-graphql.mutationpayload.md) | Send a mutation payload |
+|  [payload](./subito-graphql.payload.md) | Send a success payload |
 |  [successPayload](./subito-graphql.successpayload.md) | Send a success payload |
 
 ## Type Aliases
@@ -34,4 +36,8 @@ Library for subito micro services using GraphQL interface
 |  Type Alias | Description |
 |  --- | --- |
 |  [AnyObject](./subito-graphql.anyobject.md) |  |
+|  [Code](./subito-graphql.code.md) |  |
+|  [Message](./subito-graphql.message.md) |  |
+|  [PayloadInput](./subito-graphql.payloadinput.md) |  |
+|  [PayloadResponse](./subito-graphql.payloadresponse.md) |  |
 

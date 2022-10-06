@@ -10,8 +10,8 @@ Create a generic mutation resolver
 
 ```typescript
 DefaultMutationResolver: (source: string) => {
-    create({ input }: CreateProps, context: AnyObject): Promise<import("../payloads/mutationPayload.js").TPayload>;
-    update({ input }: UpdateProps, context: AnyObject): Promise<import("../payloads/mutationPayload.js").TPayload>;
-    delete({ input }: DeleteProps, context: AnyObject): Promise<import("../payloads/mutationPayload.js").TPayload>;
+    create({ input }: CreateProps, context: AnyObject): Promise<import("..").PayloadResponse>;
+    update({ input }: UpdateProps, context: AnyObject): Promise<import("..").PayloadResponse>;
+    delete({ input }: DeleteProps, context: AnyObject): Promise<import("..").PayloadResponse>;
 }
 ```

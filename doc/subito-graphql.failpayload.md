@@ -4,6 +4,11 @@
 
 ## failPayload variable
 
+> Warning: This API is now obsolete.
+> 
+> Use the new [payload](./subito-graphql.payload.md) instead
+> 
+
 Send a failed payload
 
 <b>Signature:</b>
