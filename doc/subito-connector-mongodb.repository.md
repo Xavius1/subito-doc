@@ -32,6 +32,7 @@ declare abstract class Repository extends MongoDataSource<Document>
 |  [findAll({ sort, order })](./subito-connector-mongodb.repository.findall.md) |  | Get all documents without pagination |
 |  [findByCursor(input, pipeline)](./subito-connector-mongodb.repository.findbycursor.md) |  | Get a list of paginated documents |
 |  [findOneByFields(fields, options)](./subito-connector-mongodb.repository.findonebyfields.md) |  | Find one doc by specifics fields |
+|  [findOneByIdOrThrow(id)](./subito-connector-mongodb.repository.findonebyidorthrow.md) |  | Find one doc by id or throw error if doc is not found |
 |  [findOneBySlug(slug, options)](./subito-connector-mongodb.repository.findonebyslug.md) |  | Find a doc by its slug |
 |  [getDate()](./subito-connector-mongodb.repository.getdate.md) |  | Get the current date using Datte class from subito-lib |
 |  [hardDeleteById(id)](./subito-connector-mongodb.repository.harddeletebyid.md) |  | Delete a document by its ID (hard) |
