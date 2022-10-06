@@ -958,6 +958,33 @@
             },
             {
               "kind": "PropertySignature",
+              "canonicalReference": "subito-connector-mongodb!IDocUpdateInput#params:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "params?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "{\n        arrayFilters: {\n            [key: string]: any;\n        }[];\n    }"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "params",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
               "canonicalReference": "subito-connector-mongodb!IDocUpdateInput#query:member",
               "docComment": "",
               "excerptTokens": [
@@ -967,7 +994,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "{\n        $currentDate?: {\n            [key: string]: boolean | {\n                $type: 'timestamp' | 'date';\n            };\n        };\n        $inc?: {\n            [key: string]: number;\n        };\n        $min?: {\n            [key: string]: any;\n        };\n        $max?: {\n            [key: string]: any;\n        };\n        $mul?: {\n            [key: string]: number;\n        };\n        $rename?: {\n            [key: string]: string;\n        };\n        $set?: "
+                  "text": "{\n        $currentDate?: {\n            [key: string]: boolean | {\n                $type: 'timestamp' | 'date';\n            };\n        };\n        $inc?: {\n            [key: string]: number;\n        };\n        $min?: {\n            [key: string]: any;\n        };\n        $max?: {\n            [key: string]: any;\n        };\n        $mul?: {\n            [key: string]: number;\n        };\n        $push?: {\n            [key: string]: any;\n        };\n        $rename?: {\n            [key: string]: string;\n        };\n        $set?: "
                 },
                 {
                   "kind": "Reference",
@@ -2998,6 +3025,68 @@
               ],
               "isOptional": false,
               "name": "findOneByFields"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "subito-connector-mongodb!Repository#findOneByIdOrThrow:member(1)",
+              "docComment": "/**\n * Find one doc by id or throw error if doc is not found\n *\n * @param id - The doc id\n *\n * @returns \n *\n * @public\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "findOneByIdOrThrow(id: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "MongoIdStr",
+                  "canonicalReference": "subito-connector-mongodb!MongoIdStr:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Document",
+                  "canonicalReference": "bson!Document:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "id",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "findOneByIdOrThrow"
             },
             {
               "kind": "Method",
