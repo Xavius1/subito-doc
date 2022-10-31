@@ -45,6 +45,7 @@ Library for subito micro services
 |  [depreciate](./subito-lib.depreciate.md) | Print a depreciated warning to the console |
 |  [Env](./subito-lib.env.md) |  |
 |  [Logger](./subito-lib.logger.md) |  |
+|  [sleep](./subito-lib.sleep.md) | Sleep your execution |
 
 ## Type Aliases
 
