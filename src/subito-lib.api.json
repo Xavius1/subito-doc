@@ -3066,6 +3066,37 @@
           "implementsTokenRanges": []
         },
         {
+          "kind": "Variable",
+          "canonicalReference": "subito-lib!sleep:var",
+          "docComment": "/**\n * Sleep your execution\n *\n * @param delay - Your delay in ms\n *\n * @returns \n *\n * @public\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "sleep: "
+            },
+            {
+              "kind": "Content",
+              "text": "(delay: number) => "
+            },
+            {
+              "kind": "Reference",
+              "text": "Promise",
+              "canonicalReference": "!Promise:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "<unknown>"
+            }
+          ],
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "sleep",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 4
+          }
+        },
+        {
           "kind": "Class",
           "canonicalReference": "subito-lib!Subito:class",
           "docComment": "/**\n * Create a new Subito app\n *\n * @public\n */\n",
