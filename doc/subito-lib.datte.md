@@ -24,6 +24,7 @@ declare class Datte
 |  --- | --- | --- | --- |
 |  [locale](./subito-lib.datte.locale.md) | <code>protected</code> | string \| null |  |
 |  [tz](./subito-lib.datte.tz.md) | <code>protected</code> | string |  |
+|  [unix](./subito-lib.datte.unix.md) | <code>protected</code> | RegExp |  |
 |  [utc](./subito-lib.datte.utc.md) |  | Moment |  |
 
 ## Methods
