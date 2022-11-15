@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-before: string;
+before?: string;
 ```

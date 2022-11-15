@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-last: number;
+last?: number;
 ```
