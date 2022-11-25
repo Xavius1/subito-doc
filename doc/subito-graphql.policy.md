@@ -42,6 +42,7 @@ Abac.EntityPolicy.read({ doc });
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
+|  [context](./subito-graphql.policy.context.md) | <code>protected</code> | unknown | The current context |
 |  [gateway](./subito-graphql.policy.gateway.md) | <code>protected</code> | null | The current gateway |
 |  [viewer](./subito-graphql.policy.viewer.md) | <code>protected</code> | [AnyObject](./subito-graphql.anyobject.md) \| null | The current viewer |
 
