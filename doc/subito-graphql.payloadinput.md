@@ -8,7 +8,7 @@
 <b>Signature:</b>
 
 ```typescript
-export declare type PayloadInput = {
+export type PayloadInput = {
     message?: string;
     data?: any;
     code?: number;

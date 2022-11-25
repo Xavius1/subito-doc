@@ -8,7 +8,7 @@
 <b>Signature:</b>
 
 ```typescript
-export declare type PayloadResponse = {
+export type PayloadResponse = {
     message: string;
     success: boolean;
     code: number;

@@ -8,7 +8,7 @@
 <b>Signature:</b>
 
 ```typescript
-export declare type AnyObject = {
+export type AnyObject = {
     [key: string]: any;
 };
 ```
