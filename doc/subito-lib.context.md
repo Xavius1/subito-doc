@@ -8,7 +8,7 @@
 <b>Signature:</b>
 
 ```typescript
-export declare type Context = {
+export type Context = {
     dataSources: {
         [key: string]: any;
     };

@@ -8,7 +8,7 @@
 <b>Signature:</b>
 
 ```typescript
-export declare type EnvConfig = {
+export type EnvConfig = {
     allow?: any[];
     type: EnvType;
     parseType?: ParseType;

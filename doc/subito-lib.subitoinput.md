@@ -8,7 +8,7 @@
 <b>Signature:</b>
 
 ```typescript
-export declare type SubitoInput = {
+export type SubitoInput = {
     dataSources?: {
         [key: string]: any;
     };

@@ -9,7 +9,7 @@ The data object to encrypt
 <b>Signature:</b>
 
 ```typescript
-export declare type EncryptData = {
+export type EncryptData = {
     data: string;
     api: string;
 };

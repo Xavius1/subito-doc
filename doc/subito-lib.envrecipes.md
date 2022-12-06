@@ -8,7 +8,7 @@
 <b>Signature:</b>
 
 ```typescript
-export declare type EnvRecipes = EnvRecipe[];
+export type EnvRecipes = EnvRecipe[];
 ```
 <b>References:</b> [EnvRecipe](./subito-lib.envrecipe.md)
 

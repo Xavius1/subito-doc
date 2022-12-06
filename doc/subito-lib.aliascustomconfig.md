@@ -8,7 +8,7 @@
 <b>Signature:</b>
 
 ```typescript
-export declare type AliasCustomConfig = {
+export type AliasCustomConfig = {
     allow?: any[];
     defaultValue: any;
     fallback?: string;

@@ -8,7 +8,7 @@
 <b>Signature:</b>
 
 ```typescript
-export declare type EnvVars = {
+export type EnvVars = {
     _recipes: EnvRecipes;
     _defaultValues: {
         [key: string]: any;

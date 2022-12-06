@@ -8,7 +8,7 @@
 <b>Signature:</b>
 
 ```typescript
-export declare type CommandOption = {
+export type CommandOption = {
     name: string;
     type: string;
     short?: string | undefined;

@@ -9,5 +9,5 @@ The parse types
 <b>Signature:</b>
 
 ```typescript
-export declare type ParseType = 'Array' | 'Bool' | 'Float' | 'Int' | 'secret' | undefined;
+export type ParseType = 'Array' | 'Bool' | 'Float' | 'Int' | 'secret' | undefined;
 ```

@@ -8,5 +8,5 @@
 <b>Signature:</b>
 
 ```typescript
-export declare type ReservedEnvVar = [('APP_ENV' | 'NODE_ENV' | 'FORCE_DEBUG' | 'PWD')];
+export type ReservedEnvVar = [('APP_ENV' | 'NODE_ENV' | 'FORCE_DEBUG' | 'PWD')];
 ```

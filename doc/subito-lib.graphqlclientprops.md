@@ -8,7 +8,7 @@
 <b>Signature:</b>
 
 ```typescript
-export declare type GraphqlClientProps = {
+export type GraphqlClientProps = {
     endpoint?: string;
     headers?: {
         'x-client-name': string;
