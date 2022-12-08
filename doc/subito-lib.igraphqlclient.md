@@ -19,4 +19,5 @@ export interface IGraphqlClient
 |  [execute](./subito-lib.igraphqlclient.execute.md) |  | Function |  |
 |  [getClientName](./subito-lib.igraphqlclient.getclientname.md) |  | Function |  |
 |  [setCustomHeaders](./subito-lib.igraphqlclient.setcustomheaders.md) |  | Function |  |
+|  [setViewerToken](./subito-lib.igraphqlclient.setviewertoken.md) |  | Function |  |
 
