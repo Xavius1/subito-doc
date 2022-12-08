@@ -25,6 +25,7 @@ Library for subito micro services using GraphQL interface
 |  [DefaultMutationResolver](./subito-graphql.defaultmutationresolver.md) | Create a generic mutation resolver |
 |  [DefaultPageInfoResolver](./subito-graphql.defaultpageinforesolver.md) | Create a generic page info resolver |
 |  [DefaultQueryResolver](./subito-graphql.defaultqueryresolver.md) | <p>Define default query resolvers</p><p>Can be use as is or extended in a custom resolver</p> |
+|  [env](./subito-graphql.env.md) |  |
 |  [failPayload](./subito-graphql.failpayload.md) | Send a failed payload |
 |  [message](./subito-graphql.message.md) | List of http message |
 |  [mutationPayload](./subito-graphql.mutationpayload.md) | Send a mutation payload |
