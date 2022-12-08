@@ -9,7 +9,16 @@ Decode a token
 <b>Signature:</b>
 
 ```typescript
-static read(token: string, { key, endpoint }?: ReadOptions): jwt.JwtPayload | null;
+static read(token: string, { key, endpoint }?: ReadOptions): {
+        token: string;
+        iss?: string | undefined;
+        sub?: string | undefined;
+        aud?: string | string[] | undefined;
+        exp?: number | undefined;
+        nbf?: number | undefined;
+        iat?: number | undefined;
+        jti?: string | undefined;
+    } | null;
 ```
 
 ## Parameters
@@ -21,6 +30,6 @@ static read(token: string, { key, endpoint }?: ReadOptions): jwt.JwtPayload | nu
 
 <b>Returns:</b>
 
-jwt.JwtPayload \| null
+{ token: string; iss?: string \| undefined; sub?: string \| undefined; aud?: string \| string\[\] \| undefined; exp?: number \| undefined; nbf?: number \| undefined; iat?: number \| undefined; jti?: string \| undefined; } \| null
 
 
