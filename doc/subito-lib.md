@@ -30,6 +30,12 @@ Library for subito micro services
 |  --- | --- |
 |  [EnvType](./subito-lib.envtype.md) |  |
 
+## Functions
+
+|  Function | Description |
+|  --- | --- |
+|  [shuffle(items)](./subito-lib.shuffle.md) | Suffle the items of an array |
+
 ## Interfaces
 
 |  Interface | Description |
@@ -41,6 +47,7 @@ Library for subito micro services
 
 |  Variable | Description |
 |  --- | --- |
+|  [codeGenerator](./subito-lib.codegenerator.md) | Generate a random code |
 |  [debugMode](./subito-lib.debugmode.md) | Define the debug mode based on APP\_VALUE &amp; FORCE\_DEBUG values |
 |  [depreciate](./subito-lib.depreciate.md) | Print a depreciated warning to the console |
 |  [Env](./subito-lib.env.md) |  |
@@ -52,6 +59,7 @@ Library for subito micro services
 |  Type Alias | Description |
 |  --- | --- |
 |  [AliasCustomConfig](./subito-lib.aliascustomconfig.md) |  |
+|  [CodeGeneratorInput](./subito-lib.codegeneratorinput.md) |  |
 |  [CommandOption](./subito-lib.commandoption.md) |  |
 |  [Context](./subito-lib.context.md) |  |
 |  [EncryptData](./subito-lib.encryptdata.md) | The data object to encrypt |
