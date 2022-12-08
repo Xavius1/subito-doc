@@ -9,9 +9,10 @@ Constructs a new instance of the `Policy` class
 <b>Signature:</b>
 
 ```typescript
-constructor({ viewer, gateway }: {
+constructor({ viewer, gateway, app }: {
         viewer: any;
         gateway: any;
+        app: any;
     });
 ```
 
@@ -19,5 +20,5 @@ constructor({ viewer, gateway }: {
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  { viewer, gateway } | { viewer: any; gateway: any; } |  |
+|  { viewer, gateway, app } | { viewer: any; gateway: any; app: any; } |  |
 

@@ -36,7 +36,7 @@ Abac.EntityPolicy.read({ doc });
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)({ viewer, gateway })](./subito-graphql.policy._constructor_.md) |  | Constructs a new instance of the <code>Policy</code> class |
+|  [(constructor)({ viewer, gateway, app })](./subito-graphql.policy._constructor_.md) |  | Constructs a new instance of the <code>Policy</code> class |
 
 ## Properties
 
@@ -44,6 +44,7 @@ Abac.EntityPolicy.read({ doc });
 |  --- | --- | --- | --- |
 |  [context](./subito-graphql.policy.context.md) | <code>protected</code> | unknown | The current context |
 |  [gateway](./subito-graphql.policy.gateway.md) | <code>protected</code> | null | The current gateway |
+|  [proxy](./subito-graphql.policy.proxy.md) | <code>protected</code> | [AnyObject](./subito-graphql.anyobject.md) \| null | The proxy |
 |  [viewer](./subito-graphql.policy.viewer.md) | <code>protected</code> | [AnyObject](./subito-graphql.anyobject.md) \| null | The current viewer |
 
 ## Methods
@@ -54,6 +55,7 @@ Abac.EntityPolicy.read({ doc });
 |  [delete()](./subito-graphql.policy.delete.md) |  | Check if a doc can be deleted, then throw if not |
 |  [hasRole(role)](./subito-graphql.policy.hasrole.md) | <code>protected</code> | Check if the current user has a role |
 |  [isAdmin()](./subito-graphql.policy.isadmin.md) | <code>protected</code> | Check if the user is an admin |
+|  [isProxy()](./subito-graphql.policy.isproxy.md) | <code>protected</code> | Is the call done by a proxy ? |
 |  [read(doc)](./subito-graphql.policy.read.md) |  | Read a doc |
 |  [readMany(docs, keepNull)](./subito-graphql.policy.readmany.md) |  | Read an array of docs |
 |  [readManyByCursor(docs)](./subito-graphql.policy.readmanybycursor.md) |  | Read a list of doc listed by cursor |
