@@ -9,5 +9,5 @@ Classic MongoDB ID
 <b>Signature:</b>
 
 ```typescript
-export declare type MongoId = ObjectId;
+export type MongoId = ObjectId;
 ```

@@ -8,5 +8,5 @@
 <b>Signature:</b>
 
 ```typescript
-export declare type PaginatorOrder = 'ASC' | 'DESC';
+export type PaginatorOrder = 'ASC' | 'DESC';
 ```

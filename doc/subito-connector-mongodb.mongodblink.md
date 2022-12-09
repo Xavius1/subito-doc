@@ -9,7 +9,7 @@ MongoDB connection URI without name &amp; params
 <b>Signature:</b>
 
 ```typescript
-export declare type MongoDBLink = string;
+export type MongoDBLink = string;
 ```
 
 ## Example

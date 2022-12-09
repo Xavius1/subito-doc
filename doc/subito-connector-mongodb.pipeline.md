@@ -8,7 +8,7 @@
 <b>Signature:</b>
 
 ```typescript
-export declare type Pipeline = ({
+export type Pipeline = ({
     [key: string]: any;
 })[];
 ```

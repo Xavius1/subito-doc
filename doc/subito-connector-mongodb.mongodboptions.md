@@ -9,7 +9,7 @@ Connection options
 <b>Signature:</b>
 
 ```typescript
-export declare type MongoDBOptions = {
+export type MongoDBOptions = {
     [key: string]: (string | number | boolean);
 };
 ```

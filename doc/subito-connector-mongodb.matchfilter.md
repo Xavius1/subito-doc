@@ -8,7 +8,7 @@
 <b>Signature:</b>
 
 ```typescript
-export declare type MatchFilter = {
+export type MatchFilter = {
     operator: ('STRICT_WORD' | 'CONTAINS_WORD' | 'CONTAINS_PART');
     value: (string | number);
 };

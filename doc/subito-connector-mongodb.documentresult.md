@@ -8,5 +8,5 @@
 <b>Signature:</b>
 
 ```typescript
-export declare type DocumentResult = Document | null | undefined;
+export type DocumentResult = Document | null | undefined;
 ```

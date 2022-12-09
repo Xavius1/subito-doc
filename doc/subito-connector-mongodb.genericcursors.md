@@ -4,8 +4,9 @@
 
 ## GenericCursors type
 
+
 <b>Signature:</b>
 
 ```typescript
-export declare type GenericCursors = 'ID' | 'CREATION_DATE' | 'DELETION_DATE' | 'SLUG';
+export type GenericCursors = 'ID' | 'CREATION_DATE' | 'DELETION_DATE' | 'SLUG';
 ```

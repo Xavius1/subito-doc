@@ -9,5 +9,5 @@ Name of the database
 <b>Signature:</b>
 
 ```typescript
-export declare type MongoDBName = string;
+export type MongoDBName = string;
 ```

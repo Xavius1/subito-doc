@@ -8,7 +8,7 @@
 <b>Signature:</b>
 
 ```typescript
-export declare type CursorEdge = {
+export type CursorEdge = {
     cursor: string;
     node: Document;
 };

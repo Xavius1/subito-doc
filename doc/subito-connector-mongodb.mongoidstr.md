@@ -9,5 +9,5 @@ MongoDB only string ID
 <b>Signature:</b>
 
 ```typescript
-export declare type MongoIdStr = string;
+export type MongoIdStr = string;
 ```

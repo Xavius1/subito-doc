@@ -9,7 +9,7 @@ Connection params
 <b>Signature:</b>
 
 ```typescript
-export declare type MongoDBParams = {
+export type MongoDBParams = {
     [key: string]: (string | number | boolean);
 };
 ```

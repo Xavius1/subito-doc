@@ -9,5 +9,5 @@ MongoDB can be an ObjectID or a string
 <b>Signature:</b>
 
 ```typescript
-export declare type MongoIdExt = ObjectId | string;
+export type MongoIdExt = ObjectId | string;
 ```
