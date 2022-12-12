@@ -9,5 +9,5 @@ Generate a random code
 <b>Signature:</b>
 
 ```typescript
-codeGenerator: (input?: CodeGeneratorInput) => string
+codeGenerator: (input?: CodeGeneratorInput) => string | number
 ```
