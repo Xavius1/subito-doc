@@ -9,7 +9,7 @@ Read a list of doc listed by cursor
 <b>Signature:</b>
 
 ```typescript
-readManyByCursor(docs: ReadManyByCursorInput): {
+readManyByCursor(docs: ReadManyByCursorInput, { keepIfNull }?: ReadManyByCursorOptions): {
         edges: {
             cursor: string;
             node: AnyObject | null;
@@ -31,6 +31,7 @@ readManyByCursor(docs: ReadManyByCursorInput): {
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  docs | ReadManyByCursorInput | The list of docs |
+|  { keepIfNull } | ReadManyByCursorOptions | <i>(Optional)</i> |
 
 <b>Returns:</b>
 
