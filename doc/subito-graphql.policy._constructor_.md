@@ -9,16 +9,12 @@ Constructs a new instance of the `Policy` class
 <b>Signature:</b>
 
 ```typescript
-constructor({ viewer, gateway, app }: {
-        viewer: any;
-        gateway: any;
-        app: any;
-    });
+constructor(context: any);
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  { viewer, gateway, app } | { viewer: any; gateway: any; app: any; } |  |
+|  context | any |  |
 

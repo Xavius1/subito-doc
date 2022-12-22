@@ -36,7 +36,7 @@ Abac.EntityPolicy.read({ doc });
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)({ viewer, gateway, app })](./subito-graphql.policy._constructor_.md) |  | Constructs a new instance of the <code>Policy</code> class |
+|  [(constructor)(context)](./subito-graphql.policy._constructor_.md) |  | Constructs a new instance of the <code>Policy</code> class |
 
 ## Properties
 
