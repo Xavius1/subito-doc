@@ -51,12 +51,14 @@ Abac.EntityPolicy.read({ doc });
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
+|  [cant(dontThrow)](./subito-graphql.policy.cant.md) |  | To call when policy cant auth the action |
 |  [create()](./subito-graphql.policy.create.md) |  | Check if a doc can be create, then throw if not |
 |  [delete()](./subito-graphql.policy.delete.md) |  | Check if a doc can be deleted, then throw if not |
 |  [hasRole(role)](./subito-graphql.policy.hasrole.md) | <code>protected</code> | Check if the current user has a role |
 |  [isAdmin()](./subito-graphql.policy.isadmin.md) | <code>protected</code> | Check if the user is an admin |
 |  [isAuth()](./subito-graphql.policy.isauth.md) | <code>protected</code> | Check if the user is auth |
-|  [isProxy()](./subito-graphql.policy.isproxy.md) | <code>protected</code> | Is the call done by a proxy ? |
+|  [isGuest()](./subito-graphql.policy.isguest.md) | <code>protected</code> | Check if the user is a guest |
+|  [isProxy(id)](./subito-graphql.policy.isproxy.md) | <code>protected</code> | Is the call done by a proxy ? |
 |  [read(doc)](./subito-graphql.policy.read.md) |  | Read a doc |
 |  [readMany(docs, keepNull)](./subito-graphql.policy.readmany.md) |  | Read an array of docs |
 |  [readManyByCursor(docs, { keepIfNull })](./subito-graphql.policy.readmanybycursor.md) |  | Read a list of doc listed by cursor |

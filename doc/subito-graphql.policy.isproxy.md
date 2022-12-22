@@ -9,8 +9,15 @@ Is the call done by a proxy ?
 <b>Signature:</b>
 
 ```typescript
-protected isProxy(): boolean;
+protected isProxy(id?: string): boolean;
 ```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  id | string | <i>(Optional)</i> To check a specific proxy |
+
 <b>Returns:</b>
 
 boolean
