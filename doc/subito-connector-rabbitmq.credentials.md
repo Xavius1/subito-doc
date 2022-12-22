@@ -9,7 +9,7 @@ RabbitMQ credentials
 <b>Signature:</b>
 
 ```typescript
-export declare type Credentials = {
+export type Credentials = {
     hostname: string;
     username: string;
     password: string;
