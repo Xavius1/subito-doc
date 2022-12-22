@@ -25,5 +25,5 @@ Promise&lt;any&gt;
 
 ## Remarks
 
-It makes a soft deletion, the doc still exists into the db with a field "deleteAt"
+It makes a soft deletion, the doc still exists into the db with a field "deletedAt"
 
