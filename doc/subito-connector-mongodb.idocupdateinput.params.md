@@ -7,9 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-params?: {
-        arrayFilters: {
-            [key: string]: any;
-        }[];
-    };
+params?: UpdateParams;
 ```

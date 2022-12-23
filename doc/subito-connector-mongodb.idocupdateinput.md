@@ -16,6 +16,6 @@ export interface IDocUpdateInput
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [id](./subito-connector-mongodb.idocupdateinput.id.md) |  | [MongoIdExt](./subito-connector-mongodb.mongoidext.md) |  |
-|  [params?](./subito-connector-mongodb.idocupdateinput.params.md) |  | { arrayFilters: { \[key: string\]: any; }\[\]; } | <i>(Optional)</i> |
-|  [query](./subito-connector-mongodb.idocupdateinput.query.md) |  | { $currentDate?: { \[key: string\]: boolean \| { $type: 'timestamp' \| 'date'; }; }; $inc?: { \[key: string\]: number; }; $min?: { \[key: string\]: any; }; $max?: { \[key: string\]: any; }; $mul?: { \[key: string\]: number; }; $push?: { \[key: string\]: any; }; $rename?: { \[key: string\]: string; }; $set?: [IDocInput](./subito-connector-mongodb.idocinput.md)<!-- -->; $setOnInsert?: { \[key: string\]: any; }; $unset?: { \[key: string\]: ''; }; } |  |
+|  [params?](./subito-connector-mongodb.idocupdateinput.params.md) |  | UpdateParams | <i>(Optional)</i> |
+|  [query](./subito-connector-mongodb.idocupdateinput.query.md) |  | UpdateQuery |  |
 

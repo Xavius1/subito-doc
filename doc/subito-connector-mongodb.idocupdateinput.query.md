@@ -7,36 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-query: {
-        $currentDate?: {
-            [key: string]: boolean | {
-                $type: 'timestamp' | 'date';
-            };
-        };
-        $inc?: {
-            [key: string]: number;
-        };
-        $min?: {
-            [key: string]: any;
-        };
-        $max?: {
-            [key: string]: any;
-        };
-        $mul?: {
-            [key: string]: number;
-        };
-        $push?: {
-            [key: string]: any;
-        };
-        $rename?: {
-            [key: string]: string;
-        };
-        $set?: IDocInput;
-        $setOnInsert?: {
-            [key: string]: any;
-        };
-        $unset?: {
-            [key: string]: '';
-        };
-    };
+query: UpdateQuery;
 ```
