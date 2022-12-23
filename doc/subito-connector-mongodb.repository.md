@@ -43,5 +43,5 @@ declare abstract class Repository extends MongoDataSource<Document>
 |  [prepareNewDoc(doc)](./subito-connector-mongodb.repository.preparenewdoc.md) |  | Add needed data to the doc before insertion |
 |  [setGenericCursor(name)](./subito-connector-mongodb.repository.setgenericcursor.md) |  | Set a generic cursor |
 |  [updateDoc(input)](./subito-connector-mongodb.repository.updatedoc.md) |  | Update a doc with its id |
-|  [updateManyDoc({ ids, query })](./subito-connector-mongodb.repository.updatemanydoc.md) |  | Update many docs at once |
+|  [updateManyDoc({ filter, query })](./subito-connector-mongodb.repository.updatemanydoc.md) |  | Update many docs at once |
 

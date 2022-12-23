@@ -9,14 +9,14 @@ Update many docs at once
 <b>Signature:</b>
 
 ```typescript
-updateManyDoc({ ids, query }: UpdateManyInput): Promise<DocumentResult[]>;
+updateManyDoc({ filter, query }: UpdateManyInput): Promise<DocumentResult[]>;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  { ids, query } | UpdateManyInput |  |
+|  { filter, query } | UpdateManyInput |  |
 
 <b>Returns:</b>
 
