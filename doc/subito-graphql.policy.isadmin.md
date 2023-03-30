@@ -6,12 +6,12 @@
 
 Check if the user is an admin
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected isAdmin(): boolean;
 ```
-<b>Returns:</b>
+**Returns:**
 
 boolean
 

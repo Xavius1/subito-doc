@@ -4,7 +4,7 @@
 
 ## IFiltersPipeline.$and property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 $and: ({

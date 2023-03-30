@@ -6,12 +6,12 @@
 
 Check if the channel is binded to a queue
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 isBinded(): boolean;
 ```
-<b>Returns:</b>
+**Returns:**
 
 boolean
 

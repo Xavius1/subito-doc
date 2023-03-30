@@ -6,12 +6,12 @@
 
 Transform a NaN value to null
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 NaNtoNull(): any;
 ```
-<b>Returns:</b>
+**Returns:**
 
 any
 

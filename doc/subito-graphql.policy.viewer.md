@@ -6,7 +6,7 @@
 
 The current viewer
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected viewer: AnyObject | null;

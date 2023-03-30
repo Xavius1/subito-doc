@@ -5,7 +5,7 @@
 ## IFilterPipelineInput interface
 
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export interface IFilterPipelineInput 
@@ -15,5 +15,5 @@ export interface IFilterPipelineInput
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [withDeleted?](./subito-connector-mongodb.ifilterpipelineinput.withdeleted.md) |  | boolean | <i>(Optional)</i> |
+|  [withDeleted?](./subito-connector-mongodb.ifilterpipelineinput.withdeleted.md) |  | boolean | _(Optional)_ |
 

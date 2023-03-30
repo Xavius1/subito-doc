@@ -4,7 +4,7 @@
 
 ## Datte.locale property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected locale: string | null;

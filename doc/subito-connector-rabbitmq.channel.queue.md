@@ -4,7 +4,7 @@
 
 ## Channel.queue property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected queue: string;

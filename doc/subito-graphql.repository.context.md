@@ -4,7 +4,7 @@
 
 ## Repository.context property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected context: Context | undefined;

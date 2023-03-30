@@ -6,7 +6,7 @@
 
 Find many doc by ids
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 findManyByIds(ids: (string | ObjectId)[]): Promise<(Document | null)[]>;
@@ -18,7 +18,7 @@ findManyByIds(ids: (string | ObjectId)[]): Promise<(Document | null)[]>;
 |  --- | --- | --- |
 |  ids | (string \| ObjectId)\[\] | The doc ids |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;(Document \| null)\[\]&gt;
 

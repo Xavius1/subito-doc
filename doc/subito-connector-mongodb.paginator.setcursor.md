@@ -6,7 +6,7 @@
 
 Set a custom cursor
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 setCursor({ field, type }: ICursor): this;
@@ -18,7 +18,7 @@ setCursor({ field, type }: ICursor): this;
 |  --- | --- | --- |
 |  { field, type } | [ICursor](./subito-connector-mongodb.icursor.md) |  |
 
-<b>Returns:</b>
+**Returns:**
 
 this
 

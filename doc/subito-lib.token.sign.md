@@ -6,7 +6,7 @@
 
 Sign a new token
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 static sign(data: Data, subject: string, expiresIn: number, key?: string): string;
@@ -19,9 +19,9 @@ static sign(data: Data, subject: string, expiresIn: number, key?: string): strin
 |  data | Data | Content of your token |
 |  subject | string | Subject |
 |  expiresIn | number | Expressed in seconds or a string describing a time span zeit/ms. [https://github.com/vercel/ms](https://github.com/vercel/ms) |
-|  key | string | <i>(Optional)</i> Secret use to encoded the token |
+|  key | string | _(Optional)_ Secret use to encoded the token |
 
-<b>Returns:</b>
+**Returns:**
 
 string
 

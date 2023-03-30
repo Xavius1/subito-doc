@@ -4,7 +4,7 @@
 
 ## IPageInfoInput.cursored property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 cursored: number;

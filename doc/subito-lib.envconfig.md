@@ -5,7 +5,7 @@
 ## EnvConfig type
 
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export type EnvConfig = {
@@ -16,5 +16,5 @@ export type EnvConfig = {
     fallback?: string;
 };
 ```
-<b>References:</b> [EnvType](./subito-lib.envtype.md)<!-- -->, [ParseType](./subito-lib.parsetype.md)
+**References:** [EnvType](./subito-lib.envtype.md)<!-- -->, [ParseType](./subito-lib.parsetype.md)
 

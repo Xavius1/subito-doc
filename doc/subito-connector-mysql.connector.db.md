@@ -4,7 +4,7 @@
 
 ## Connector.db property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected db: any;

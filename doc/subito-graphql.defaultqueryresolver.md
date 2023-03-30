@@ -8,7 +8,7 @@ Define default query resolvers
 
 Can be use as is or extended in a custom resolver
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 DefaultQueryResolver: (source: string) => {

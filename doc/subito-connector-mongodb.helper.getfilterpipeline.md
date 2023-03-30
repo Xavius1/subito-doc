@@ -6,7 +6,7 @@
 
 Get a pipeline matching your filters
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 static getFilterPipeline(filters: IFilterPipelineInput): IFiltersPipeline | null;
@@ -18,7 +18,7 @@ static getFilterPipeline(filters: IFilterPipelineInput): IFiltersPipeline | null
 |  --- | --- | --- |
 |  filters | [IFilterPipelineInput](./subito-connector-mongodb.ifilterpipelineinput.md) | Filters you want apply into the pipeline |
 
-<b>Returns:</b>
+**Returns:**
 
 [IFiltersPipeline](./subito-connector-mongodb.ifilterspipeline.md) \| null
 

@@ -6,7 +6,7 @@
 
 Create a generic cursor resolver
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 DefaultCursorResolver: (type: string) => {

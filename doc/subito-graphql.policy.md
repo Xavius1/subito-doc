@@ -6,7 +6,7 @@
 
 Abstract class to implements Abac policy control
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare abstract class Policy 
@@ -59,6 +59,7 @@ Abac.EntityPolicy.read({ doc });
 |  [isAuth()](./subito-graphql.policy.isauth.md) | <code>protected</code> | Check if the user is auth |
 |  [isGuest()](./subito-graphql.policy.isguest.md) | <code>protected</code> | Check if the user is a guest |
 |  [isProxy(id)](./subito-graphql.policy.isproxy.md) | <code>protected</code> | Is the call done by a proxy ? |
+|  [isViewer(id)](./subito-graphql.policy.isviewer.md) | <code>protected</code> | Check if the user is a specific viewer |
 |  [read(doc)](./subito-graphql.policy.read.md) |  | Read a doc |
 |  [readMany(docs, keepNull)](./subito-graphql.policy.readmany.md) |  | Read an array of docs |
 |  [readManyByCursor(docs, { keepIfNull })](./subito-graphql.policy.readmanybycursor.md) |  | Read a list of doc listed by cursor |

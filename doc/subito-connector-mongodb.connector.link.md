@@ -4,7 +4,7 @@
 
 ## Connector.link property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected link: MongoDBLink;

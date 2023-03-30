@@ -6,7 +6,7 @@
 
 MongoDB can be an ObjectID or a string
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export type MongoIdExt = ObjectId | string;

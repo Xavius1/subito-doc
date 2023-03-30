@@ -6,7 +6,7 @@
 
 Handles some data stuff
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare class Data 

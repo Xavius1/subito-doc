@@ -6,7 +6,7 @@
 
 Sleep your execution
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 sleep: (delay: number) => Promise<unknown>

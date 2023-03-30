@@ -6,7 +6,7 @@
 
 Encrypt a data
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 encrypt(data: any): EncryptData;
@@ -18,7 +18,7 @@ encrypt(data: any): EncryptData;
 |  --- | --- | --- |
 |  data | any | The data to encrypt |
 
-<b>Returns:</b>
+**Returns:**
 
 [EncryptData](./subito-lib.encryptdata.md)
 

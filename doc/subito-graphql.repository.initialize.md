@@ -4,7 +4,7 @@
 
 ## Repository.initialize() method
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 initialize({ context, }?: {
@@ -16,9 +16,9 @@ initialize({ context, }?: {
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  { context, } | { \[key: string\]: any; } | <i>(Optional)</i> |
+|  { context, } | { \[key: string\]: any; } | _(Optional)_ |
 
-<b>Returns:</b>
+**Returns:**
 
 void
 

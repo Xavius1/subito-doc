@@ -4,7 +4,7 @@
 
 ## Connector.password property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected password: MysqlPassword;

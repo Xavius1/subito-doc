@@ -6,7 +6,7 @@
 
 The credentials to auth the client
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected input: AuthInput;

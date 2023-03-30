@@ -6,7 +6,7 @@
 
 The auth viewer token
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected viewerToken?: string | null;

@@ -4,7 +4,7 @@
 
 ## IGraphqlClient.setViewerToken property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 setViewerToken: Function;

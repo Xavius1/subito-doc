@@ -4,7 +4,7 @@
 
 ## Paginator.value property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected value: string | null;

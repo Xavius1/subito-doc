@@ -11,7 +11,7 @@
 
 Send a success payload
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 successPayload: ({ message, data, success, code, keyData, }: TPayloadInput) => TPayload

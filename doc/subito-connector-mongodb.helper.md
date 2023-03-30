@@ -6,7 +6,7 @@
 
 MongoDB helper that can be usefull for some stuff.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare class Helper 

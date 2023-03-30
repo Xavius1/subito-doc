@@ -5,7 +5,7 @@
 ## AnyObject type
 
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export type AnyObject = {

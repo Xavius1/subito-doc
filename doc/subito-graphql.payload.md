@@ -6,7 +6,7 @@
 
 Send a success payload
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 payload: ({ message, data, code, keyData, }: PayloadInput) => PayloadResponse

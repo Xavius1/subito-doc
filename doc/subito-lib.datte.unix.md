@@ -4,7 +4,7 @@
 
 ## Datte.unix property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected unix: RegExp;

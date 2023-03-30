@@ -6,7 +6,7 @@
 
 Handles data encryption into your app
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare class Cryptor 

@@ -6,7 +6,7 @@
 
 Read a doc
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 read(doc: AnyObject | null): AnyObject | null;
@@ -18,7 +18,7 @@ read(doc: AnyObject | null): AnyObject | null;
 |  --- | --- | --- |
 |  doc | [AnyObject](./subito-graphql.anyobject.md) \| null | the doc to read |
 
-<b>Returns:</b>
+**Returns:**
 
 [AnyObject](./subito-graphql.anyobject.md) \| null
 

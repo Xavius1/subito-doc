@@ -4,7 +4,7 @@
 
 ## IDocInput.slug property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 slug?: string;

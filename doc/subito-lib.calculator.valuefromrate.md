@@ -6,7 +6,7 @@
 
 Get the value represents of a rate applied to a number
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 static valueFromRate(value: number, rate: number): number;
@@ -19,7 +19,7 @@ static valueFromRate(value: number, rate: number): number;
 |  value | number | Base value to take |
 |  rate | number | Rate value to apply |
 
-<b>Returns:</b>
+**Returns:**
 
 number
 

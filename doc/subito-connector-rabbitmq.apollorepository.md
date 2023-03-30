@@ -6,12 +6,12 @@
 
 Create a new RabbitMQ repository compitable Apollo data source
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare class Repository extends Base 
 ```
-<b>Extends:</b> [Base](./subito-graphql.repository.md)
+**Extends:** [Base](./subito-graphql.repository.md)
 
 ## Constructors
 

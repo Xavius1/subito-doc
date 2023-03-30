@@ -4,7 +4,7 @@
 
 ## Paginator.filters property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected filters: IFilterPipelineInput;

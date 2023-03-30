@@ -6,7 +6,7 @@
 
 Generate a random code
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 codeGenerator: (input?: CodeGeneratorInput) => string | number

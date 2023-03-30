@@ -6,7 +6,7 @@
 
 Decrypt an encrypted data
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 decrypt(data: string): string;
@@ -18,7 +18,7 @@ decrypt(data: string): string;
 |  --- | --- | --- |
 |  data | string | The encrypted data |
 
-<b>Returns:</b>
+**Returns:**
 
 string
 

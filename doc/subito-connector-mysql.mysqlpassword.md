@@ -6,7 +6,7 @@
 
 MySQL password
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export declare type MysqlPassword = string;

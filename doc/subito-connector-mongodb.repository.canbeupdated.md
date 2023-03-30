@@ -6,7 +6,7 @@
 
 Check if the doc can be updated
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 canBeUpdated({ id, query }: IDocUpdateInput): Promise<boolean>;
@@ -18,7 +18,7 @@ canBeUpdated({ id, query }: IDocUpdateInput): Promise<boolean>;
 |  --- | --- | --- |
 |  { id, query } | [IDocUpdateInput](./subito-connector-mongodb.idocupdateinput.md) |  |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;boolean&gt;
 

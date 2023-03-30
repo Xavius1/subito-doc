@@ -6,7 +6,7 @@
 
 Publish a new message
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 publish(msg: {
@@ -20,7 +20,7 @@ publish(msg: {
 |  --- | --- | --- |
 |  msg | { \[key: string\]: any; } | Message to publish |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;boolean \| undefined&gt;
 

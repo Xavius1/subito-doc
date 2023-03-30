@@ -6,7 +6,7 @@
 
 Read a list of doc listed by cursor
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 readManyByCursor(docs: ReadManyByCursorInput, { keepIfNull }?: ReadManyByCursorOptions): {
@@ -31,9 +31,9 @@ readManyByCursor(docs: ReadManyByCursorInput, { keepIfNull }?: ReadManyByCursorO
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  docs | ReadManyByCursorInput | The list of docs |
-|  { keepIfNull } | ReadManyByCursorOptions | <i>(Optional)</i> |
+|  { keepIfNull } | ReadManyByCursorOptions | _(Optional)_ |
 
-<b>Returns:</b>
+**Returns:**
 
 { edges: { cursor: string; node: [AnyObject](./subito-graphql.anyobject.md) \| null; }\[\]; pageInfo: { hasNextPage: boolean; hasPreviousPage: boolean; totalPage: number; totalResults: number; currentPage: number; startCursor: string; endCursor: string; } \| null; }
 

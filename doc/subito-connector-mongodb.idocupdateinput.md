@@ -5,7 +5,7 @@
 ## IDocUpdateInput interface
 
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export interface IDocUpdateInput 
@@ -16,6 +16,6 @@ export interface IDocUpdateInput
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [id](./subito-connector-mongodb.idocupdateinput.id.md) |  | [MongoIdExt](./subito-connector-mongodb.mongoidext.md) |  |
-|  [params?](./subito-connector-mongodb.idocupdateinput.params.md) |  | UpdateParams | <i>(Optional)</i> |
+|  [params?](./subito-connector-mongodb.idocupdateinput.params.md) |  | UpdateParams | _(Optional)_ |
 |  [query](./subito-connector-mongodb.idocupdateinput.query.md) |  | UpdateQuery |  |
 

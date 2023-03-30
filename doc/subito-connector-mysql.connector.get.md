@@ -6,12 +6,12 @@
 
 Get the connection
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 get(): any;
 ```
-<b>Returns:</b>
+**Returns:**
 
 any
 

@@ -6,7 +6,7 @@
 
 MongoDB connection URI without name &amp; params
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export type MongoDBLink = string;

@@ -6,7 +6,7 @@
 
 Bind a queue to the channel
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 bind(queue: string): Promise<this>;
@@ -18,7 +18,7 @@ bind(queue: string): Promise<this>;
 |  --- | --- | --- |
 |  queue | string | Queue to bind |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;this&gt;
 

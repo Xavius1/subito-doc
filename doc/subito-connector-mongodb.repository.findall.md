@@ -6,7 +6,7 @@
 
 Get all documents without pagination
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 findAll({ sort, order }: {
@@ -21,7 +21,7 @@ findAll({ sort, order }: {
 |  --- | --- | --- |
 |  { sort, order } | { sort?: string \| undefined; order?: string \| undefined; } |  |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;[DocumentResult](./subito-connector-mongodb.documentresult.md)<!-- -->\[\]&gt;
 

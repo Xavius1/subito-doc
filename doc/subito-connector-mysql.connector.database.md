@@ -4,7 +4,7 @@
 
 ## Connector.database property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected database: MysqlDbName;

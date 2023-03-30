@@ -6,7 +6,7 @@
 
 Constructs a new instance of the `GraphqlClient` class
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 constructor({ endpoint, headers, authQuery, }: GraphqlClientProps);

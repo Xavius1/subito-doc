@@ -6,7 +6,7 @@
 
 Constructs a new instance of the `Connector` class
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 constructor(credentials: Credentials);

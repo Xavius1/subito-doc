@@ -6,7 +6,7 @@
 
 Define which fields to keep in the entity
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 keep(fields: string[]): this;
@@ -18,7 +18,7 @@ keep(fields: string[]): this;
 |  --- | --- | --- |
 |  fields | string\[\] | An array of string matching the fields to keep |
 
-<b>Returns:</b>
+**Returns:**
 
 this
 

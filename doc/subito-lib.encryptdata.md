@@ -6,7 +6,7 @@
 
 The data object to encrypt
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export type EncryptData = {

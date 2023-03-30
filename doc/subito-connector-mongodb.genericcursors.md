@@ -5,7 +5,7 @@
 ## GenericCursors type
 
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export type GenericCursors = 'ID' | 'CREATION_DATE' | 'DELETION_DATE' | 'SLUG';

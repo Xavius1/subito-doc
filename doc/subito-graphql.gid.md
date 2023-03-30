@@ -6,7 +6,7 @@
 
 Class use to transform local ID to base 64 globally unique ID Specs by relayjs
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare class GID 

@@ -4,7 +4,7 @@
 
 ## IChannel.bind() method
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 bind(queue: string): Promise<this>;
@@ -16,7 +16,7 @@ bind(queue: string): Promise<this>;
 |  --- | --- | --- |
 |  queue | string |  |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;this&gt;
 

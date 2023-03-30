@@ -6,7 +6,7 @@
 
 List of http message
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 message: Message

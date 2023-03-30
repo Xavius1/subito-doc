@@ -6,12 +6,12 @@
 
 Connect to the RabbitMQ host
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 connect(): Promise<this>;
 ```
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;this&gt;
 

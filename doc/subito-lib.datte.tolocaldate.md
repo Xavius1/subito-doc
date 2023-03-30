@@ -6,12 +6,12 @@
 
 Get the local Date object (with timezone applied)
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 toLocalDate(): Date;
 ```
-<b>Returns:</b>
+**Returns:**
 
 Date
 

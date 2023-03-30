@@ -6,7 +6,7 @@
 
 Constructs a new instance of the `Paginator` class
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 constructor({ first, last, before, after, filters, }: IPaginatorInput);

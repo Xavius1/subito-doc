@@ -4,7 +4,7 @@
 
 ## Paginator.order property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected order: PaginatorOrder;

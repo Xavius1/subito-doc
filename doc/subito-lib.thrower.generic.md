@@ -6,7 +6,7 @@
 
 Throw a generic error
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 static generic(message: string): never;
@@ -18,7 +18,7 @@ static generic(message: string): never;
 |  --- | --- | --- |
 |  message | string | The message to print |
 
-<b>Returns:</b>
+**Returns:**
 
 never
 

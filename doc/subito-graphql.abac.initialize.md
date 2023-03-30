@@ -4,7 +4,7 @@
 
 ## Abac.initialize() method
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 initialize({ context, }?: {
@@ -16,9 +16,9 @@ initialize({ context, }?: {
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  { context, } | { context: any; } | <i>(Optional)</i> |
+|  { context, } | { context: any; } | _(Optional)_ |
 
-<b>Returns:</b>
+**Returns:**
 
 void
 

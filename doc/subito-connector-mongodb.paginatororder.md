@@ -5,7 +5,7 @@
 ## PaginatorOrder type
 
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export type PaginatorOrder = 'ASC' | 'DESC';

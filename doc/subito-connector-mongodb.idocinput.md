@@ -5,7 +5,7 @@
 ## IDocInput interface
 
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export interface IDocInput 
@@ -15,7 +15,7 @@ export interface IDocInput
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [\_id?](./subito-connector-mongodb.idocinput._id.md) |  | never | <i>(Optional)</i> |
-|  [id?](./subito-connector-mongodb.idocinput.id.md) |  | never | <i>(Optional)</i> |
-|  [slug?](./subito-connector-mongodb.idocinput.slug.md) |  | string | <i>(Optional)</i> |
+|  [\_id?](./subito-connector-mongodb.idocinput._id.md) |  | never | _(Optional)_ |
+|  [id?](./subito-connector-mongodb.idocinput.id.md) |  | never | _(Optional)_ |
+|  [slug?](./subito-connector-mongodb.idocinput.slug.md) |  | string | _(Optional)_ |
 

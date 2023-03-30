@@ -6,7 +6,7 @@
 
 Throw an error or return false the checker is not instanciated with toThrow option
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected send(message: string): boolean;
@@ -18,7 +18,7 @@ protected send(message: string): boolean;
 |  --- | --- | --- |
 |  message | string | The message to print |
 
-<b>Returns:</b>
+**Returns:**
 
 boolean
 

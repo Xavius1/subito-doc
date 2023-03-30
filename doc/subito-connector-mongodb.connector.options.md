@@ -4,7 +4,7 @@
 
 ## Connector.options property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected options: MongoDBOptions;

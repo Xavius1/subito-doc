@@ -4,7 +4,7 @@
 
 ## IFilterPipelineInput.withDeleted property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 withDeleted?: boolean;

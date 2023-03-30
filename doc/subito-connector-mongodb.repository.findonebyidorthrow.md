@@ -6,7 +6,7 @@
 
 Find one doc by id or throw error if doc is not found
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 findOneByIdOrThrow(id: MongoIdStr): Promise<Document>;
@@ -18,7 +18,7 @@ findOneByIdOrThrow(id: MongoIdStr): Promise<Document>;
 |  --- | --- | --- |
 |  id | [MongoIdStr](./subito-connector-mongodb.mongoidstr.md) | The doc id |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;Document&gt;
 

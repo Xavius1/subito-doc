@@ -6,7 +6,7 @@
 
 Get the multiplier of a rate
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 static coefFromRate(rate: number): number;
@@ -18,7 +18,7 @@ static coefFromRate(rate: number): number;
 |  --- | --- | --- |
 |  rate | number | Rate value to apply |
 
-<b>Returns:</b>
+**Returns:**
 
 number
 

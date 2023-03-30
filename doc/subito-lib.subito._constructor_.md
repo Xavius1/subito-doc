@@ -6,7 +6,7 @@
 
 Constructs a new instance of the `Subito` class
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 constructor(input: SubitoInput, commandOptions?: CommandOption | CommandOption[]);
@@ -17,5 +17,5 @@ constructor(input: SubitoInput, commandOptions?: CommandOption | CommandOption[]
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  input | [SubitoInput](./subito-lib.subitoinput.md) |  |
-|  commandOptions | [CommandOption](./subito-lib.commandoption.md) \| [CommandOption](./subito-lib.commandoption.md)<!-- -->\[\] | <i>(Optional)</i> |
+|  commandOptions | [CommandOption](./subito-lib.commandoption.md) \| [CommandOption](./subito-lib.commandoption.md)<!-- -->\[\] | _(Optional)_ |
 

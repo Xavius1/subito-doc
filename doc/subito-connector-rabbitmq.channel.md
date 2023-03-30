@@ -6,12 +6,12 @@
 
 Create a new RabbitMQ channel
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare class Channel implements IChannel 
 ```
-<b>Implements:</b> [IChannel](./subito-connector-rabbitmq.ichannel.md)
+**Implements:** [IChannel](./subito-connector-rabbitmq.ichannel.md)
 
 ## Constructors
 

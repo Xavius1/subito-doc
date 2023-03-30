@@ -6,12 +6,12 @@
 
 Get the Date object (utc)
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 toDate(): Date;
 ```
-<b>Returns:</b>
+**Returns:**
 
 Date
 

@@ -6,12 +6,12 @@
 
 Connect to the DB
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 connect(): Promise<any>;
 ```
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;any&gt;
 

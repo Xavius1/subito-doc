@@ -6,12 +6,12 @@
 
 Method used to start to export telemetry
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 record(): void;
 ```
-<b>Returns:</b>
+**Returns:**
 
 void
 

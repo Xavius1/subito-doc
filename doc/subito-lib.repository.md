@@ -6,7 +6,7 @@
 
 Abstract class repository
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare abstract class Repository 

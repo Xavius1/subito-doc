@@ -6,7 +6,7 @@
 
 MySQL hostname
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export declare type MysqlHost = string;

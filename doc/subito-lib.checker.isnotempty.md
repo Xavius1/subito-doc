@@ -6,7 +6,7 @@
 
 Verify if an array is not empty, then throw if it is
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 isNotEmpty(arr: any[]): boolean;
@@ -18,7 +18,7 @@ isNotEmpty(arr: any[]): boolean;
 |  --- | --- | --- |
 |  arr | any\[\] | The array to verify |
 
-<b>Returns:</b>
+**Returns:**
 
 boolean
 

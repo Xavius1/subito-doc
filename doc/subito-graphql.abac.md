@@ -6,7 +6,7 @@
 
 Abstract class to implements Abac control Initialize as data sources to have context
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare abstract class Abac 

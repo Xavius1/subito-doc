@@ -4,7 +4,7 @@
 
 ## Connector.dbName property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected dbName: MongoDBName;

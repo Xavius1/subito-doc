@@ -6,7 +6,7 @@
 
 Create a generic page info resolver
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 DefaultPageInfoResolver: (type: string) => {

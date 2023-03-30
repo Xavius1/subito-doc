@@ -4,7 +4,7 @@
 
 ## IPaginatorInput.last property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 last?: number;

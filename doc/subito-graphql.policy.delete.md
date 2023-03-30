@@ -6,12 +6,12 @@
 
 Check if a doc can be deleted, then throw if not
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 delete(): boolean;
 ```
-<b>Returns:</b>
+**Returns:**
 
 boolean
 

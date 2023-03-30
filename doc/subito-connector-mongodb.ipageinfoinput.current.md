@@ -4,7 +4,7 @@
 
 ## IPageInfoInput.current property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 current: number;

@@ -4,7 +4,7 @@
 
 ## IGraphqlClient.getClientName property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 getClientName: Function;

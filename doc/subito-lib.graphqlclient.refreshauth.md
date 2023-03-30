@@ -6,12 +6,12 @@
 
 Get a new auth token
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected refreshAuth(): Promise<true>;
 ```
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;true&gt;
 

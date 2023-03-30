@@ -6,7 +6,7 @@
 
 Update many docs at once
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 updateManyDoc({ filter, query }: UpdateManyInput): Promise<DocumentResult[]>;
@@ -18,7 +18,7 @@ updateManyDoc({ filter, query }: UpdateManyInput): Promise<DocumentResult[]>;
 |  --- | --- | --- |
 |  { filter, query } | UpdateManyInput |  |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;[DocumentResult](./subito-connector-mongodb.documentresult.md)<!-- -->\[\]&gt;
 

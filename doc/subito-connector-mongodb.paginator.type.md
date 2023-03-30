@@ -4,7 +4,7 @@
 
 ## Paginator.type property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected type: ParseType | 'Date';

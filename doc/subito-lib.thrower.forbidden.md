@@ -6,12 +6,12 @@
 
 Throw a forbidden error
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 static forbidden(): never;
 ```
-<b>Returns:</b>
+**Returns:**
 
 never
 

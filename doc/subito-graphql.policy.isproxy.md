@@ -6,7 +6,7 @@
 
 Is the call done by a proxy ?
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected isProxy(id?: string): boolean;
@@ -16,9 +16,9 @@ protected isProxy(id?: string): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  id | string | <i>(Optional)</i> To check a specific proxy |
+|  id | string | _(Optional)_ To check a specific proxy |
 
-<b>Returns:</b>
+**Returns:**
 
 boolean
 

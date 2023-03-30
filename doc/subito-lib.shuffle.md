@@ -6,7 +6,7 @@
 
 Suffle the items of an array
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare function shuffle(items: unknown[]): unknown[];
@@ -18,7 +18,7 @@ declare function shuffle(items: unknown[]): unknown[];
 |  --- | --- | --- |
 |  items | unknown\[\] | The items to shuffle |
 
-<b>Returns:</b>
+**Returns:**
 
 unknown\[\]
 

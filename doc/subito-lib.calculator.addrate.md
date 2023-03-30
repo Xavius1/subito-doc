@@ -6,7 +6,7 @@
 
 Apply a rate to a value
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 static addRate(value: number, rate: number): number;
@@ -19,7 +19,7 @@ static addRate(value: number, rate: number): number;
 |  value | number | Base value to raise |
 |  rate | number | Rate value to apply |
 
-<b>Returns:</b>
+**Returns:**
 
 number
 

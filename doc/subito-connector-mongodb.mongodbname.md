@@ -6,7 +6,7 @@
 
 Name of the database
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export type MongoDBName = string;

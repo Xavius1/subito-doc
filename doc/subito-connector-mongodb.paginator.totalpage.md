@@ -4,7 +4,7 @@
 
 ## Paginator.totalPage property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected totalPage: number;

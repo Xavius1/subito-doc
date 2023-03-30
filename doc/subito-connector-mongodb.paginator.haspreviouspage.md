@@ -4,7 +4,7 @@
 
 ## Paginator.hasPreviousPage property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected hasPreviousPage: boolean;

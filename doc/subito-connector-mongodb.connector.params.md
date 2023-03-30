@@ -4,7 +4,7 @@
 
 ## Connector.params property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected params: string;

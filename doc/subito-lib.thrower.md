@@ -6,7 +6,7 @@
 
 Aliases to throw some specifics errors
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare class Thrower 

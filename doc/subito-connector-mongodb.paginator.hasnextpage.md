@@ -4,7 +4,7 @@
 
 ## Paginator.hasNextPage property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected hasNextPage: boolean;

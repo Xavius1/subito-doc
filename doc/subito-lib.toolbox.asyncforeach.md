@@ -6,7 +6,7 @@
 
 Loop an array of async function
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 static asyncForEach<T = any>(array: T[], callback: Function): Promise<void>;
@@ -19,7 +19,7 @@ static asyncForEach<T = any>(array: T[], callback: Function): Promise<void>;
 |  array | T\[\] | The array of async functions |
 |  callback | Function | The callback |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;void&gt;
 

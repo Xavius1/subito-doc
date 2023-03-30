@@ -6,7 +6,7 @@
 
 Delete a document by its ID (hard)
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 hardDeleteById(id: MongoIdExt): Promise<any>;
@@ -18,7 +18,7 @@ hardDeleteById(id: MongoIdExt): Promise<any>;
 |  --- | --- | --- |
 |  id | [MongoIdExt](./subito-connector-mongodb.mongoidext.md) | ID of the document to HARD delete |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;any&gt;
 

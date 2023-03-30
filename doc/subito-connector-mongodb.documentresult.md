@@ -5,7 +5,7 @@
 ## DocumentResult type
 
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export type DocumentResult = Document | null | undefined;

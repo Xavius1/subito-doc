@@ -6,7 +6,7 @@
 
 Constructs a new instance of the `Datte` class
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 constructor({ date, locale, tz, }?: {
@@ -20,5 +20,5 @@ constructor({ date, locale, tz, }?: {
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  { date, locale, tz, } | { date?: string; locale?: string; tz?: string; } | <i>(Optional)</i> |
+|  { date, locale, tz, } | { date?: string; locale?: string; tz?: string; } | _(Optional)_ |
 

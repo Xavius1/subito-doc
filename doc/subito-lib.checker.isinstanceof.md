@@ -6,7 +6,7 @@
 
 Verify if an object is an instance of a specific type, then throw if not
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 isInstanceOf(obj: any, instance: any): boolean;
@@ -19,7 +19,7 @@ isInstanceOf(obj: any, instance: any): boolean;
 |  obj | any | The object to verify |
 |  instance | any | The instance needed |
 
-<b>Returns:</b>
+**Returns:**
 
 boolean
 

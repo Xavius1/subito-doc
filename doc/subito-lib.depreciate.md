@@ -6,7 +6,7 @@
 
 Print a depreciated warning to the console
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 depreciate: (oldMethod: string, newMethod: string) => void

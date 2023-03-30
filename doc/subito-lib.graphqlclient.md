@@ -6,12 +6,12 @@
 
 Connect to a GraphQL endpoint
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare class GraphqlClient implements IGraphqlClient 
 ```
-<b>Implements:</b> [IGraphqlClient](./subito-lib.igraphqlclient.md)
+**Implements:** [IGraphqlClient](./subito-lib.igraphqlclient.md)
 
 ## Constructors
 
@@ -27,8 +27,8 @@ declare class GraphqlClient implements IGraphqlClient
 |  [client](./subito-lib.graphqlclient.client.md) | <code>protected</code> | GraphQLClient | The graphql client |
 |  [expirationDate](./subito-lib.graphqlclient.expirationdate.md) | <code>protected</code> | number | The token expiration date |
 |  [input](./subito-lib.graphqlclient.input.md) | <code>protected</code> | [AuthInput](./subito-lib.authinput.md) | The credentials to auth the client |
-|  [token?](./subito-lib.graphqlclient.token.md) | <code>protected</code> | string \| null | <i>(Optional)</i> The auth token |
-|  [viewerToken?](./subito-lib.graphqlclient.viewertoken.md) | <code>protected</code> | string \| null | <i>(Optional)</i> The auth viewer token |
+|  [token?](./subito-lib.graphqlclient.token.md) | <code>protected</code> | string \| null | _(Optional)_ The auth token |
+|  [viewerToken?](./subito-lib.graphqlclient.viewertoken.md) | <code>protected</code> | string \| null | _(Optional)_ The auth viewer token |
 
 ## Methods
 

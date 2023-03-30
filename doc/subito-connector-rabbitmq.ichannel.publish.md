@@ -4,7 +4,7 @@
 
 ## IChannel.publish() method
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 publish(msg: unknown): Promise<boolean | undefined>;
@@ -16,7 +16,7 @@ publish(msg: unknown): Promise<boolean | undefined>;
 |  --- | --- | --- |
 |  msg | unknown |  |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;boolean \| undefined&gt;
 

@@ -6,7 +6,7 @@
 
 RabbitMQ credentials
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export type Credentials = {

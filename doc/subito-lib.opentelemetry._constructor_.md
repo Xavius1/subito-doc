@@ -6,7 +6,7 @@
 
 Constructs a new instance of the `OpenTelemetry` class
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 constructor(props: OTProps);

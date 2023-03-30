@@ -6,7 +6,7 @@
 
 Find one doc by specifics fields
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 findOneByFields(fields: Fields, options?: Options): Promise<DocumentResult>;
@@ -17,9 +17,9 @@ findOneByFields(fields: Fields, options?: Options): Promise<DocumentResult>;
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  fields | Fields | The fields to match |
-|  options | Options | <i>(Optional)</i> Data source options |
+|  options | Options | _(Optional)_ Data source options |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;[DocumentResult](./subito-connector-mongodb.documentresult.md)<!-- -->&gt;
 

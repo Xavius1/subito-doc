@@ -6,7 +6,7 @@
 
 Get the pipeline to use for the aggregation
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 getPipeline(customPipeline: Pipeline, reverse?: boolean): {
@@ -19,9 +19,9 @@ getPipeline(customPipeline: Pipeline, reverse?: boolean): {
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  customPipeline | [Pipeline](./subito-connector-mongodb.pipeline.md) |  |
-|  reverse | boolean | <i>(Optional)</i> Set to true if you want to sort by desc |
+|  reverse | boolean | _(Optional)_ Set to true if you want to sort by desc |
 
-<b>Returns:</b>
+**Returns:**
 
 { \[key: string\]: any; }\[\]
 

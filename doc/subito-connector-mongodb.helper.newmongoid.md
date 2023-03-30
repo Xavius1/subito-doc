@@ -6,7 +6,7 @@
 
 Create a new mongo ID
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 static newMongoId(toString: boolean): string | mongo.ObjectId;
@@ -18,7 +18,7 @@ static newMongoId(toString: boolean): string | mongo.ObjectId;
 |  --- | --- | --- |
 |  toString | boolean | Instead of create a mongo.ObjectId(), set to true to receive a string ID |
 
-<b>Returns:</b>
+**Returns:**
 
 string \| mongo.ObjectId
 

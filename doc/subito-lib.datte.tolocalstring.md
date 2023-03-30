@@ -6,7 +6,7 @@
 
 Date to string (with timezone applied)
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 toLocalString(format?: string): any;
@@ -16,9 +16,9 @@ toLocalString(format?: string): any;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  format | string | <i>(Optional)</i> String of [tokens](https://momentjs.com/timezone/docs/#/using-timezones/formatting/) corresponding to their values. |
+|  format | string | _(Optional)_ String of [tokens](https://momentjs.com/timezone/docs/#/using-timezones/formatting/) corresponding to their values. |
 
-<b>Returns:</b>
+**Returns:**
 
 any
 

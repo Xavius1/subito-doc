@@ -6,7 +6,7 @@
 
 Create a new Subito app
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare class Subito 

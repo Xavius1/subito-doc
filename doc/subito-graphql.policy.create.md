@@ -6,12 +6,12 @@
 
 Check if a doc can be create, then throw if not
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 create(): boolean;
 ```
-<b>Returns:</b>
+**Returns:**
 
 boolean
 

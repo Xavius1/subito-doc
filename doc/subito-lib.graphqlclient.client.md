@@ -6,7 +6,7 @@
 
 The graphql client
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected client: GraphQLClient;

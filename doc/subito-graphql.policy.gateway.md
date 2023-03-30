@@ -6,7 +6,7 @@
 
 The current gateway
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected gateway: null;

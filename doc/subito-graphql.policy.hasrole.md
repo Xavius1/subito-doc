@@ -6,7 +6,7 @@
 
 Check if the current user has a role
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected hasRole(role: string): boolean;
@@ -18,7 +18,7 @@ protected hasRole(role: string): boolean;
 |  --- | --- | --- |
 |  role | string | The role to check |
 
-<b>Returns:</b>
+**Returns:**
 
 boolean
 

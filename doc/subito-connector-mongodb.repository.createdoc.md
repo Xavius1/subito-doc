@@ -6,7 +6,7 @@
 
 Insert a new doc
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 createDoc(input: IDocInput): Promise<DocumentResult>;
@@ -18,7 +18,7 @@ createDoc(input: IDocInput): Promise<DocumentResult>;
 |  --- | --- | --- |
 |  input | [IDocInput](./subito-connector-mongodb.idocinput.md) | The new doc to insert |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;[DocumentResult](./subito-connector-mongodb.documentresult.md)<!-- -->&gt;
 

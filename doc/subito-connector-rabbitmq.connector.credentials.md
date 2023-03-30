@@ -4,7 +4,7 @@
 
 ## Connector.credentials property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected credentials: Credentials;

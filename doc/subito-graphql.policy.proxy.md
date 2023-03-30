@@ -6,7 +6,7 @@
 
 The proxy
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected proxy: AnyObject | null;

@@ -6,12 +6,12 @@
 
 Class to implements the cursor paginator pattern
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare class Paginator implements IPaginator 
 ```
-<b>Implements:</b> [IPaginator](./subito-connector-mongodb.ipaginator.md)
+**Implements:** [IPaginator](./subito-connector-mongodb.ipaginator.md)
 
 ## Remarks
 

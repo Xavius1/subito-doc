@@ -6,7 +6,7 @@
 
 Constructs a new instance of the `Checker` class
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 constructor(toThrow?: boolean);
@@ -16,5 +16,5 @@ constructor(toThrow?: boolean);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  toThrow | boolean | <i>(Optional)</i> |
+|  toThrow | boolean | _(Optional)_ |
 

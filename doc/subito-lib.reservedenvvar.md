@@ -5,7 +5,7 @@
 ## ReservedEnvVar type
 
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export type ReservedEnvVar = [('APP_ENV' | 'NODE_ENV' | 'FORCE_DEBUG' | 'PWD')];

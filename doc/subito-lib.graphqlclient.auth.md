@@ -6,7 +6,7 @@
 
 Get an auth token
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 auth(input: AuthInput): Promise<any>;
@@ -18,7 +18,7 @@ auth(input: AuthInput): Promise<any>;
 |  --- | --- | --- |
 |  input | [AuthInput](./subito-lib.authinput.md) | Your credentials |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;any&gt;
 

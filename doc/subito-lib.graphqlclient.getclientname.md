@@ -6,12 +6,12 @@
 
 Get the client name
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 getClientName(): string;
 ```
-<b>Returns:</b>
+**Returns:**
 
 string
 

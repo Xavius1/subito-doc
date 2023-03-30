@@ -6,7 +6,7 @@
 
 Create a generic mutation resolver
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 DefaultMutationResolver: (source: string) => {

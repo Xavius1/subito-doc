@@ -6,7 +6,7 @@
 
 Auth query
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected authQuery: string;

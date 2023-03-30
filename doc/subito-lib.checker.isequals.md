@@ -6,7 +6,7 @@
 
 Verify if 2 objects are equals, then throw if not
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 isEquals(obj: any, value: any): boolean;
@@ -19,7 +19,7 @@ isEquals(obj: any, value: any): boolean;
 |  obj | any | The first object to compare |
 |  value | any | The second one |
 
-<b>Returns:</b>
+**Returns:**
 
 boolean
 

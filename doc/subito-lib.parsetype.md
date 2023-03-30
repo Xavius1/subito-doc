@@ -6,7 +6,7 @@
 
 The parse types
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export type ParseType = 'Array' | 'Bool' | 'Float' | 'Int' | 'secret' | undefined;

@@ -4,7 +4,7 @@
 
 ## IPaginatorInput.first property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 first?: number;

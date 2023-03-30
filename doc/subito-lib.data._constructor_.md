@@ -6,7 +6,7 @@
 
 Constructs a new instance of the `Data` class
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 constructor(value: any);

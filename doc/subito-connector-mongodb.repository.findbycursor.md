@@ -6,7 +6,7 @@
 
 Get a list of paginated documents
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 findByCursor(input: IPaginatorInput, pipeline?: Pipeline): Promise<{
@@ -28,9 +28,9 @@ findByCursor(input: IPaginatorInput, pipeline?: Pipeline): Promise<{
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  input | [IPaginatorInput](./subito-connector-mongodb.ipaginatorinput.md) | Define how you want to paginate |
-|  pipeline | [Pipeline](./subito-connector-mongodb.pipeline.md) | <i>(Optional)</i> Custom pipeline to get a subset of docs |
+|  pipeline | [Pipeline](./subito-connector-mongodb.pipeline.md) | _(Optional)_ Custom pipeline to get a subset of docs |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;{ edges: import("./Paginator.js").[CursorEdge](./subito-connector-mongodb.cursoredge.md)<!-- -->\[\]; pageInfo: { hasNextPage: boolean; hasPreviousPage: boolean; totalPage: number; totalResults: number; currentPage: number; startCursor: any; endCursor: any; }; }&gt;
 

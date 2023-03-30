@@ -4,7 +4,7 @@
 
 ## ApolloRepository.channel property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected channel: IChannel;

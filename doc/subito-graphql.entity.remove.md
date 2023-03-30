@@ -6,7 +6,7 @@
 
 Define which fields to remove in the entity
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 remove(fields: string[]): this;
@@ -18,7 +18,7 @@ remove(fields: string[]): this;
 |  --- | --- | --- |
 |  fields | string\[\] | An array of string matching the fields to remove |
 
-<b>Returns:</b>
+**Returns:**
 
 this
 

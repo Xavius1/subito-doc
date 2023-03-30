@@ -4,7 +4,7 @@
 
 ## Datte.tz property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected tz: string;

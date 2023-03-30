@@ -6,7 +6,7 @@
 
 Define page info from results
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 setPageInfo({ total, cursored, current }: IPageInfoInput): this;
@@ -18,7 +18,7 @@ setPageInfo({ total, cursored, current }: IPageInfoInput): this;
 |  --- | --- | --- |
 |  { total, cursored, current } | [IPageInfoInput](./subito-connector-mongodb.ipageinfoinput.md) |  |
 
-<b>Returns:</b>
+**Returns:**
 
 this
 

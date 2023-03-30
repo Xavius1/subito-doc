@@ -4,7 +4,7 @@
 
 ## Connector.broker property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected broker: Connection | null;

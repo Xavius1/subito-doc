@@ -6,7 +6,7 @@
 
 Constructs a new instance of the `Connector` class
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 constructor(link: MongoDBLink, dbName: MongoDBName, params?: MongoDBParams, options?: MongoDBOptions);
@@ -18,6 +18,6 @@ constructor(link: MongoDBLink, dbName: MongoDBName, params?: MongoDBParams, opti
 |  --- | --- | --- |
 |  link | [MongoDBLink](./subito-connector-mongodb.mongodblink.md) |  |
 |  dbName | [MongoDBName](./subito-connector-mongodb.mongodbname.md) |  |
-|  params | [MongoDBParams](./subito-connector-mongodb.mongodbparams.md) | <i>(Optional)</i> |
-|  options | [MongoDBOptions](./subito-connector-mongodb.mongodboptions.md) | <i>(Optional)</i> |
+|  params | [MongoDBParams](./subito-connector-mongodb.mongodbparams.md) | _(Optional)_ |
+|  options | [MongoDBOptions](./subito-connector-mongodb.mongodboptions.md) | _(Optional)_ |
 

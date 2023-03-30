@@ -6,7 +6,7 @@
 
 Replace the key of an object to another one
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 static replaceJsonKeyPart(obj: any, target: string, replacement: string): any;
@@ -20,7 +20,7 @@ static replaceJsonKeyPart(obj: any, target: string, replacement: string): any;
 |  target | string | The key to replace |
 |  replacement | string | The new key |
 
-<b>Returns:</b>
+**Returns:**
 
 any
 

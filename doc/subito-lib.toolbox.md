@@ -6,7 +6,7 @@
 
 Some usefull tools
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare class Toolbox 

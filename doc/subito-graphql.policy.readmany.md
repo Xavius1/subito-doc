@@ -6,7 +6,7 @@
 
 Read an array of docs
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 readMany(docs: AnyObject[], keepNull?: true): (AnyObject | null)[];
@@ -17,9 +17,9 @@ readMany(docs: AnyObject[], keepNull?: true): (AnyObject | null)[];
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  docs | [AnyObject](./subito-graphql.anyobject.md)<!-- -->\[\] | The docs to read |
-|  keepNull | true | <i>(Optional)</i> If you want to keep a null entry if the doc is not allowed |
+|  keepNull | true | _(Optional)_ If you want to keep a null entry if the doc is not allowed |
 
-<b>Returns:</b>
+**Returns:**
 
 ([AnyObject](./subito-graphql.anyobject.md) \| null)\[\]
 

@@ -6,7 +6,7 @@
 
 Check if the doc can be inserted into the DB
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 canBeInserted(input: IDocInput): Promise<boolean>;
@@ -18,7 +18,7 @@ canBeInserted(input: IDocInput): Promise<boolean>;
 |  --- | --- | --- |
 |  input | [IDocInput](./subito-connector-mongodb.idocinput.md) | The new doc to checked |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;boolean&gt;
 

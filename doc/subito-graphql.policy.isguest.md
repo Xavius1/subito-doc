@@ -6,12 +6,12 @@
 
 Check if the user is a guest
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected isGuest(): boolean;
 ```
-<b>Returns:</b>
+**Returns:**
 
 boolean
 

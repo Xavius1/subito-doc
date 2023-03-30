@@ -6,7 +6,7 @@
 
 Execute a query through the graphql endpoint
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 execute(query: string, input?: null): Promise<any>;
@@ -17,9 +17,9 @@ execute(query: string, input?: null): Promise<any>;
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  query | string | Your query |
-|  input | null | <i>(Optional)</i> Input needed by your query |
+|  input | null | _(Optional)_ Input needed by your query |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;any&gt;
 

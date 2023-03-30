@@ -6,12 +6,12 @@
 
 Abstract class to implement mongodb repository
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare abstract class Repository extends MongoDataSource<Document> 
 ```
-<b>Extends:</b> MongoDataSource&lt;Document
+**Extends:** MongoDataSource&lt;Document
 
 ## Properties
 

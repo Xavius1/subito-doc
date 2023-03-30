@@ -6,12 +6,12 @@
 
 Get the current date using Datte class from subito-lib
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 getDate(): Date;
 ```
-<b>Returns:</b>
+**Returns:**
 
 Date
 

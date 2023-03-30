@@ -5,7 +5,7 @@
 ## IPaginatorInput interface
 
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export interface IPaginatorInput 
@@ -15,9 +15,9 @@ export interface IPaginatorInput
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [after?](./subito-connector-mongodb.ipaginatorinput.after.md) |  | string | <i>(Optional)</i> |
-|  [before?](./subito-connector-mongodb.ipaginatorinput.before.md) |  | string | <i>(Optional)</i> |
-|  [filters?](./subito-connector-mongodb.ipaginatorinput.filters.md) |  | [IFilterPipelineInput](./subito-connector-mongodb.ifilterpipelineinput.md) | <i>(Optional)</i> |
-|  [first?](./subito-connector-mongodb.ipaginatorinput.first.md) |  | number | <i>(Optional)</i> |
-|  [last?](./subito-connector-mongodb.ipaginatorinput.last.md) |  | number | <i>(Optional)</i> |
+|  [after?](./subito-connector-mongodb.ipaginatorinput.after.md) |  | string | _(Optional)_ |
+|  [before?](./subito-connector-mongodb.ipaginatorinput.before.md) |  | string | _(Optional)_ |
+|  [filters?](./subito-connector-mongodb.ipaginatorinput.filters.md) |  | [IFilterPipelineInput](./subito-connector-mongodb.ifilterpipelineinput.md) | _(Optional)_ |
+|  [first?](./subito-connector-mongodb.ipaginatorinput.first.md) |  | number | _(Optional)_ |
+|  [last?](./subito-connector-mongodb.ipaginatorinput.last.md) |  | number | _(Optional)_ |
 

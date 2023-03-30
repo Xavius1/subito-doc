@@ -6,7 +6,7 @@
 
 Verify if the data is an array, then throw if not
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 isArray(arr: Array<any>): boolean;
@@ -18,7 +18,7 @@ isArray(arr: Array<any>): boolean;
 |  --- | --- | --- |
 |  arr | Array&lt;any&gt; | The array to verify |
 
-<b>Returns:</b>
+**Returns:**
 
 boolean
 

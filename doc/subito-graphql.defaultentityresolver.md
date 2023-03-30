@@ -6,7 +6,7 @@
 
 Create a generic entity resolver
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 DefaultEntityResolver: {

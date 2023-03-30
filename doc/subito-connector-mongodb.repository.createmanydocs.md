@@ -6,7 +6,7 @@
 
 Create a list of documents
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 createManyDocs(arr: IDocInput[]): Promise<DocumentResult[]>;
@@ -18,7 +18,7 @@ createManyDocs(arr: IDocInput[]): Promise<DocumentResult[]>;
 |  --- | --- | --- |
 |  arr | [IDocInput](./subito-connector-mongodb.idocinput.md)<!-- -->\[\] | List of the docs to insert |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;[DocumentResult](./subito-connector-mongodb.documentresult.md)<!-- -->\[\]&gt;
 

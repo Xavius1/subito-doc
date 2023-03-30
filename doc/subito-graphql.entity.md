@@ -8,7 +8,7 @@ Class to generate a entity before returning data
 
 You can re-map some fields, like \_id to id And keep the only fields authorized by the ABAC policy
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare class Entity 

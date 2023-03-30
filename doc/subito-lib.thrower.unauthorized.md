@@ -6,12 +6,12 @@
 
 Throw an unauthorized error
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 static unauthorized(): never;
 ```
-<b>Returns:</b>
+**Returns:**
 
 never
 

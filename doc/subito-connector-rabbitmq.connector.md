@@ -6,7 +6,7 @@
 
 Create a new RabbitMQ connection
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare class Connector 

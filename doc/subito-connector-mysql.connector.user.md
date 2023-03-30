@@ -4,7 +4,7 @@
 
 ## Connector.user property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected user: MysqlUser;

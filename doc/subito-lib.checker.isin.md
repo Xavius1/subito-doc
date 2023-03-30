@@ -6,7 +6,7 @@
 
 Verify if a value is in an array, then throw if not
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 isIn(arr: any[], value: any, name?: string): boolean;
@@ -18,9 +18,9 @@ isIn(arr: any[], value: any, name?: string): boolean;
 |  --- | --- | --- |
 |  arr | any\[\] | The array |
 |  value | any | The value needed |
-|  name | string | <i>(Optional)</i> Use to trace in the error |
+|  name | string | _(Optional)_ Use to trace in the error |
 
-<b>Returns:</b>
+**Returns:**
 
 boolean
 

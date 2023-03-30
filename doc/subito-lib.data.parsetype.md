@@ -6,7 +6,7 @@
 
 Parse data
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 parseType(type: ParseType): any;
@@ -18,7 +18,7 @@ parseType(type: ParseType): any;
 |  --- | --- | --- |
 |  type | [ParseType](./subito-lib.parsetype.md) | The format to parse |
 
-<b>Returns:</b>
+**Returns:**
 
 any
 

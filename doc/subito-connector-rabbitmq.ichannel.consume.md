@@ -4,7 +4,7 @@
 
 ## IChannel.consume() method
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 consume(service: Function): Promise<true>;
@@ -16,7 +16,7 @@ consume(service: Function): Promise<true>;
 |  --- | --- | --- |
 |  service | Function |  |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;true&gt;
 

@@ -6,7 +6,7 @@
 
 Decode an array of global ID's
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 static batchDecode(ids: string[], raw?: Boolean): (string | number | {
@@ -22,9 +22,9 @@ static batchDecode(ids: string[], raw?: Boolean): (string | number | {
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  ids | string\[\] |  |
-|  raw | Boolean | <i>(Optional)</i> |
+|  raw | Boolean | _(Optional)_ |
 
-<b>Returns:</b>
+**Returns:**
 
 (string \| number \| { id: string \| number; version: number; data: {}; type: string; })\[\]
 

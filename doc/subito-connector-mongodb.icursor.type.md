@@ -4,7 +4,7 @@
 
 ## ICursor.type property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 type: ParseType | 'Date';

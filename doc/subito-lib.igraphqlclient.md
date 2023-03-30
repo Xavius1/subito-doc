@@ -5,7 +5,7 @@
 ## IGraphqlClient interface
 
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export interface IGraphqlClient 

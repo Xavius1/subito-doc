@@ -6,7 +6,7 @@
 
 Get the paginator result
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 get(docs: Document[]): {
@@ -29,7 +29,7 @@ get(docs: Document[]): {
 |  --- | --- | --- |
 |  docs | Document\[\] | List of raw mongodb documents |
 
-<b>Returns:</b>
+**Returns:**
 
 { edges: [CursorEdge](./subito-connector-mongodb.cursoredge.md)<!-- -->\[\]; pageInfo: { hasNextPage: boolean; hasPreviousPage: boolean; totalPage: number; totalResults: number; currentPage: number; startCursor: any; endCursor: any; }; }
 

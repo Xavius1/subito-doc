@@ -4,7 +4,7 @@
 
 ## IPaginatorInput.before property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 before?: string;

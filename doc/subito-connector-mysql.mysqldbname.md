@@ -6,7 +6,7 @@
 
 MySQL database name
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export declare type MysqlDbName = string;

@@ -6,7 +6,7 @@
 
 Find docs by specifics fields
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 findByFields(fields: Fields, options?: Options): Promise<(Document | null | undefined)[]>;
@@ -17,9 +17,9 @@ findByFields(fields: Fields, options?: Options): Promise<(Document | null | unde
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  fields | Fields | The fields to match |
-|  options | Options | <i>(Optional)</i> Data source options |
+|  options | Options | _(Optional)_ Data source options |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;(Document \| null \| undefined)\[\]&gt;
 

@@ -5,7 +5,7 @@
 ## IFiltersPipeline interface
 
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export interface IFiltersPipeline 

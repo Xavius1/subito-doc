@@ -6,12 +6,12 @@
 
 Check if a doc can be updated, then throw if not
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 update(): boolean;
 ```
-<b>Returns:</b>
+**Returns:**
 
 boolean
 

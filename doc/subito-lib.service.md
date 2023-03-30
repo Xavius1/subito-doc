@@ -6,7 +6,7 @@
 
 Abstract class service
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare abstract class Service 

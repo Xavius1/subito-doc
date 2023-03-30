@@ -6,7 +6,7 @@
 
 Class used to make some usual math stuff Like round a number or apply/remove a rate to a price
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare class Calculator 

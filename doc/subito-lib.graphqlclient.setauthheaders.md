@@ -6,12 +6,12 @@
 
 Set auth headers
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected setAuthHeaders(): GraphqlClient;
 ```
-<b>Returns:</b>
+**Returns:**
 
 GraphqlClient
 

@@ -6,7 +6,7 @@
 
 Decode a global ID
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 static read(gid: string, { raw }?: {
@@ -24,9 +24,9 @@ static read(gid: string, { raw }?: {
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  gid | string | GID to decode |
-|  { raw } | { raw?: boolean; } | <i>(Optional)</i> |
+|  { raw } | { raw?: boolean; } | _(Optional)_ |
 
-<b>Returns:</b>
+**Returns:**
 
 string \| number \| { id: string \| number; version: number; data: {}; type: string; }
 

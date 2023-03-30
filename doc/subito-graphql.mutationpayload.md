@@ -11,7 +11,7 @@
 
 Send a mutation payload
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 mutationPayload: (doc?: DocumentNode) => TPayload

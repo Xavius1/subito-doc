@@ -4,7 +4,7 @@
 
 ## IGraphqlClient.execute property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 execute: Function;

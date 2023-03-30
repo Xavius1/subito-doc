@@ -6,7 +6,7 @@
 
 Create a new MongoDB connection
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare class Connector 

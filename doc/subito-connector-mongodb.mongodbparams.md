@@ -6,7 +6,7 @@
 
 Connection params
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export type MongoDBParams = {

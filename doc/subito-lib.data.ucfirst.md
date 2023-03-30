@@ -6,12 +6,12 @@
 
 Uppercase the first character of a string then lowercase the rest of it
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 ucfirst(): any;
 ```
-<b>Returns:</b>
+**Returns:**
 
 any
 

@@ -6,7 +6,7 @@
 
 MySQL user
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export declare type MysqlUser = string;

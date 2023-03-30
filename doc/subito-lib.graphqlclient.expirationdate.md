@@ -6,7 +6,7 @@
 
 The token expiration date
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected expirationDate: number;

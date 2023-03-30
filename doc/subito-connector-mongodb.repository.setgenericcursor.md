@@ -6,7 +6,7 @@
 
 Set a generic cursor
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 setGenericCursor(name: GenericCursors): this;
@@ -18,7 +18,7 @@ setGenericCursor(name: GenericCursors): this;
 |  --- | --- | --- |
 |  name | [GenericCursors](./subito-connector-mongodb.genericcursors.md) | the name of the cursor |
 
-<b>Returns:</b>
+**Returns:**
 
 this
 

@@ -4,7 +4,7 @@
 
 ## AuthInput.service property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 service: string;

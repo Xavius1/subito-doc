@@ -6,7 +6,7 @@
 
 The cusor definition used by the Paginator
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected cursor: ICursor;

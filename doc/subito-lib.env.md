@@ -4,7 +4,7 @@
 
 ## Env variable
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 _default: Env

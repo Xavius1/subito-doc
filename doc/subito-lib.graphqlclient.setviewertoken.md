@@ -6,7 +6,7 @@
 
 Set viewer token
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 setViewerToken(token: string): GraphqlClient;
@@ -18,7 +18,7 @@ setViewerToken(token: string): GraphqlClient;
 |  --- | --- | --- |
 |  token | string | The viewer token to add |
 
-<b>Returns:</b>
+**Returns:**
 
 GraphqlClient
 

@@ -6,7 +6,7 @@
 
 Get a channel
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 channel(queue: string): Promise<IChannel>;
@@ -18,7 +18,7 @@ channel(queue: string): Promise<IChannel>;
 |  --- | --- | --- |
 |  queue | string | Queue to bind to the channel |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;[IChannel](./subito-connector-rabbitmq.ichannel.md)<!-- -->&gt;
 

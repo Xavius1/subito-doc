@@ -6,12 +6,12 @@
 
 Check if the token has expired
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected isTokenExpired(): boolean;
 ```
-<b>Returns:</b>
+**Returns:**
 
 boolean
 

@@ -6,7 +6,7 @@
 
 Date to string (utc)
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 toString(format?: string): any;
@@ -16,9 +16,9 @@ toString(format?: string): any;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  format | string | <i>(Optional)</i> String of [tokens](https://momentjs.com/timezone/docs/#/using-timezones/formatting/) corresponding to their values. |
+|  format | string | _(Optional)_ String of [tokens](https://momentjs.com/timezone/docs/#/using-timezones/formatting/) corresponding to their values. |
 
-<b>Returns:</b>
+**Returns:**
 
 any
 

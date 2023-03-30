@@ -6,7 +6,7 @@
 
 Get the cursor value from a doc
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 getDocCursor(doc: Document): any;
@@ -18,7 +18,7 @@ getDocCursor(doc: Document): any;
 |  --- | --- | --- |
 |  doc | Document | The doc used to create the cursor |
 
-<b>Returns:</b>
+**Returns:**
 
 any
 

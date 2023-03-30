@@ -6,7 +6,7 @@
 
 Decode a token
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 static read(token: string, { key, endpoint }?: ReadOptions): {
@@ -26,9 +26,9 @@ static read(token: string, { key, endpoint }?: ReadOptions): {
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  token | string | The token to decode |
-|  { key, endpoint } | ReadOptions | <i>(Optional)</i> |
+|  { key, endpoint } | ReadOptions | _(Optional)_ |
 
-<b>Returns:</b>
+**Returns:**
 
 { token: string; iss?: string \| undefined; sub?: string \| undefined; aud?: string \| string\[\] \| undefined; exp?: number \| undefined; nbf?: number \| undefined; iat?: number \| undefined; jti?: string \| undefined; } \| null
 

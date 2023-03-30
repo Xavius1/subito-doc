@@ -6,12 +6,12 @@
 
 Abstract class repository
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare abstract class Repository extends DataSource<Context> 
 ```
-<b>Extends:</b> DataSource&lt;[Context](./subito-lib.context.md)
+**Extends:** DataSource&lt;[Context](./subito-lib.context.md)
 
 ## Remarks
 

@@ -6,7 +6,7 @@
 
 Return an intersection of 2 arrays
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 static intersection<T1 = any, T2 = any>(arr1: T1[], arr2: T2[]): any[];
@@ -19,7 +19,7 @@ static intersection<T1 = any, T2 = any>(arr1: T1[], arr2: T2[]): any[];
 |  arr1 | T1\[\] | The first array |
 |  arr2 | T2\[\] | The second one |
 
-<b>Returns:</b>
+**Returns:**
 
 any\[\]
 

@@ -6,7 +6,7 @@
 
 Class used to send trace &amp; metrics to an open telemetry backend (only Jaeger for now) Need to be instanciate before anything else
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare class OpenTelemetry 

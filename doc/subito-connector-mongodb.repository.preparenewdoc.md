@@ -6,7 +6,7 @@
 
 Add needed data to the doc before insertion
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 prepareNewDoc(doc: IDocInput): Document;
@@ -18,7 +18,7 @@ prepareNewDoc(doc: IDocInput): Document;
 |  --- | --- | --- |
 |  doc | [IDocInput](./subito-connector-mongodb.idocinput.md) | The doc to insert |
 
-<b>Returns:</b>
+**Returns:**
 
 Document
 

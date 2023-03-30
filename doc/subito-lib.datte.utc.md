@@ -4,7 +4,7 @@
 
 ## Datte.utc property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 utc: Moment;

@@ -6,7 +6,7 @@
 
 Classic MongoDB ID
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export type MongoId = ObjectId;

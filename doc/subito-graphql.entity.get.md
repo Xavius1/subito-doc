@@ -6,12 +6,12 @@
 
 Get the mapped &amp; filtered data
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 get(): AnyObject;
 ```
-<b>Returns:</b>
+**Returns:**
 
 [AnyObject](./subito-graphql.anyobject.md)
 

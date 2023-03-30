@@ -4,7 +4,7 @@
 
 ## ICursor.field property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 field: string;

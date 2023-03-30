@@ -6,7 +6,7 @@
 
 Constructs a new instance of the `Cryptor` class
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 constructor(key: string, version?: string);
@@ -17,5 +17,5 @@ constructor(key: string, version?: string);
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  key | string |  |
-|  version | string | <i>(Optional)</i> |
+|  version | string | _(Optional)_ |
 

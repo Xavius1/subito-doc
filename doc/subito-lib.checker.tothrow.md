@@ -4,7 +4,7 @@
 
 ## Checker.toThrow property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected toThrow: boolean;

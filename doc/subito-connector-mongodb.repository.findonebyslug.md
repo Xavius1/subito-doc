@@ -6,7 +6,7 @@
 
 Find a doc by its slug
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 findOneBySlug(slug: string, options?: Options): Promise<DocumentResult>;
@@ -17,9 +17,9 @@ findOneBySlug(slug: string, options?: Options): Promise<DocumentResult>;
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  slug | string | The slug to match |
-|  options | Options | <i>(Optional)</i> Data source options |
+|  options | Options | _(Optional)_ Data source options |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;[DocumentResult](./subito-connector-mongodb.documentresult.md)<!-- -->&gt;
 

@@ -4,7 +4,7 @@
 
 ## IGraphqlClient.setCustomHeaders property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 setCustomHeaders: Function;

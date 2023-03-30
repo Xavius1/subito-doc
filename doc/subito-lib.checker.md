@@ -6,7 +6,7 @@
 
 Some helpers to check your data
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare class Checker 

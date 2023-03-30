@@ -4,7 +4,7 @@
 
 ## IPaginatorInput.after property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 after?: string;

@@ -6,7 +6,7 @@
 
 To call when policy cant auth the action
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 cant(dontThrow?: boolean): false;
@@ -16,9 +16,9 @@ cant(dontThrow?: boolean): false;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  dontThrow | boolean | <i>(Optional)</i> Return false instead of throw an error |
+|  dontThrow | boolean | _(Optional)_ Return false instead of throw an error |
 
-<b>Returns:</b>
+**Returns:**
 
 false
 

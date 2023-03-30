@@ -6,7 +6,7 @@
 
 Find one doc by id or throw error if doc is not found
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 findOneById(id: string | ObjectId): Promise<Document | null>;
@@ -18,7 +18,7 @@ findOneById(id: string | ObjectId): Promise<Document | null>;
 |  --- | --- | --- |
 |  id | string \| ObjectId | The doc id |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;Document \| null&gt;
 

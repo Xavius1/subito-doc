@@ -6,7 +6,7 @@
 
 Update a doc with its id
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 updateDoc(input: IDocUpdateInput): Promise<DocumentResult>;
@@ -18,7 +18,7 @@ updateDoc(input: IDocUpdateInput): Promise<DocumentResult>;
 |  --- | --- | --- |
 |  input | [IDocUpdateInput](./subito-connector-mongodb.idocupdateinput.md) | Input values |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;[DocumentResult](./subito-connector-mongodb.documentresult.md)<!-- -->&gt;
 

@@ -6,7 +6,7 @@
 
 Generate a globally unique id
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 static encode(type: string, id: string | number, data?: Object | string | number): string;
@@ -18,9 +18,9 @@ static encode(type: string, id: string | number, data?: Object | string | number
 |  --- | --- | --- |
 |  type | string | Type of the entity (User, Article, ...) |
 |  id | string \| number | ID from the local source (table, collection, ...) |
-|  data | Object \| string \| number | <i>(Optional)</i> Any specific data to identify the doc source (like an array index) |
+|  data | Object \| string \| number | _(Optional)_ Any specific data to identify the doc source (like an array index) |
 
-<b>Returns:</b>
+**Returns:**
 
 string
 

@@ -6,7 +6,7 @@
 
 The current context
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected context: unknown;

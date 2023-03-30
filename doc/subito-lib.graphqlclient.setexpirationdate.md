@@ -6,7 +6,7 @@
 
 Set expiration date
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected setExpirationDate(date: Date): GraphqlClient;
@@ -18,7 +18,7 @@ protected setExpirationDate(date: Date): GraphqlClient;
 |  --- | --- | --- |
 |  date | Date | Expiration date |
 
-<b>Returns:</b>
+**Returns:**
 
 GraphqlClient
 

@@ -6,7 +6,7 @@
 
 The auth token
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected token?: string | null;

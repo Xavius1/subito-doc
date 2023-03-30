@@ -4,7 +4,7 @@
 
 ## Abac.context property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected context: null;

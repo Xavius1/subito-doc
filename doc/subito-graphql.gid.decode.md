@@ -11,7 +11,7 @@
 
 Decode a global ID
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 static decode(gid: string, raw?: Boolean): string | number | {
@@ -27,9 +27,9 @@ static decode(gid: string, raw?: Boolean): string | number | {
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  gid | string | GID to decode |
-|  raw | Boolean | <i>(Optional)</i> |
+|  raw | Boolean | _(Optional)_ |
 
-<b>Returns:</b>
+**Returns:**
 
 string \| number \| { id: string \| number; version: number; data: {}; type: string; }
 

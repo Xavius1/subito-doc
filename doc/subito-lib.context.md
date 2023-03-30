@@ -5,7 +5,7 @@
 ## Context type
 
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export type Context = {

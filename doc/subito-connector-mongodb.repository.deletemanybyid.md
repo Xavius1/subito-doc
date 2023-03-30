@@ -6,7 +6,7 @@
 
 Delete a list of document by their IDs (soft)
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 deleteManyById(ids: MongoIdExt[]): Promise<any>;
@@ -18,7 +18,7 @@ deleteManyById(ids: MongoIdExt[]): Promise<any>;
 |  --- | --- | --- |
 |  ids | [MongoIdExt](./subito-connector-mongodb.mongoidext.md)<!-- -->\[\] | An array of doc id |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;any&gt;
 

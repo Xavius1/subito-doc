@@ -6,7 +6,7 @@
 
 Constructs a new instance of the `Policy` class
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 constructor(context: any);

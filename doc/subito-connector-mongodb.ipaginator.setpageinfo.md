@@ -4,7 +4,7 @@
 
 ## IPaginator.setPageInfo property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 setPageInfo: Function;

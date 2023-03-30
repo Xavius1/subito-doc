@@ -6,7 +6,7 @@
 
 Round a value according to wished decimals
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 static round(value: number, decimals?: number): number;
@@ -17,9 +17,9 @@ static round(value: number, decimals?: number): number;
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  value | number | Base value to round |
-|  decimals | number | <i>(Optional)</i> Number of decimals (2 is applied by default) |
+|  decimals | number | _(Optional)_ Number of decimals (2 is applied by default) |
 
-<b>Returns:</b>
+**Returns:**
 
 number
 

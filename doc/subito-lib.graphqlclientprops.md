@@ -5,7 +5,7 @@
 ## GraphqlClientProps type
 
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export type GraphqlClientProps = {

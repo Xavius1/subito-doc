@@ -4,7 +4,7 @@
 
 ## IDocInput.\_id property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 _id?: never;

@@ -6,7 +6,7 @@
 
 Class to normalize date usage (WIP)
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare class Datte 

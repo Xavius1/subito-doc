@@ -5,10 +5,10 @@
 ## EnvRecipes type
 
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export type EnvRecipes = EnvRecipe[];
 ```
-<b>References:</b> [EnvRecipe](./subito-lib.envrecipe.md)
+**References:** [EnvRecipe](./subito-lib.envrecipe.md)
 

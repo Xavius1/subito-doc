@@ -4,7 +4,7 @@
 
 ## IPaginator.getPipeline property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 getPipeline: Function;

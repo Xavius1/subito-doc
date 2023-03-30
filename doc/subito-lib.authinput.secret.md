@@ -4,7 +4,7 @@
 
 ## AuthInput.secret property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 secret: string;

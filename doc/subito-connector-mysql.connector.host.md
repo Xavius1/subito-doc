@@ -4,7 +4,7 @@
 
 ## Connector.host property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected host: MysqlHost;

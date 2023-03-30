@@ -6,7 +6,7 @@
 
 Constructs a new instance of the `Entity` class
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 constructor(doc: AnyObject, map?: Map);
@@ -17,5 +17,5 @@ constructor(doc: AnyObject, map?: Map);
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  doc | [AnyObject](./subito-graphql.anyobject.md) |  |
-|  map | Map | <i>(Optional)</i> |
+|  map | Map | _(Optional)_ |
 

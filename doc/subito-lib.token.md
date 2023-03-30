@@ -6,7 +6,7 @@
 
 Handle tokens auth
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 declare class Token 

@@ -5,7 +5,7 @@
 ## EnvVars type
 
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export type EnvVars = {
@@ -28,5 +28,5 @@ export type EnvVars = {
     [key: string]: any;
 };
 ```
-<b>References:</b> [EnvRecipes](./subito-lib.envrecipes.md)<!-- -->, [EnvType](./subito-lib.envtype.md)<!-- -->, [ParseType](./subito-lib.parsetype.md)
+**References:** [EnvRecipes](./subito-lib.envrecipes.md)<!-- -->, [EnvType](./subito-lib.envtype.md)<!-- -->, [ParseType](./subito-lib.parsetype.md)
 

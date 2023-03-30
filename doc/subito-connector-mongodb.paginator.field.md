@@ -4,7 +4,7 @@
 
 ## Paginator.field property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 protected field: string;

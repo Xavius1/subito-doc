@@ -6,7 +6,7 @@
 
 Set custom headers
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 setCustomHeaders(headers: Headers): GraphqlClient;
@@ -18,7 +18,7 @@ setCustomHeaders(headers: Headers): GraphqlClient;
 |  --- | --- | --- |
 |  headers | Headers | Headers to add |
 
-<b>Returns:</b>
+**Returns:**
 
 GraphqlClient
 
