@@ -65,6 +65,7 @@ Abac.EntityPolicy.read({ doc });
 |  [read(doc)](./subito-graphql.policy.read.md) |  | Read a doc |
 |  [readMany(docs, keepNull)](./subito-graphql.policy.readmany.md) |  | Read an array of docs |
 |  [readManyByCursor(docs, { keepIfNull })](./subito-graphql.policy.readmanybycursor.md) |  | Read a list of doc listed by cursor |
+|  [stop(code)](./subito-graphql.policy.stop.md) |  | Send a payload with an empty node |
 |  [unauthorized()](./subito-graphql.policy.unauthorized.md) |  | Send an unauthorized payload |
 |  [update()](./subito-graphql.policy.update.md) |  | Check if a doc can be updated, then throw if not |
 
