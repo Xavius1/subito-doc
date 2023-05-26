@@ -51,9 +51,11 @@ Abac.EntityPolicy.read({ doc });
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
+|  [badRequest()](./subito-graphql.policy.badrequest.md) |  | Send a bad request payload |
 |  [cant(dontThrow)](./subito-graphql.policy.cant.md) |  | To call when policy cant auth the action |
 |  [create()](./subito-graphql.policy.create.md) |  | Check if a doc can be create, then throw if not |
 |  [delete()](./subito-graphql.policy.delete.md) |  | Check if a doc can be deleted, then throw if not |
+|  [forbidden()](./subito-graphql.policy.forbidden.md) |  | Send a forbidden payload |
 |  [hasRole(role)](./subito-graphql.policy.hasrole.md) | <code>protected</code> | Check if the current user has a role |
 |  [isAdmin()](./subito-graphql.policy.isadmin.md) | <code>protected</code> | Check if the user is an admin |
 |  [isAuth()](./subito-graphql.policy.isauth.md) | <code>protected</code> | Check if the user is auth |
@@ -63,5 +65,6 @@ Abac.EntityPolicy.read({ doc });
 |  [read(doc)](./subito-graphql.policy.read.md) |  | Read a doc |
 |  [readMany(docs, keepNull)](./subito-graphql.policy.readmany.md) |  | Read an array of docs |
 |  [readManyByCursor(docs, { keepIfNull })](./subito-graphql.policy.readmanybycursor.md) |  | Read a list of doc listed by cursor |
+|  [unauthorized()](./subito-graphql.policy.unauthorized.md) |  | Send an unauthorized payload |
 |  [update()](./subito-graphql.policy.update.md) |  | Check if a doc can be updated, then throw if not |
 

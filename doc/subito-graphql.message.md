@@ -9,5 +9,19 @@ List of http message
 **Signature:**
 
 ```typescript
-message: Message
+message: {
+    200: string;
+    201: string;
+    202: string;
+    204: string;
+    290: string;
+    400: string;
+    401: string;
+    403: string;
+    404: string;
+    409: string;
+    410: string;
+    500: string;
+    501: string;
+}
 ```

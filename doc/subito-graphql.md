@@ -27,9 +27,11 @@ Library for subito micro services using GraphQL interface
 |  [DefaultQueryResolver](./subito-graphql.defaultqueryresolver.md) | <p>Define default query resolvers</p><p>Can be use as is or extended in a custom resolver</p> |
 |  [env](./subito-graphql.env.md) |  |
 |  [failPayload](./subito-graphql.failpayload.md) | Send a failed payload |
+|  [httpCode](./subito-graphql.httpcode.md) | List of http code |
 |  [message](./subito-graphql.message.md) | List of http message |
 |  [mutationPayload](./subito-graphql.mutationpayload.md) | Send a mutation payload |
 |  [payload](./subito-graphql.payload.md) | Send a success payload |
+|  [payloader](./subito-graphql.payloader.md) | Send a success payload |
 |  [successPayload](./subito-graphql.successpayload.md) | Send a success payload |
 
 ## Type Aliases
@@ -38,7 +40,10 @@ Library for subito micro services using GraphQL interface
 |  --- | --- |
 |  [AnyObject](./subito-graphql.anyobject.md) |  |
 |  [Code](./subito-graphql.code.md) |  |
+|  [HttpCode](./subito-graphql.httpcode.md) |  |
 |  [Message](./subito-graphql.message.md) |  |
+|  [PayloaderInput](./subito-graphql.payloaderinput.md) |  |
+|  [PayloaderResponse](./subito-graphql.payloaderresponse.md) |  |
 |  [PayloadInput](./subito-graphql.payloadinput.md) |  |
 |  [PayloadResponse](./subito-graphql.payloadresponse.md) |  |
 

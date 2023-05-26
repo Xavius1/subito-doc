@@ -4,6 +4,11 @@
 
 ## payload variable
 
+> Warning: This API is now obsolete.
+> 
+> Use the new [payloader](./subito-graphql.payloader.md) function instead.
+> 
+
 Send a success payload
 
 **Signature:**
