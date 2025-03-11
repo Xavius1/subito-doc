@@ -16,7 +16,7 @@ jobs:
     - name: Build doc
       uses: actions/setup-node@v3
       with:
-        node-version: 16.13.0
+        node-version: 16.20.2
         cache: 'npm'
     - run: npm install -g @microsoft/api-documenter
     - run: api-documenter markdown -i src -o doc
